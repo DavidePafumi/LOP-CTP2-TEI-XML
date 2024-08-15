@@ -2493,6 +2493,7 @@
 	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240814131927050",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-14T19:19:27.050Z",
+	"dcterms:modified": "2024-08-15T04:49:19.285Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DavidePafumi",
 		"@type": [
@@ -2574,6 +2575,7 @@
 	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240814132037026",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-14T19:20:37.026Z",
+	"dcterms:modified": "2024-08-15T04:49:35.713Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DavidePafumi",
 		"@type": [
@@ -5284,7 +5286,7 @@
 <lb/><l n="98">He slepte namoore than dooth a <rs key="nightingale" ref="http://www.wikidata.org/entity/Q19832477" cert="high">nyghtyngale</rs> </l>
 <lb/><l n="99">Curteis he was / lowely / and seruysable </l>
 <lb/><l n="100">And carf / biforn his fader at the table </l>
-<lb/><l n="101"><hi rend="orncp3">A</hi> <persName key="Yeoman" ref="http://www.wikidata.org/entity/Q111954045" type="fictional">Yeman</persName> hadde <persName key="The Knight" ref="http://www.wikidata.org/entity/Q63536424" cert="medium">he</persName> / and seruantz namo <note place="margin">¶ Yeman</note></l> 
+<lb/><l n="101"><hi rend="orncp3">A</hi> <persName key="Yeoman" ref="http://www.wikidata.org/entity/Q111954045" type="fictional" role="oth">Yeman</persName> hadde <persName key="The Knight" ref="http://www.wikidata.org/entity/Q63536424" cert="medium" sameAs="Yeman">he</persName> / and seruantz namo <note place="margin">¶ Yeman</note></l> 
 <lb/><l n="102">At that tyme / for <persName key="Yeoman" ref="http://www.wikidata.org/entity/Q111954045" cert="high" type="fictional">hym</persName> liste ride so </l>
 <lb/><l n="103">And he was clad / in cote <am>⁊</am><ex>and</ex>  hood of grene </l>
 <lb/><l n="104">A sheef of pecok arwes / bright and kene </l>
