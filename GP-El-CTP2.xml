@@ -5056,7 +5056,7 @@
 	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240814223702681",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-15T04:37:02.681Z",
-	"dcterms:modified": "2024-08-15T04:37:02.681Z",
+	"dcterms:modified": "2024-08-15T06:38:52.255Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DavidePafumi",
 		"@type": [
@@ -5481,7 +5481,7 @@
 <lb/><l n="284">With his bargaynes / and w<am>ᵗ</am><ex>ith</ex> his cheuyssaunce </l>
 <lb/><l n="285">For sothe / he was a worthy man with alle </l>
 <lb/><l n="286">But sooth to seyn / I noot how men hym calle </l>
-<lb/><l n="287"><hi rend="orncp3">A</hi> <persName key="Clericus" ref="https://d-nb.info/gnd/140123911" cert="medium" role="Character" otherRole="Character">Clerk</persName> ther was / of <placeName key="Oxford England United Kingdom" ref="https://geonames.org/2640729">Oxenford<precision match="@ref" precision="high"/></placeName> also <note place="margin-left">¶ Clerk of Oxenford</note></l>
+<lb/><l n="287"><hi rend="orncp3">A</hi> <persName key="Clerk" ref="https://d-nb.info/gnd/140123911" cert="medium" role="oth">Clerk</persName> ther was / of <placeName key="Oxford England United Kingdom" ref="https://geonames.org/2640729">Oxenford<precision match="@ref" precision="high"/></placeName> also <note place="margin-left">¶ Clerk of Oxenford</note></l>
 <lb/><l n="288">That vn to logyk / hadde longe ygo </l>
 <lb/><l n="289">And leene was his hors as is a rake </l>
 <lb/><l n="290">And he nas nat right fat I vndertake</l>
