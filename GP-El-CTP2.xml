@@ -3766,7 +3766,7 @@
 	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?rs_annotation_20240814191302438",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-15T01:13:02.438Z",
-	"dcterms:modified": "2024-08-15T01:13:02.438Z",
+	"dcterms:modified": "2024-08-15T01:14:15.292Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DavidePafumi",
 		"@type": [
@@ -3797,7 +3797,7 @@
 		}
 	},
 	"oa:hasBody": {
-		"@type": "owl:Thing",
+		"@type": "Food",
 		"@id": "http://www.wikidata.org/entity/Q107411",
 		"dc:format": "text/plain"
 	},
@@ -3809,6 +3809,85 @@
 		"schema:softwareVersion": "3.5.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?rs_annotation_20240814191357510",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-15T01:13:57.510Z",
+	"dcterms:modified": "2024-08-15T01:13:57.510Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?rs_annotation_20240814191357510#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?rs_annotation_20240814191357510#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[190]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "Animal",
+		"@id": "http://dbpedia.org/resource/Greyhound",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>   <refsDecl>   <p>Encoded in 'P5' Text Encoding Initiative XML, optimized for input into the Textual Communities Project.</p>  </refsDecl> </encodingDesc> </teiHeader>
@@ -4003,7 +4082,7 @@
 <lb/><l n="179">Ne that a Monk / whan he is recchelees</l>
 <lb/><l n="180">Is likned / til a fissh / þ<am>ᵗ</am><ex>at</ex> is waterlees</l>
 <lb/><l n="181">This is to seyn / a Monk out of his Cloystre</l>
-<lb/><l n="182">But thilke text / heeld he nat worth an <rs key="oyster" ref="http://www.wikidata.org/entity/Q107411" cert="high">Oystre</rs></l>
+<lb/><l n="182">But thilke text / heeld he nat worth an <rs key="oyster" ref="http://www.wikidata.org/entity/Q107411" cert="high" type="Food">Oystre</rs></l>
 <lb/><l n="183">And I seyde his opinion was good</l>
 <lb/><l n="184">What sholde he studie / <am>⁊</am><ex>and</ex> make hym seluen wood</l>
 <lb/><l n="185">Vpon a book / in Cloystre alwey to poure</l>
@@ -4011,7 +4090,7 @@
 <lb/><l n="187">As Austyn bit / how shal the world be serued</l>
 <lb/><l n="188">Lat Austyn / haue his owene swynk / to him re<am>ʆ</am><ex>ser</ex>ued</l>
 <lb/><l n="189">Therfore / he was a prikasour aright</l>
-<lb/><l n="190">Grehoundes he hadde / as swift as fowel in flight</l>
+<lb/><l n="190"><rs key="Greyhound" ref="http://dbpedia.org/resource/Greyhound" type="Animal">Grehoundes</rs> he hadde / as swift as fowel in flight</l>
 <lb/><l n="191">Of p<am>ⁱ</am><ex>ri</ex>kyng and of huntyng for the hare</l>
 <lb/><l n="192">Was al his lust · for no cost wolde he spare</l>
 <pb n="3r" facs="El-003r.jpg"/>
