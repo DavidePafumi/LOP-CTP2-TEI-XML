@@ -6133,6 +6133,86 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?rs_annotation_20240815144658112",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-15T20:46:58.112Z",
+	"dcterms:modified": "2024-08-15T20:46:58.112Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?rs_annotation_20240815144658112#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?rs_annotation_20240815144658112#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[342]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "food",
+		"@id": "http://www.wikidata.org/entity/Q282",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>   <refsDecl>   <p>Encoded in 'P5' Text Encoding Initiative XML, optimized for input into the Textual Communities Project.</p>  </refsDecl> </encodingDesc> </teiHeader>
 <text>
 <body>
@@ -6489,7 +6569,7 @@
 <lb/><l n="341">An housholder<am>͗</am><ex>e</ex> / and that a greet was he </l>
 <lb/><l n="342"><persName key="Julian the Hospitaller" ref="http://www.wikidata.org/entity/Q983142" cert="high" role="oth">Seint Iulian</persName> was he in his contree </l>
 <lb/><l n="343">His <rs key="bread" ref="http://www.wikidata.org/entity/Q7802" cert="high" type="food">breed</rs> / his <rs key="ale" ref="http://www.wikidata.org/entity/Q208385" type="food">Ale</rs> / was alweys after oon </l>
-<lb/><l n="344">A bettre envyned man / was neu<am>̉</am><ex>er</ex>e noon </l>
+<lb/><l n="344">A bettre <rs key="wine" ref="http://www.wikidata.org/entity/Q282" cert="high" type="food">envyned</rs> man / was neu<am>̉</am><ex>er</ex>e noon </l>
 <lb/><l n="345">With oute bake <rs key="meat" ref="http://www.wikidata.org/entity/Q10990" cert="high" type="food">mete</rs> / was neu<am>̉</am><ex>er</ex>e his hous </l>
 <lb/><l n="346">Of <rs key="fish" ref="http://www.wikidata.org/entity/Q152" type="food">fissh</rs> and <rs key="meat" ref="http://www.wikidata.org/entity/Q10990" cert="high" sameAs="meete" type="food">flessh</rs> / and that so plenteuous </l>
 <lb/><l n="347">It snewed in his hous / of mete and drynke </l>
