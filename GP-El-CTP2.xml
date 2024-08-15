@@ -4593,8 +4593,7 @@
 	"oa:hasBody": [
 		{
 			"@type": "cito:Citation",
-			"dc:format": "text/plain",
-			"rdf:value": ""
+			"dc:format": "text/plain"
 		},
 		{
 			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?citation_annotation_20240814194920921#Cites",
@@ -4879,7 +4878,7 @@
 <lb/><l n="251">Ther nas no man / nowher so v<am>̉</am><ex>er</ex>tuous </l>
 <lb/><l n="252">He was / the beste begger<am>͗</am><ex>e</ex> in his hous </l>
 <lb/><l n="255">For thogh a wydwe / hadde noght a sho </l>
-<lb/><l n="256">So plesaunt was his In p<am>ⁱ</am><ex>ri</ex>ncipio<note type="citation"><bibl><ref target="http://www.wikidata.org/entity/Q1318311"/></bibl></note> </l>
+<lb/><l n="256">So plesaunt was his In p<am>ⁱ</am><ex>ri</ex>ncipio</l>
 <lb/><l n="257">Yet wolde he haue / a ferthyng er he wente </l>
 <lb/><l n="258">His purchas / was wel bettre than his rente </l>
 <lb/><l n="259">And rage he koude / as it were right a whelp̄ </l>
