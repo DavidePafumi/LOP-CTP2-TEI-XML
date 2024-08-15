@@ -431,6 +431,7 @@
 	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240814110922010",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-14T17:09:22.010Z",
+	"dcterms:modified": "2024-08-15T04:51:36.671Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DavidePafumi",
 		"@type": [
@@ -906,6 +907,7 @@
 	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240814111728449",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-14T17:17:28.449Z",
+	"dcterms:modified": "2024-08-15T04:51:06.636Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DavidePafumi",
 		"@type": [
@@ -5202,7 +5204,7 @@
 <lb/><l n="14">To ferne halwes / kowthe in sondry londes </l>
 <lb/><l n="15">And specially / from euery shires ende </l>
 <lb/><l n="16">Of <placeName key="Kingdom of England" ref="http://www.wikidata.org/entity/Q179876" cert="high">Engelond<precision match="@ref" precision="high"/></placeName> / to <placeName key="Canterbury" ref="http://www.wikidata.org/entity/Q29303">Caunterbury</placeName> they wende </l>
-<lb/><l n="17">The <persName key="Thomas Becket" ref="http://www.wikidata.org/entity/Q192236" type="real">hooly blisful martir</persName> for to seke </l>
+<lb/><l n="17">The <persName key="Thomas Becket" ref="http://www.wikidata.org/entity/Q192236" type="real" role="saint" otherRole="saint">hooly blisful martir</persName> for to seke </l>
 <lb/><l n="18">That hem hath holpen / whan þ<am>ᵗ</am><ex>at</ex> they were seeke </l>
 <lb/><l n="19"><hi rend="orncp2">B</hi>ifil that in that seson on a day </l>
 <lb/><l n="20">In <placeName key="Southwark" ref="http://vocab.getty.edu/tgn/7018929" cert="high">Southwerk<precision match="@ref" precision="medium"/></placeName> / at the <placeName key="The Tabard" ref="http://www.wikidata.org/entity/Q2103238">Tabard</placeName> as I lay </l>
@@ -5228,7 +5230,7 @@
 <lb/><l n="40">And whiche they were / and of what degree </l>
 <lb/><l n="41">And eek in what array / that they were Inne </l>
 <lb/><l n="42">And at a knyght / than wol I first bigynne </l>
-<lb/><l n="43"><hi rend="orncp3">A</hi> <persName key="The Knight" ref="http://www.wikidata.org/entity/Q63536424" cert="high" type="fictional">knyght</persName> ther was / and that a worthy man <note place="margin">¶ Knyght</note></l> 
+<lb/><l n="43"><hi rend="orncp3">A</hi> <persName key="The Knight" ref="http://www.wikidata.org/entity/Q63536424" cert="high" type="fictional" role="character" otherRole="character">knyght</persName> ther was / and that a worthy man <note place="margin">¶ Knyght</note></l> 
 <lb/><l n="44">That fro the tyme / that he first bigan </l>
 <lb/><l n="45">To riden out / he loued chiualrie </l>
 <lb/><l n="46">Trouthe and honour / fredom and curteisie </l>
