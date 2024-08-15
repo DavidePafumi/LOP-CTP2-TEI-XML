@@ -6009,7 +6009,6 @@
 	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?rs_annotation_20240815144306012",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-15T20:43:06.012Z",
-	"dcterms:modified": "2024-08-15T20:43:06.012Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DavidePafumi",
 		"@type": [
@@ -6036,7 +6035,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?rs_annotation_20240815144306012#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/l[344]/rs"
+			"rdf:value": "TEI/text/body/div/l[343]/rs"
 		}
 	},
 	"oa:hasBody": {
@@ -6088,7 +6087,6 @@
 	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?rs_annotation_20240815144345372",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-15T20:43:45.372Z",
-	"dcterms:modified": "2024-08-15T20:43:45.372Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DavidePafumi",
 		"@type": [
@@ -6115,7 +6113,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?rs_annotation_20240815144345372#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/l[344]/rs[2]"
+			"rdf:value": "TEI/text/body/div/l[343]/rs[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -6569,8 +6567,8 @@
 <lb/><l n="341">An housholder<am>͗</am><ex>e</ex> / and that a greet was he </l>
 <lb/><l n="342"><persName key="Julian the Hospitaller" ref="http://www.wikidata.org/entity/Q983142" cert="high" role="oth">Seint Iulian</persName> was he in his contree </l>
 <lb/><l n="343">His <rs key="bread" ref="http://www.wikidata.org/entity/Q7802" cert="high" type="food">breed</rs> / his <rs key="ale" ref="http://www.wikidata.org/entity/Q208385" type="food">Ale</rs> / was alweys after oon </l>
-<lb/><l n="344">A bettre <rs key="wine" ref="http://www.wikidata.org/entity/Q282" cert="high" type="food">envyned</rs> man / was neu<am>̉</am><ex>er</ex>e noon </l>
-<lb/><l n="345">With oute bake <rs key="meat" ref="http://www.wikidata.org/entity/Q10990" cert="high" type="food">mete</rs> / was neu<am>̉</am><ex>er</ex>e his hous </l>
+<lb/><l n="344">A bettre envyned man / was neu<am>̉</am><ex>er</ex>e noon </l>
+<lb/>With oute bake <rs key="meat" ref="http://www.wikidata.org/entity/Q10990" cert="high" type="food">mete</rs> / was neu<am>̉</am><ex>er</ex>e his hous 
 <lb/><l n="346">Of <rs key="fish" ref="http://www.wikidata.org/entity/Q152" type="food">fissh</rs> and <rs key="meat" ref="http://www.wikidata.org/entity/Q10990" cert="high" sameAs="meete" type="food">flessh</rs> / and that so plenteuous </l>
 <lb/><l n="347">It snewed in his hous / of mete and drynke </l>
 <lb/><l n="348">Of alle deyntees / that men koude thynke </l>
