@@ -2099,7 +2099,7 @@
 	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240814125219966",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-14T18:52:19.966Z",
-	"dcterms:modified": "2024-08-15T04:50:42.650Z",
+	"dcterms:modified": "2024-08-15T04:53:08.200Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DavidePafumi",
 		"@type": [
@@ -5135,7 +5135,7 @@
 	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240814224537679",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-15T04:45:37.679Z",
-	"dcterms:modified": "2024-08-15T04:45:37.679Z",
+	"dcterms:modified": "2024-08-15T04:53:37.349Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DavidePafumi",
 		"@type": [
@@ -5267,7 +5267,7 @@
 <lb/><l n="76">Al bismotered with his habergeo<am>ıı̄</am><ex>un</ex> </l>
 <lb/><l n="77">For he was late / ycome from his viage </l>
 <lb/><l n="78">And wente / for to doon his pilgrymage </l>
-<lb/><l n="79"><hi rend="orncp3">W</hi>ith hym ther was his sone a yong <persName key="Squire" ref="http://dbpedia.org/resource/Squire" cert="medium" role="character" otherRole="character">Squier</persName> <note place="margin-left">¶ Squier</note></l> 
+<lb/><l n="79"><hi rend="orncp3">W</hi>ith hym ther was his sone a yong <persName key="Squire" ref="http://dbpedia.org/resource/Squire" cert="medium" role="oth">Squier</persName> <note place="margin-left">¶ Squier</note></l> 
 <lb/><l n="80">A louyer<am>͗</am><ex>e</ex> / and a lusty Bacheler </l>
 <lb/><l n="81">W<am>ᵗ</am><ex>ith</ex> lokkes crulle / as they were leyd in presse </l>
 <lb/><l n="82">Of twenty yeer of Age / he was I gesse </l>
@@ -5464,7 +5464,7 @@
 <lb/><l n="268">And in his harpyng · whan þ<am>ᵗ</am><ex>at</ex> he hadde songe </l>
 <lb/><l n="269">Hise eyen twynkled in his heed aryght </l>
 <lb/><l n="270">As doon the sterres / in the frosty nyght </l>
-<lb/><l n="271">This worthy lymytour was cleped <persName key="Friar" ref="http://www.wikidata.org/entity/Q733786" cert="high" role="Character" type="fictional" otherRole="Character">Huberd</persName></l>
+<lb/><l n="271">This worthy lymytour was cleped <persName key="Friar" ref="http://www.wikidata.org/entity/Q733786" cert="high" role="oth" type="fictional">Huberd</persName></l>
 <lb/><l n="272"><hi rend="orncp3">A</hi> <persName key="merchant" ref="http://www.wikidata.org/entity/Q215536" role="Character" otherRole="Character">Marchant</persName> was ther w<am>ᵗ</am><ex>ith</ex> a forked berd <note place="margin-left">¶ Marchant</note></l>
 <lb/><l n="273">In Motlee / and hye on horse he sat </l>
 <lb/><l n="274">Vpon his heed a <placeName key="County of Flanders" ref="http://www.wikidata.org/entity/Q157070" cert="high">Flaundryssh<precision match="@ref" precision="medium"/></placeName> Beu<am>̉</am><ex>er</ex>e hat </l>
