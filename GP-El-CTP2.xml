@@ -2970,6 +2970,7 @@
 	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240814133115175",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-14T19:31:15.175Z",
+	"dcterms:modified": "2024-08-15T04:47:56.200Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DavidePafumi",
 		"@type": [
@@ -3530,6 +3531,7 @@
 	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240814135606257",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-14T19:56:06.257Z",
+	"dcterms:modified": "2024-08-15T04:47:38.516Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DavidePafumi",
 		"@type": [
@@ -5297,7 +5299,7 @@
 <lb/><l n="118"><hi rend="orncp3">T</hi>her was also / a Nonne a <persName key="Eglantine, Literarische Gestalt" ref="https://d-nb.info/gnd/129940569">Prioresse</persName> <note place="margin">¶ Prioresse</note></l> 
 <lb/><l n="119">That of hir smylyng / was ful symple <am>⁊</am><ex>and</ex> coy </l>
 <lb/><l n="120">Hir<am>͗</am><ex>e</ex> gretteste ooth / was but by <persName key="Eligius" ref="http://www.wikidata.org/entity/Q360798" cert="high" type="real">seint loy</persName> </l>
-<lb/><l n="121">And she was cleped / <persName key="Eglantine Literarische Gestalt" ref="http://viaf.org/viaf/6025552/">madame Eglentyne</persName> </l>
+<lb/><l n="121">And she was cleped / <persName key="Eglantine Literarische Gestalt" ref="http://viaf.org/viaf/6025552/" sameAs="Prioresse">madame Eglentyne</persName> </l>
 <lb/><l n="122">Ful weel she soong the seruice dyuyne </l>
 <lb/><l n="123">Entuned in hir nose / ful semeely </l>
 <lb/><l n="124">And frenssh / she spak / ful faire and fetisly </l>
@@ -5342,7 +5344,7 @@
 <lb/><l n="162">And after / Amor vincit omnia.</l>
 <lb/><l n="163"><hi rend="orncp1">A</hi>nother <persName key="Christian nun" ref="http://www.wikidata.org/entity/Q28146366" cert="high" type="fictional" role="oth">Nonne</persName> / w<am>ᵗ</am><ex>ith</ex> hir<am>͗</am><ex>e</ex> hadde she <note place="margin-left">Nonne <am>⁊</am><ex>and</ex> ·iij· preestes·</note></l>
 <lb/><l n="164">That was hir <persName key="chaplain" ref="http://www.wikidata.org/entity/Q208762">Chapeleyne</persName> and <persName key="Catholic priest" ref="http://www.wikidata.org/entity/Q250867" cert="high" n="3" type="fictional">preestes thre</persName></l>
-<lb/><l n="165"><hi rend="orncp3">A</hi> <persName key="Latin Catholic monk" ref="http://www.wikidata.org/entity/Q97722145">monk</persName> ther was / a fair for the maistrie <note place="margin-left">Monk.</note></l>
+<lb/><l n="165"><hi rend="orncp3">A</hi> <persName key="Latin Catholic monk" ref="http://www.wikidata.org/entity/Q97722145" role="oth">monk</persName> ther was / a fair for the maistrie <note place="margin-left">Monk.</note></l>
 <lb/><l n="166">An outrider<am>͗</am><ex>e</ex> / that louede venerie</l>
 <lb/><l n="167">A manly man / to been an Abbot able</l>
 <lb/><l n="168">Ful many a deyntee hors / hadde he in stable</l>
