@@ -1,0 +1,4542 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<teiHeader> <fileDesc> <titleStmt> <title>The Ellesmere Manuscript of the Canterbury Tales</title><respStmt><name>Peter Robinson and Barbara Bordalejo</name><resp>Textual editing and encoding</resp></respStmt> </titleStmt> <publicationStmt> <publisher>Textual Communities and the Canterbury Tales Project, University of Saskatchewan</publisher> <pubPlace>Saskatoon</pubPlace> <date>2014</date> <availability> <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> <p>Creative Commons Attribution Share-Alike Unported.</p> <p>All republication of all or any part of this transcript must credit its creators and all who have contributed to it, as listed in the sourceDesc element, and make available free-to-all any work derived from this resource under the same license.</p> <p>Commercial republication is permitted, in accordance with these terms.</p> </licence> </availability> </publicationStmt> <sourceDesc> <bibl type="summary">  <respStmt n="whole"> <note>Original transcription of the Ellesmere manuscript by F.J. Furnivall and the Chaucer Society, 1868. Captured as electronic text and SGML encoding by the University of Michigan 2000. Converted to XML with corrections Canterbury Tales project at the University of Saskatchewan 2011-2103.</note> </respStmt><respStmt> <name>F.J. Furnivall and the Chaucer Society</name> <resp>1868, original transcription</resp> </respStmt> <respStmt> <name>University of Michigan</name> <resp>2000, capture as electronic text and SGML encoding</resp> </respStmt> <respStmt> <name>Peter Robinson and Barbara Bordalejo, University of Saskatchewan</name> <resp>2011-2013, conversion to XML and corrections</resp> </respStmt> </bibl> <bibl><editor>F. J. Furnivall</editor><title>The Ellesmere Manuscript of Chaucer's Canterbury Tales</title><sponsor>The Chaucer Society</sponsor><publisher>N. Trübner &amp; Co.</publisher><pubPlace>60, Paternoster Row, London</pubPlace><date>1868</date><note>This text was originally captured in SGML by the University of Michigan (dated, 1 November 2000).  We are grateful to Paul Schaffner for making these transcripts available to us, and for his assistance.</note>   </bibl>   <msDesc>   <msIdentifier>    <settlement>San Marino</settlement>  <repository>Huntington Library</repository>  <idno> El 26 C 9</idno>  <msName>The Ellesmere Manuscript</msName>  </msIdentifier>   </msDesc> </sourceDesc> </fileDesc> <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240814110118144",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T17:01:18.144Z",
+	"dcterms:modified": "2024-08-14T17:01:18.144Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240814110118144#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240814110118144#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[5]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
+		"@id": "https://d-nb.info/gnd/138435669",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?rs_annotation_20240814110254181",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T17:02:54.181Z",
+	"dcterms:modified": "2024-08-14T17:02:54.181Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?rs_annotation_20240814110254181#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?rs_annotation_20240814110254181#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[8]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q10584",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?rs_annotation_20240814110431813",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T17:04:31.813Z",
+	"dcterms:modified": "2024-08-14T17:04:31.813Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?rs_annotation_20240814110431813#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?rs_annotation_20240814110431813#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[13]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Religion",
+		"@id": "http://www.wikidata.org/entity/Q696809",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240814110630918",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T17:06:30.918Z",
+	"dcterms:modified": "2024-08-14T17:06:30.918Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240814110630918#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240814110630918#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[16]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q179876",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240814110700726",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T17:07:00.726Z",
+	"dcterms:modified": "2024-08-14T17:13:44.857Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240814110700726#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240814110700726#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[16]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q29303",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240814110922010",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T17:09:22.010Z",
+	"dcterms:modified": "2024-08-14T17:09:22.010Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240814110922010#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240814110922010#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[17]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q192236",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240814111134425",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T17:11:34.425Z",
+	"dcterms:modified": "2024-08-14T17:11:34.425Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240814111134425#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240814111134425#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[20]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://vocab.getty.edu/tgn/7018929",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:mediumCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240814111223706",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T17:12:23.706Z",
+	"dcterms:modified": "2024-08-14T17:12:23.706Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240814111223706#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240814111223706#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[20]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q2103238",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240814111303096",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T17:13:03.096Z",
+	"dcterms:modified": "2024-08-14T17:13:03.096Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240814111303096#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240814111303096#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[22]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q29303",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240814111512387",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T17:15:12.387Z",
+	"dcterms:modified": "2024-08-14T17:15:12.387Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240814111512387#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240814111512387#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[23]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://dbpedia.org/resource/The_Tabard",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:mediumCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240814111546076",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T17:15:46.076Z",
+	"dcterms:modified": "2024-08-14T17:15:46.076Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240814111546076#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240814111546076#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[27]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q29303",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240814111728449",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T17:17:28.449Z",
+	"dcterms:modified": "2024-08-14T17:17:28.449Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240814111728449#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240814111728449#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[43]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
+		"@id": "http://www.wikidata.org/entity/Q63536424",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?organization_annotation_20240814111949528",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T17:19:49.528Z",
+	"dcterms:modified": "2024-08-14T17:19:49.528Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?organization_annotation_20240814111949528#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?organization_annotation_20240814111949528#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[49]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q1841",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?organization_annotation_20240814112037424",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T17:20:37.424Z",
+	"dcterms:modified": "2024-08-14T17:20:37.424Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?organization_annotation_20240814112037424#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?organization_annotation_20240814112037424#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[49]/orgName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q29536",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:medium"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240814112354297",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T17:23:54.297Z",
+	"dcterms:modified": "2024-08-14T17:23:54.297Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240814112354297#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240814112354297#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[51]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q87",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:mediumCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240814112428432",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T17:24:28.432Z",
+	"dcterms:modified": "2024-08-14T17:24:28.432Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240814112428432#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240814112428432#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[53]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q918723",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240814115008546",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T17:50:08.546Z",
+	"dcterms:modified": "2024-08-14T17:50:08.546Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240814115008546#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240814115008546#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[54]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q3270263",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:mediumCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240814115139032",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T17:51:39.032Z",
+	"dcterms:modified": "2024-08-14T17:51:39.032Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240814115139032#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240814115139032#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[54]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://vocab.getty.edu/tgn/8060331",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240814115224372",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T17:52:24.372Z",
+	"dcterms:modified": "2024-08-14T17:52:24.372Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240814115224372#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240814115224372#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[56]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q238445",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240814121000106",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T18:10:00.106Z",
+	"dcterms:modified": "2024-08-14T18:10:00.106Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240814121000106#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240814121000106#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[57]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q1028",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:medium"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240814121737251",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T18:17:37.251Z",
+	"dcterms:modified": "2024-08-14T18:17:37.251Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240814121737251#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240814121737251#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[58]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://viaf.org/viaf/246285531/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240814122500224",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T18:25:00.224Z",
+	"dcterms:modified": "2024-08-14T18:25:00.224Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240814122500224#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240814122500224#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[58]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://dbpedia.org/resource/Antalya",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasPrecision": "cwrc:mediumCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240814122545024",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T18:25:45.024Z",
+	"dcterms:modified": "2024-08-14T18:25:45.024Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240814122545024#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240814122545024#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[59]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q4918",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240814122615760",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T18:26:15.760Z",
+	"dcterms:modified": "2024-08-14T18:26:15.760Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240814122615760#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240814122615760#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[62]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://dbpedia.org/resource/Tlemcen",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasPrecision": "cwrc:mediumCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240814122947507",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T18:29:47.507Z",
+	"dcterms:modified": "2024-08-14T18:29:47.507Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240814122947507#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240814122947507#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[65]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://dbpedia.org/resource/Balat,_Fatih",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240814123843223",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T18:38:43.223Z",
+	"dcterms:modified": "2024-08-14T18:38:43.223Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240814123843223#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240814123843223#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[66]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q43",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasPrecision": "cwrc:mediumCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240814125219966",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T18:52:19.966Z",
+	"dcterms:modified": "2024-08-14T18:52:19.966Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240814125219966#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240814125219966#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[79]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Squire",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:medium"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240814125630978",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T18:56:30.978Z",
+	"dcterms:modified": "2024-08-14T18:56:30.978Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240814125630978#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240814125630978#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[86]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q157070",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240814130311344",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T19:03:11.344Z",
+	"dcterms:modified": "2024-08-14T19:03:11.344Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240814130311344#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240814130311344#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[86]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://dbpedia.org/resource/Count_of_Artois",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240814130337967",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T19:03:37.967Z",
+	"dcterms:modified": "2024-08-14T19:03:37.967Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240814130337967#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240814130337967#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[86]/placeName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://dbpedia.org/resource/Picardy",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:mediumCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?rs_annotation_20240814130746444",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T19:07:46.444Z",
+	"dcterms:modified": "2024-08-14T19:07:46.444Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?rs_annotation_20240814130746444#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?rs_annotation_20240814130746444#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[98]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q19832477",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240814131927050",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T19:19:27.050Z",
+	"dcterms:modified": "2024-08-14T19:19:27.050Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240814131927050#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240814131927050#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[101]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
+		"@id": "http://www.wikidata.org/entity/Q111954045",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240814132037026",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T19:20:37.026Z",
+	"dcterms:modified": "2024-08-14T19:20:37.026Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240814132037026#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240814132037026#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[101]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q63536424",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:medium"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240814132225854",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T19:22:25.854Z",
+	"dcterms:modified": "2024-08-14T19:22:25.854Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240814132225854#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240814132225854#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[102]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
+		"@id": "http://www.wikidata.org/entity/Q111954045",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?rs_annotation_20240814132618236",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T19:26:18.236Z",
+	"dcterms:modified": "2024-08-14T19:26:18.236Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?rs_annotation_20240814132618236#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?rs_annotation_20240814132618236#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[115]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Religion",
+		"@id": "http://www.wikidata.org/entity/Q5267924",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240814132956348",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T19:29:56.348Z",
+	"dcterms:modified": "2024-08-14T19:31:32.535Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240814132956348#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240814132956348#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[118]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://d-nb.info/gnd/129940569",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240814133054425",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T19:30:54.425Z",
+	"dcterms:modified": "2024-08-14T19:30:54.425Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240814133054425#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240814133054425#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[120]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q360798",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240814133115175",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T19:31:15.175Z",
+	"dcterms:modified": "2024-08-14T19:31:15.175Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240814133115175#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240814133115175#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[121]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/6025552/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240814134057503",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T19:40:57.503Z",
+	"dcterms:modified": "2024-08-14T19:40:57.503Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240814134057503#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240814134057503#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[125]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q122607",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:medium",
+	"cwrc:hasPrecision": "cwrc:mediumCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240814134420924",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T19:44:20.924Z",
+	"dcterms:modified": "2024-08-14T19:44:20.924Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240814134420924#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240814134420924#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[126]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q90",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?rs_annotation_20240814134601114",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T19:46:01.114Z",
+	"dcterms:modified": "2024-08-14T19:46:01.114Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?rs_annotation_20240814134601114#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?rs_annotation_20240814134601114#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[144]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q2751034",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240814134852410",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T19:48:52.410Z",
+	"dcterms:modified": "2024-08-14T19:48:52.410Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240814134852410#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240814134852410#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[163]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
+		"@id": "http://www.wikidata.org/entity/Q28146366",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240814134927385",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T19:49:27.385Z",
+	"dcterms:modified": "2024-08-14T19:49:27.385Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240814134927385#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240814134927385#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[164]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q208762",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240814135523733",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T19:55:23.733Z",
+	"dcterms:modified": "2024-08-14T19:55:23.733Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240814135523733#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240814135523733#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[164]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
+		"@id": "http://www.wikidata.org/entity/Q250867",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240814135606257",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-14T19:56:06.257Z",
+	"dcterms:modified": "2024-08-14T19:56:06.257Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240814135606257#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240814135606257#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[165]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q97722145",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240814185948903",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-15T00:59:48.903Z",
+	"dcterms:modified": "2024-08-15T00:59:48.903Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240814185948903#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240814185948903#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[173]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q44265",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><encodingDesc>   <refsDecl>   <p>Encoded in 'P5' Text Encoding Initiative XML, optimized for input into the Textual Communities Project.</p>  </refsDecl> </encodingDesc> </teiHeader>
+<text>
+<body>
+<pb n="1r" facs="f. 1r (General Prologue)"/>
+<div type="G" n="GP">
+<lb/><l n="1"><hi rend="orncp6">W</hi>Han that Aprill with hise shoures soote </l>
+<lb/><l n="2">The droghte of March / hath perced to the roote </l>
+<lb/><l n="3">And bathed euery veyne / in swich licour </l>
+<lb/><l n="4">Of which v<am>̉</am><ex>er</ex>tu / engendred is the flour </l>
+<lb/><l n="5">Whan <persName key="Zephir" ref="https://d-nb.info/gnd/138435669" cert="high" type="fictional">Zephirus</persName> eek / w<am>ᵗ</am><ex>ith</ex> his sweete breeth </l>
+<lb/><l n="6">Inspired hath / in euery holt and heeth </l>
+<lb/><l n="7">The tendre croppes / and the yonge sonne </l>
+<lb/><l n="8">Hath in the <rs key="Aries" ref="http://www.wikidata.org/entity/Q10584" cert="high">Ram</rs> / his half cours yronne <note place="margin">¶ .i. sol in Ariete</note></l>
+<lb/><l n="9">And smale foweles / maken melodye </l>
+<lb/><l n="10">That slepen al the nyght / with open eye </l>
+<lb/><l n="11">So priketh hem nature in hir corages </l>
+<lb/><l n="12">Thanne longen folk / to goon on pilg<am>ⁱ</am><ex>ri</ex>mages </l>
+<lb/><l n="13">And <rs key="palm branch" ref="http://www.wikidata.org/entity/Q696809" type="http://sparql.cwrc.ca/ontology/cwrc#Religion">Palm<am>̉</am><ex>er</ex>es</rs> / for to seken straunge strondes </l>
+<lb/><l n="14">To ferne halwes / kowthe in sondry londes </l>
+<lb/><l n="15">And specially / from euery shires ende </l>
+<lb/><l n="16">Of <placeName key="Kingdom of England" ref="http://www.wikidata.org/entity/Q179876" cert="high">Engelond<precision match="@ref" precision="high"/></placeName> / to <placeName key="Canterbury" ref="http://www.wikidata.org/entity/Q29303">Caunterbury</placeName> they wende </l>
+<lb/><l n="17">The <persName key="Thomas Becket" ref="http://www.wikidata.org/entity/Q192236" type="real">hooly blisful martir</persName> for to seke </l>
+<lb/><l n="18">That hem hath holpen / whan þ<am>ᵗ</am><ex>at</ex> they were seeke </l>
+<lb/><l n="19"><hi rend="orncp2">B</hi>ifil that in that seson on a day </l>
+<lb/><l n="20">In <placeName key="Southwark" ref="http://vocab.getty.edu/tgn/7018929" cert="high">Southwerk<precision match="@ref" precision="medium"/></placeName> / at the <placeName key="The Tabard" ref="http://www.wikidata.org/entity/Q2103238">Tabard</placeName> as I lay </l>
+<lb/><l n="21">Redy / to wenden on my pilgrymage </l>
+<lb/><l n="22">To <placeName key="Canterbury" ref="http://www.wikidata.org/entity/Q29303" cert="high">Caunt<am>̉</am><ex>er</ex>bury<precision match="@ref" precision="high"/></placeName> / with ful deuout corage </l>
+<lb/><l n="23">At nyght / were come / in to that <placeName key="The Tabard" ref="http://dbpedia.org/resource/The_Tabard" cert="high">hostelrye<precision match="@ref" precision="medium"/></placeName> </l>
+<lb/><l n="24">Wel nyne and twenty in a compaignye </l>
+<lb/><l n="25">Of sondry folk / by aventure yfalle </l>
+<lb/><l n="26">In felaweship̄ / and pilg<am>ⁱ</am><ex>ri</ex>mes were they alle </l>
+<lb/><l n="27">That toward <placeName key="Canterbury" ref="http://www.wikidata.org/entity/Q29303">Caunt<am>̉</am><ex>er</ex>bury<precision match="@ref" precision="high"/></placeName> wolden ryde </l>
+<lb/><l n="28">The chambres and the stables weren wyde </l>
+<lb/><l n="29">And wel we weren esed atte beste </l>
+<lb/><l n="30">And shortly whan the sonne was to reste </l>
+<lb/><l n="31">So hadde I spoken / w<am>ᵗ</am><ex>ith</ex> hem euerichon </l>
+<lb/><l n="32">That I was / of hir felaweship̄ anon </l>
+<lb/><l n="33">And made forward / erly for to ryse </l>
+<lb/><l n="34">To take oure wey / ther as I yow deuyse </l>
+<lb/><l n="35"><hi rend="orncp2">B</hi>ut nathelees / whil I haue tyme <am>⁊</am><ex>and</ex> space </l>
+<lb/><l n="36">Er that I ferther in this tale pace </l>
+<lb/><l n="37">Me thynketh it acordaunt to reso<am>ıı̄</am><ex>un</ex> </l>
+<lb/><l n="38">To telle yow al the condicio<am>ıı̄</am><ex>un</ex> </l>
+<lb/><l n="39">Of ech of hem / so as it semed me </l>
+<lb/><l n="40">And whiche they were / and of what degree </l>
+<lb/><l n="41">And eek in what array / that they were Inne </l>
+<lb/><l n="42">And at a knyght / than wol I first bigynne </l>
+<lb/><l n="43"><hi rend="orncp3">A</hi> <persName key="The Knight" ref="http://www.wikidata.org/entity/Q63536424" cert="high" type="fictional">knyght</persName> ther was / and that a worthy man <note place="margin">¶ Knyght</note></l> 
+<lb/><l n="44">That fro the tyme / that he first bigan </l>
+<lb/><l n="45">To riden out / he loued chiualrie </l>
+<lb/><l n="46">Trouthe and honour / fredom and curteisie </l>
+<lb/><l n="47">Ful worthy was he / in his lordes werre </l>
+<lb/><l n="48">And therto / hadde he riden no man ferre</l>
+<pb facs="El-001v.jpg" n="1v"/>
+<lb/><l n="49">As wel in <orgName key="Catholicism" ref="http://www.wikidata.org/entity/Q1841" cert="high">cristendom</orgName> / as in <orgName key="paganism" ref="http://www.wikidata.org/entity/Q29536" cert="medium">Hethenesse</orgName> </l>
+<lb/><l n="50">And euere / honoured for his worthynesse </l>
+<lb/><l n="51">¶ At <placeName key="Alexandria" ref="http://www.wikidata.org/entity/Q87" cert="high">Alisaundre<precision match="@ref" precision="medium"/></placeName> he was / whan it was wonne </l>
+<lb/><l n="52">Ful ofte tyme / he hadde the bord bigonne </l>
+<lb/><l n="53">Abouen alle nacions in <placeName key="Prussia" ref="http://www.wikidata.org/entity/Q918723">Pruce</placeName> </l>
+<lb/><l n="54">In <placeName key="Duchy of Lithuania" ref="http://www.wikidata.org/entity/Q3270263" cert="high">Lettow<precision match="@ref" precision="medium"/></placeName> / hadde he reysed and in <placeName key="Russia (historical)" ref="http://vocab.getty.edu/tgn/8060331">Ruce</placeName> </l>
+<lb/><l n="55">No cristen man so ofte of his degree </l>
+<lb/><l n="56">In <placeName key="Emirate of Granada" ref="http://www.wikidata.org/entity/Q238445" cert="high">Gernade<precision match="@ref" precision="high"/></placeName> / at the seege eek hadde he be </l>
+<lb/><l n="57">Of Algezir /· and riden in <placeName key="Morocco" ref="http://www.wikidata.org/entity/Q1028" cert="medium">Belmarye</placeName> </l>
+<lb/><l n="58">At <placeName key="Ayas (Adana)" ref="http://viaf.org/viaf/246285531/" cert="high">Lyeys<precision match="@ref" precision="high"/></placeName> was he / and at <placeName key="Antalya" ref="http://dbpedia.org/resource/Antalya">Satalye<precision match="@ref" precision="medium"/></placeName> </l>
+<lb/><l n="59">Whan they were wonne <am>⁊</am><ex>and</ex> in the <placeName key="Mediterranean Sea" ref="http://www.wikidata.org/entity/Q4918" cert="high">grete See<precision match="@ref" precision="high"/></placeName> </l>
+<lb/><l n="60">At many a noble Armee / hadde he be </l>
+<lb/><l n="61">At mortal batailles / hadde he been fiftene </l>
+<lb/><l n="62">And foughten for oure feith at <placeName key="Tlemcen" ref="http://dbpedia.org/resource/Tlemcen">Tramyssene<precision match="@ref" precision="medium"/></placeName> </l>
+<lb/><l n="63">In lystes thries / and ay slayn his foo </l>
+<lb/><l n="64">This ilke worthy knyght hadde been also </l>
+<lb/><l n="65">Somtyme / with the lord of <placeName key="Balat, Fatih" ref="http://dbpedia.org/resource/Balat,_Fatih" cert="high">Palatye</placeName> </l>
+<lb/><l n="66">Agayn / another hethen in <placeName key="Turkey" ref="http://www.wikidata.org/entity/Q43">Turkye<precision match="@ref" precision="medium"/></placeName> </l>
+<lb/><l n="67">And eu<am>̉</am><ex>er</ex>emoore / he hadde a souereyn prys </l>
+<lb/><l n="68">And though þ<am>ᵗ</am><ex>at</ex> he were worthy he was wys </l>
+<lb/><l n="69">And of his port as meeke as is a mayde </l>
+<lb/><l n="70">He neuere yet no vileynye ne sayde </l>
+<lb/><l n="71">In al his lyf / vn to no maner wight </l>
+<lb/><l n="72">He was a verray parfit gentil knyght </l>
+<lb/><l n="73">¶ But for to tellen yow / of his array </l>
+<lb/><l n="74">His hors weren goode / but he was nat gay </l>
+<lb/><l n="75">Of Fustian / he wered a gypo<am>ıı̄</am><ex>un</ex> </l>
+<lb/><l n="76">Al bismotered with his habergeo<am>ıı̄</am><ex>un</ex> </l>
+<lb/><l n="77">For he was late / ycome from his viage </l>
+<lb/><l n="78">And wente / for to doon his pilgrymage </l>
+<lb/><l n="79"><hi rend="orncp3">W</hi>ith hym ther was his sone a yong <persName key="Squire" ref="http://dbpedia.org/resource/Squire" cert="medium">Squier</persName> <note place="margin-left">¶ Squier</note></l> 
+<lb/><l n="80">A louyer<am>͗</am><ex>e</ex> / and a lusty Bacheler </l>
+<lb/><l n="81">W<am>ᵗ</am><ex>ith</ex> lokkes crulle / as they were leyd in presse </l>
+<lb/><l n="82">Of twenty yeer of Age / he was I gesse </l>
+<lb/><l n="83">Of his stature / he was of euene lengthe </l>
+<lb/><l n="84">And wonderly delyuere / and of greet strengthe </l>
+<lb/><l n="85">And he hadde been somtyme in chyuachie </l>
+<lb/><l n="86">In <placeName key="County of Flanders" ref="http://www.wikidata.org/entity/Q157070" cert="high">Flaundres<precision match="@ref" precision="high"/></placeName> / in <placeName key="Count of Artois" ref="http://dbpedia.org/resource/Count_of_Artois">Artoys</placeName> and <placeName key="Picardy" ref="http://dbpedia.org/resource/Picardy" cert="high">Pycardie<precision match="@ref" precision="medium"/></placeName> </l>
+<lb/><l n="87">And born hym weel / as of so litel space </l>
+<lb/><l n="88">In hope / to stonden in his lady grace </l>
+<lb/><l n="89">Embrouded was he / as it were a meede </l>
+<lb/><l n="90">Al ful of fresshe floures / whyte and reede </l>
+<lb/><l n="91">Syngynge he was / or floytynge al the day </l>
+<lb/><l n="92">He was as fressh / as is the Monthe of May </l>
+<lb/><l n="93">Short was his gowne / w<am>ᵗ</am><ex>ith</ex> sleues longe <am>⁊</am><ex>and</ex> wyde </l>
+<lb/><l n="94">Wel koude he sitte on hors and faire ryde </l>
+<lb/><l n="95">He koude songes make / and wel endite </l>
+<lb/><l n="96">Iuste <am>⁊</am><ex>and</ex> eek daunce and weel purtreye <am>⁊</am><ex>and</ex> write</l>
+<pb n="2r" facs="El-002r.jpg"/>
+<lb/><l n="97">So hoote he louede / that by nyghtertale </l>
+<lb/><l n="98">He slepte namoore than dooth a <rs key="nightingale" ref="http://www.wikidata.org/entity/Q19832477" cert="high">nyghtyngale</rs> </l>
+<lb/><l n="99">Curteis he was / lowely / and seruysable </l>
+<lb/><l n="100">And carf / biforn his fader at the table </l>
+<lb/><l n="101"><hi rend="orncp3">A</hi> <persName key="Yeoman" ref="http://www.wikidata.org/entity/Q111954045" type="fictional">Yeman</persName> hadde <persName key="The Knight" ref="http://www.wikidata.org/entity/Q63536424" cert="medium">he</persName> / and seruantz namo <note place="margin">¶ Yeman</note></l> 
+<lb/><l n="102">At that tyme / for <persName key="Yeoman" ref="http://www.wikidata.org/entity/Q111954045" cert="high" type="fictional">hym</persName> liste ride so </l>
+<lb/><l n="103">And he was clad / in cote <am>⁊</am><ex>and</ex>  hood of grene </l>
+<lb/><l n="104">A sheef of pecok arwes / bright and kene </l>
+<lb/><l n="105">Vnder his belt he bar ful thriftily </l>
+<lb/><l n="106">Wel koude he / dresse his takel yemanly </l>
+<lb/><l n="107">Hise arwes drouped noght with fetheres lowe </l>
+<lb/><l n="108">And in his hand / he baar a myghty bowe </l>
+<lb/><l n="109">A not heed hadde he / with a broun visage </l>
+<lb/><l n="110">Of wodecraft wel koude he al the vsage </l>
+<lb/><l n="111">Vpon his arm / he baar a gay bracer </l>
+<lb/><l n="112">And by his syde / a swerd / and a bokeler </l>
+<lb/><l n="113">And on that oother syde / a gay daggere </l>
+<lb/><l n="114">Harneised wel / and sharp̄ as point of spere </l>
+<lb/><l n="115">A <rs key="Devotional medal" ref="http://www.wikidata.org/entity/Q5267924" sameAs="https://www.wikidata.org/wiki/Q193507" type="http://sparql.cwrc.ca/ontology/cwrc#Religion">Cristophere</rs> on his brest of siluer sheene </l>
+<lb/><l n="116">An horn he bar / the bawdryk was of grene </l>
+<lb/><l n="117">A Forster was he / soothly as I gesse </l>
+<lb/><l n="118"><hi rend="orncp3">T</hi>her was also / a Nonne a <persName key="Eglantine, Literarische Gestalt" ref="https://d-nb.info/gnd/129940569">Prioresse</persName> <note place="margin">¶ Prioresse</note></l> 
+<lb/><l n="119">That of hir smylyng / was ful symple <am>⁊</am><ex>and</ex> coy </l>
+<lb/><l n="120">Hir<am>͗</am><ex>e</ex> gretteste ooth / was but by <persName key="Eligius" ref="http://www.wikidata.org/entity/Q360798" cert="high" type="real">seint loy</persName> </l>
+<lb/><l n="121">And she was cleped / <persName key="Eglantine Literarische Gestalt" ref="http://viaf.org/viaf/6025552/">madame Eglentyne</persName> </l>
+<lb/><l n="122">Ful weel she soong the seruice dyuyne </l>
+<lb/><l n="123">Entuned in hir nose / ful semeely </l>
+<lb/><l n="124">And frenssh / she spak / ful faire and fetisly </l>
+<lb/><l n="125">After the scole / of <placeName key="Bow" ref="http://www.wikidata.org/entity/Q122607" cert="medium">Stratford atte Bowe<precision match="@ref" precision="medium"/></placeName> </l>
+<lb/><l n="126">For frenssh of <placeName key="Paris" ref="http://www.wikidata.org/entity/Q90" cert="high">Parys<precision match="@ref" precision="high"/></placeName> / was to hir<am>͗</am><ex>e</ex> vnknowe </l>
+<lb/><l n="127">At mete / wel ytaught was she with alle </l>
+<lb/><l n="128">She leet no morsel / from hir lippes falle </l>
+<lb/><l n="129">Ne wette hir fyngres / in hir sauce depe </l>
+<lb/><l n="130">Wel koude she carie a morsel / and wel kepe </l>
+<lb/><l n="131">That no drope / ne fille vpon hir<am>͗</am><ex>e</ex> brist </l>
+<lb/><l n="132">In curteisie was set ful muchel hir list </l>
+<lb/><l n="133">Hire ouer lippe / wyped she so clene </l>
+<lb/><l n="134">That in hir coppe / ther was no ferthyng sene </l>
+<lb/><l n="135">Of grece / whan she dronken hadde hir draughte </l>
+<lb/><l n="136">Ful semely / after hir mete she raughte </l>
+<lb/><l n="137">And sikerly / she was of greet desport </l>
+<lb/><l n="138">And ful plesaunt / and amyable of port </l>
+<lb/><l n="139">And peyned hir<am>͗</am><ex>e</ex> to countrefete cheere </l>
+<lb/><l n="140">Of Court and to been estatlich of manere </l>
+<lb/><l n="141">And to ben holden digne of reuerence </l>
+<lb/><l n="142">But for to speken of hir<am>͗</am><ex>e</ex> conscience </l>
+<lb/><l n="143">She was so charitable and so pitous </l>
+<lb/><l n="144">She wolde wepe / if that she saugh a <rs key="mouse" ref="http://www.wikidata.org/entity/Q2751034" cert="high">Mous</rs></l>
+<pb facs="El-002v.jpg" n="2v"/>
+<lb/><l n="145">Kaught in a trappe / if it were deed or bledde</l>
+<lb/><l n="146">Of smale houndes / hadde she þ<am>ᵗ</am><ex>at</ex> she fedde</l>
+<lb/><l n="147">With rosted flessh / or Milk / and wastel breed</l>
+<lb/><l n="148">But soore wepte she / if any of hem were deed</l>
+<lb/><l n="149">Or if men smoot it / with a yerde smerte</l>
+<lb/><l n="150">And al was conscience and tendre herte</l>
+<lb/><l n="151">Ful semyly / hir wympul pynched was</l>
+<lb/><l n="152">Hir nose tretys / hir eyen greye as glas</l>
+<lb/><l n="153">Hir mouth ful smal / and ther to softe <am>⁊</am><ex>and</ex> reed</l>
+<lb/><l n="154">But sikerly / she hadde a fair forheed</l>
+<lb/><l n="155">It was almoost · a spanne brood I trowe</l>
+<lb/><l n="156">For hardily / she was nat vndergrowe</l>
+<lb/><l n="157">Ful fetys was hir cloke / as I was war</l>
+<lb/><l n="158">Of smal coral / aboute hir<am>͗</am><ex>e</ex> Arm she bar</l>
+<lb/><l n="159">A peire of bedes / gauded al with grene</l>
+<lb/><l n="160">And ther on / heng a brooch of gold ful sheene</l>
+<lb/><l n="161">On which / ther was first write a crowned .A.</l>
+<lb/><l n="162">And after / Amor vincit omnia.</l>
+<lb/><l n="163"><hi rend="orncp1">A</hi>nother <persName key="Christian nun" ref="http://www.wikidata.org/entity/Q28146366" cert="high" type="fictional">Nonne</persName> / w<am>ᵗ</am><ex>ith</ex> hir<am>͗</am><ex>e</ex> hadde she <note place="margin-left">Nonne <am>⁊</am><ex>and</ex> ·iij· preestes·</note></l>
+<lb/><l n="164">That was hir <persName key="chaplain" ref="http://www.wikidata.org/entity/Q208762">Chapeleyne</persName> and <persName key="Catholic priest" ref="http://www.wikidata.org/entity/Q250867" cert="high" n="3" type="fictional">preestes thre</persName></l>
+<lb/><l n="165"><hi rend="orncp3">A</hi> <persName key="Latin Catholic monk" ref="http://www.wikidata.org/entity/Q97722145">monk</persName> ther was / a fair for the maistrie <note place="margin-left">Monk.</note></l>
+<lb/><l n="166">An outrider<am>͗</am><ex>e</ex> / that louede venerie</l>
+<lb/><l n="167">A manly man / to been an Abbot able</l>
+<lb/><l n="168">Ful many a deyntee hors / hadde he in stable</l>
+<lb/><l n="169">And whan he rood / men myghte his brydel heere</l>
+<lb/><l n="170">Gynglen / in a whistlynge wynd als cleere</l>
+<lb/><l n="171">And eek as loude / as dooth 
+<app> <rdg type="lit"><hi rend="int">þe</hi></rdg>
+<rdg type="orig"/>
+<rdg type="mod">þe</rdg></app> Chapel belle</l>
+<lb/><l n="172">Ther as this lord / was keper<am>͗</am><ex>e</ex> of the Celle</l>
+<lb/><l n="173">The reule of seint Maure / or of <persName key="Benedict of Nursia" ref="http://www.wikidata.org/entity/Q44265" cert="high" type="real">seint Beneit</persName></l>
+<lb/><l n="174">By cause that it was old / and som del streit</l>
+<lb/><l n="175">This ilke Monk / leet olde thynges pace</l>
+<lb/><l n="176">And heeld / after the newe world the space</l>
+<lb/><l n="177">He yaf nat of that text a pulled hen</l>
+<lb/><l n="178">That seith / that hunters beth nat hooly men</l>
+<lb/><l n="179">Ne that a Monk / whan he is recchelees</l>
+<lb/><l n="180">Is likned / til a fissh / þ<am>ᵗ</am><ex>at</ex> is waterlees</l>
+<lb/><l n="181">This is to seyn / a Monk out of his Cloystre</l>
+<lb/><l n="182">But thilke text / heeld he nat worth an Oystre</l>
+<lb/><l n="183">And I seyde his opinion was good</l>
+<lb/><l n="184">What sholde he studie / <am>⁊</am><ex>and</ex> make hym seluen wood</l>
+<lb/><l n="185">Vpon a book / in Cloystre alwey to poure</l>
+<lb/><l n="186">Or swynken w<am>ᵗ</am><ex>ith</ex> his handes and laboure</l>
+<lb/><l n="187">As Austyn bit / how shal the world be serued</l>
+<lb/><l n="188">Lat Austyn / haue his owene swynk / to him re<am>ʆ</am><ex>ser</ex>ued</l>
+<lb/><l n="189">Therfore / he was a prikasour aright</l>
+<lb/><l n="190">Grehoundes he hadde / as swift as fowel in flight</l>
+<lb/><l n="191">Of p<am>ⁱ</am><ex>ri</ex>kyng and of huntyng for the hare</l>
+<lb/><l n="192">Was al his lust · for no cost wolde he spare</l>
+<pb n="3r" facs="El-003r.jpg"/>
+<lb/><l n="193">I seigh his sleues / ypurfiled at the hond</l>
+<lb/><l n="194">With grys / and that the fyneste of a lond</l>
+<lb/><l n="195">And for to festne his hood vnder his chyn</l>
+<lb/><l n="196">He hadde of gold / ywroght a ful curious pyn</l>
+<lb/><l n="197">A loue knotte / in the gretter ende ther was</l>
+<lb/><l n="198">His heed was balled / þ<am>ᵗ</am><ex>at</ex> shoon as any glas</l>
+<lb/><l n="199">And eek his face / as it hadde been enoynt</l>
+<lb/><l n="200">He was a lord ful fat / and in good poynt</l>
+<lb/><l n="201">Hise eyen stepe /  and rollynge in his heed</l>
+<lb/><l n="202">That stemed / as a forneys of a leed</l>
+<lb/><l n="203">His bootes souple / his hors in greet estaat</l>
+<lb/><l n="204">Now c<am>̉</am><ex>er</ex>teinly / he was a fair prelaat</l>
+<lb/><l n="205">He was nat pale / as a forpyned goost</l>
+<lb/><l n="206">A fat swan loued he best of any roost</l>
+<lb/><l n="207">His palfrey / was as broun as is a berye</l>
+<lb/><l n="208"><hi rend="orncp3">A</hi> Frere ther was / a wantowne <am>⁊</am><ex>and</ex> a merye <note place="margin">¶ Frere ·</note></l> 
+<lb/><l n="209">A lymytour / a ful solempne man</l>
+<lb/><l n="210">In alle the ordres foure / is noon þ<am>ᵗ</am><ex>at</ex> kan</l>
+<lb/><l n="211">So muchel of daliaunce / and fair langage</l>
+<lb/><l n="212">He hadde maad / ful many a mariage</l>
+<lb/><l n="213">Of yonge women / at his owene cost</l>
+<lb/><l n="214">Vn to his ordre / he was a noble post</l>
+<lb/><l n="215">And wel biloued / and famulier was he</l>
+<lb/><l n="216">With frankeleyns / ouer al in his contree</l>
+<lb/><l n="217">And with worthy women of the toun</l>
+<lb/><l n="218">For he hadde power of confessioun</l>
+<lb/><l n="219">As seyde hym self / moore than a Curat</l>
+<lb/><l n="220">For of his ordre / he was licenciat</l>
+<lb/><l n="221">Ful swetely / herde he confessio<am>ıı̄</am><ex>un</ex></l>
+<lb/><l n="222">And plesaunt was his absolucio<am>ıı̄</am><ex>un</ex></l>
+<lb/><l n="223">He was an esy man / to yeue penaunce</l>
+<lb/><l n="224">Ther as he wiste / to haue a good pitaunce</l>
+<lb/><l n="225">For vnto a poure ordre / for to yiue</l>
+<lb/><l n="226">Is signe / þ<am>ᵗ</am><ex>at</ex> a man is wel yshryue</l>
+<lb/><l n="227">For if he yaf / he dorste make avaunt</l>
+<lb/><l n="228">He wiste / that a man was repentaunt</l>
+<lb/><l n="229">For many a man / so hard is of his herte</l>
+<lb/><l n="230">He may nat wepe / al thogh hym soore smerte</l>
+<lb/><l n="231">Therfore in stede of wepynge and preyeres</l>
+<lb/><l n="232">Men moote yeue siluer / to the poure freres</l>
+<lb/><l n="233">His typet was ay farsed ful of knyues</l>
+<lb/><l n="234">And pynnes / for to yeuen yonge wyues</l>
+<lb/><l n="235">And certeinly / he hadde a murye note</l>
+<lb/><l n="236">Wel koude he synge / and pleyen on a rote</l>
+<lb/><l n="237">Of yeddynges / he baar outrely the pris</l>
+<lb/><l n="238">His nekke / whit was / as the flour delys</l>
+<lb/><l n="239">Ther to / he strong was as a Champio<am>ıı̄</am><ex>un</ex></l>
+<lb/><l n="240">He knew the Tauernes wel in al the toun</l>
+<pb n="3v" facs="El-003v.jpg"/>
+<lb/><l n="241">And euerich Hostiler / and Tappestere </l>
+<lb/><l n="242">Bet than a lazar / or a beggestere </l>
+<lb/><l n="243">For vn to swich a worthy man as he </l>
+<lb/><l n="244">Acorded nat as by his facultee </l>
+<lb/><l n="245">To haue with sike lazars Aqueynta<am>ıı̄</am><ex>un</ex>ce </l>
+<lb/><l n="246">It is nat honeste / it may nat aua<am>ıı̄</am><ex>un</ex>ce </l>
+<lb/><l n="247">For to deelen / with no swich poraille </l>
+<lb/><l n="248">But al w<am>ᵗ</am><ex>ith</ex> riche / and selleres of vitaille </l>
+<lb/><l n="249">And ouer al / ther as <am>ꝓ</am><ex>pro</ex>fit sholde arise </l>
+<lb/><l n="250">Curteis he was / and lowely of seruyse </l>
+<lb/><l n="251">Ther nas no man / nowher so v<am>̉</am><ex>er</ex>tuous </l>
+<lb/><l n="252">He was / the beste begger<am>͗</am><ex>e</ex> in his hous </l>
+<lb/><l n="255">For thogh a wydwe / hadde noght a sho </l>
+<lb/><l n="256">So plesaunt was his In p<am>ⁱ</am><ex>ri</ex>ncipio </l>
+<lb/><l n="257">Yet wolde he haue / a ferthyng er he wente </l>
+<lb/><l n="258">His purchas / was wel bettre than his rente </l>
+<lb/><l n="259">And rage he koude / as it were right a whelp̄ </l>
+<lb/><l n="260">In loue dayes / ther koude he muchel help̄ </l>
+<lb/><l n="261">For ther he was nat lyk a Cloystrer </l>
+<lb/><l n="262">With a thredbare cope / as is a poure scoler </l>
+<lb/><l n="263">But he was lyk / a maister / or a pope </l>
+<lb/><l n="264">Of double worstede / was his semycope </l>
+<lb/><l n="265">That rounded as a belle / out of the presse </l>
+<lb/><l n="266">Somwhat he lipsed for his wantownesse </l>
+<lb/><l n="267">To make his englissh / sweete vp on his tonge </l>
+<lb/><l n="268">And in his harpyng · whan þ<am>ᵗ</am><ex>at</ex> he hadde songe </l>
+<lb/><l n="269">Hise eyen twynkled in his heed aryght </l>
+<lb/><l n="270">As doon the sterres / in the frosty nyght </l>
+<lb/><l n="271">This worthy lymytour was cleped Huberd </l>
+<lb/><l n="272"><hi rend="orncp3">A</hi> Marchant was ther w<am>ᵗ</am><ex>ith</ex> a forked berd <note place="margin-left">¶ Marchant</note></l>
+<lb/><l n="273">In Motlee / and hye on horse he sat </l>
+<lb/><l n="274">Vpon his heed a Flaundryssh Beu<am>̉</am><ex>er</ex>e hat </l>
+<lb/><l n="275">His bootes clasped / faire and fetisly </l>
+<lb/><l n="276">Hise resons he spak / ful solempnely </l>
+<lb/><l n="277">Sownynge alwey thencrees of his wynnyng </l>
+<lb/><l n="278">He wolde the see were kept for any thyng </l>
+<lb/><l n="279">Bitwixe Middelburgh and Orewelle </l>
+<lb/><l n="280">Wel koude he in eschaunge sheeldes selle </l>
+<lb/><l n="281">This worthy man ful wel his wit bisette </l>
+<lb/><l n="282">Ther wiste no wight þ<am>ᵗ</am><ex>at</ex> he was in dette </l>
+<lb/><l n="283">So estatly / was he of his gouernaunce </l>
+<lb/><l n="284">With his bargaynes / and w<am>ᵗ</am><ex>ith</ex> his cheuyssaunce </l>
+<lb/><l n="285">For sothe / he was a worthy man with alle </l>
+<lb/><l n="286">But sooth to seyn / I noot how men hym calle </l>
+<lb/><l n="287"><hi rend="orncp3">A</hi> Clerk ther was / of Oxenford also <note place="margin-left">¶ Clerk of Oxenford</note></l>
+<lb/><l n="288">That vn to logyk / hadde longe ygo </l>
+<lb/><l n="289">And leene was his hors as is a rake </l>
+<lb/><l n="290">And he nas nat right fat I vndertake</l>
+<pb n="4r" facs="El-004r.jpg"/>
+<lb/><l n="291">But looked holwe / and ther to sobrely </l>
+<lb/><l n="292">Ful thredbare / was his ouereste courtepy </l>
+<lb/><l n="293">For he hadde geten hym yet no benefice </l>
+<lb/><l n="294">Ne was so worldly / for to haue office </l>
+<lb/><l n="295">For hym was leuere / haue at his beddes heed </l>
+<lb/><l n="296">Twenty bookes / clad in blak or reed </l>
+<lb/><l n="297">Of Aristotle / and his Philosophie </l>
+<lb/><l n="298">Than robes riche / or fithele / or gay sautrie </l>
+<lb/><l n="299">But al be / that he was a Philosophre </l>
+<lb/><l n="300">Yet hadde he / but litel gold in cofre </l>
+<lb/><l n="301">But al þ<am>ᵗ</am><ex>at</ex> he myghte / of his freendes hente </l>
+<lb/><l n="302">On bookes / and his lernynge he it spente </l>
+<lb/><l n="303">And bisily / gan for the soules preye </l>
+<lb/><l n="304">Of hem / þ<am>ᵗ</am><ex>at</ex> yaf hym wher w<am>ᵗ</am><ex>ith</ex> to scoleye </l>
+<lb/><l n="305">Of studie took he moost cure <am>⁊</am><ex>and</ex> moost heede </l>
+<lb/><l n="306">Noght o word / spak he moore than was neede </l>
+<lb/><l n="307">And that was seyd / in forme and reuerence </l>
+<lb/><l n="308">And short and quyk and ful of hy sentence </l>
+<lb/><l n="309">Sownynge in moral v<am>̉</am><ex>er</ex>tu / was his speche </l>
+<lb/><l n="310">And gladly wolde he lerne and gladly teche </l>
+<lb/><l n="311">A Sergeant of the lawe / war and wys <note place="margin-right">¶ Sergeant of Lawe</note></l>
+<lb/><l n="312">That often hadde been at the Parvys </l>
+<lb/><l n="313">Ther was also / ful riche of excellence </l>
+<lb/><l n="314">Discreet he was / and of greet reuerence </l>
+<lb/><l n="315">He semed swich / hise wordes weren so wise </l>
+<lb/><l n="316">Iustice he was / ful often in Assise </l>
+<lb/><l n="317">By patente / and by pleyn co<am>̄</am><ex>m</ex>missio<am>ıı̄</am><ex>un</ex> </l>
+<lb/><l n="318">For his science / and for his heigh reno<am>ıı̄</am><ex>un</ex> </l>
+<lb/><l n="319">Of fees and robes / hadde he many oon </l>
+<lb/><l n="320">So greet a purchasour / was nowher noon </l>
+<lb/><l n="321">Al was fee symple to hym in effect </l>
+<lb/><l n="322">His purchasyng / myghte nat been infect </l>
+<lb/><l n="323">Nowher / so bisy a man as he ther nas </l>
+<lb/><l n="324">And yet he semed / bisier than he was </l>
+<lb/><l n="325">In t<am>̉</am><ex>er</ex>mes hadde he caas and doomes alle </l>
+<lb/><l n="326">That from the tyme / of kyng william were yfalle </l>
+<lb/><l n="327">Ther to / he koude endite and make a thyng </l>
+<lb/><l n="328">Ther koude no wight / pynchen at his writyng </l>
+<lb/><l n="329">And euery statut / koude he pleyn by rote </l>
+<lb/><l n="330">He rood but hoomly / in a medlee cote </l>
+<lb/><l n="331">Girt w<am>ᵗ</am><ex>ith</ex> a ceint of silk w<am>ᵗ</am><ex>ith</ex> barres smale </l>
+<lb/><l n="332">Of his array telle I no lenger tale </l>
+<lb/><l n="333"><hi rend="orncp3">A</hi> Frankeleyn / was in his compaignye <note place="margin-right">¶ Frankeleyn</note></l>
+<lb/><l n="334">Whit was his heed / as is a dayesye </l>
+<lb/><l n="335">Of his complexio<am>ıı̄</am><ex>un</ex> / he was sangwyn </l>
+<lb/><l n="336">Wel loued he by the morwe a sop̄ in wyn </l>
+<lb/><l n="337">To lyuen in delit was euere his wone </l>
+<lb/><l n="338">For he was / Epicurus owene sone</l>
+<pb n="4v" facs="El-004v.jpg"/>
+<lb/><l n="339">That heeld opinio<am>ıı̄</am><ex>un</ex> / that pleyn delit </l>
+<lb/><l n="340">Was verray felicitee parfit </l>
+<lb/><l n="341">An housholder<am>͗</am><ex>e</ex> / and that a greet was he </l>
+<lb/><l n="342">Seint Iulian was he in his contree </l>
+<lb/><l n="343">His breed / his Ale / was alweys after oon </l>
+<lb/><l n="344">A bettre envyned man / was neu<am>̉</am><ex>er</ex>e noon </l>
+<lb/><l n="345">With oute bake mete / was neu<am>̉</am><ex>er</ex>e his hous </l>
+<lb/><l n="346">Of fissh and flessh / and that so plenteuous </l>
+<lb/><l n="347">It snewed in his hous / of mete and drynke </l>
+<lb/><l n="348">Of alle deyntees / that men koude thynke </l>
+<lb/><l n="349">After the sondry sesons / of the yeer </l>
+<lb/><l n="350">So chaunged he / his mete and his soper </l>
+<lb/><l n="351">Ful many a fat partrich / hadde he in Muwe </l>
+<lb/><l n="352">And many a Breem / and many a luce in Stuwe </l>
+<lb/><l n="353">Wo was his Cook but if his sauce were </l>
+<lb/><l n="354">Poynaunt / and sharp̄ / and redy al his geere </l>
+<lb/><l n="355">His table dormant in his halle alway </l>
+<lb/><l n="356">Stood redy couered / al the longe day </l>
+<lb/><l n="357">At sessio<am>ıı̄</am><ex>un</ex>s / ther was he lord and sire </l>
+<lb/><l n="358">Ful ofte tyme / he was knyght of the shire </l>
+<lb/><l n="359">An Anlaas / and a gipser al of silk </l>
+<lb/><l n="360">Heeng at his girdel / whit as morne Milk </l>
+<lb/><l n="361">A shirreue hadde he been and Countour </l>
+<lb/><l n="362">Was nowher / swch a worthy Vauasour </l>
+<lb/><l n="363"><hi rend="orncp3">A</hi>N haberdassher<am>͗</am><ex>e</ex> and a Carpenter <note place="margin-left">¶ Haberdassher<am>͗</am><ex>e</ex> .
+<lb/>¶ Carpenter .</note></l>
+<lb/><l n="364">A Webbe / a Dyere / and a Tapycer <note place="margin-left">¶ Webbe .
+<lb/>¶ Dyere .
+<lb/>¶ Tapicer .</note></l>
+<lb/><l n="365">And they were clothed alle in o lyu<am>̉</am><ex>er</ex>ee </l>
+<lb/><l n="366">Of a solempne / and a greet fraternitee </l>
+<lb/><l n="367">Ful fressh and newe / hir geere apiked was </l>
+<lb/><l n="368">Hir knyues / were chaped noght with bras </l>
+<lb/><l n="369">But al w<am>ᵗ</am><ex>ith</ex> siluer wroght ful clene and weel </l>
+<lb/><l n="370">Hir<am>͗</am><ex>e</ex> girdles and hir pouches euerydeel </l>
+<lb/><l n="371">Wel semed ech of hem / a fair burgeys </l>
+<lb/><l n="372">To sitten in a yeldehalle / on a deys </l>
+<lb/><l n="373">Euerich / for the wisdom þ<am>ᵗ</am><ex>at</ex> he kan </l>
+<lb/><l n="374">Was shaply for to been an Alderman </l>
+<lb/><l n="375">For catel hadde they ynogh and rente </l>
+<lb/><l n="376">And eek hir wyues wolde it wel assente </l>
+<lb/><l n="377">And elles certeyn / were they to blame </l>
+<lb/><l n="378">It is ful fair / to been ycleped ma Dame </l>
+<lb/><l n="379">And goon to vigilies / al bifore </l>
+<lb/><l n="380">And haue a Mantel roialliche ybore </l>
+<lb/><l n="381"><hi rend="orncp3">A</hi> Cook they hadde w<am>ᵗ</am><ex>ith</ex> hem for the nones <note place="margin-left">¶ Cook .</note></l>
+<lb/><l n="382">To boille the chiknes w<am>ᵗ</am><ex>ith</ex> the Marybones </l>
+<lb/><l n="383">And poudre Marchant tart and galyngale </l>
+<lb/><l n="384">Wel koude he knowe / a draughte of London̄ ale </l>
+<lb/><l n="385">He koude rooste and sethe / and boille and frye </l>
+<lb/><l n="386">Maken Mortreux / and wel bake a pye</l>
+<pb n="5r" facs="El-005r.jpg"/>
+<lb/><l n="387">But greet harm was it as it thoughte me </l>
+<lb/><l n="388">That on his shyne / a mormal hadde he </l>
+<lb/><l n="389">For blankmanger / that made he with the beste </l>
+<lb/><l n="390"><hi rend="orncp3">A</hi> Shipman was ther / wonynge fer by weste <note place="margin-right">¶ Shipman .</note></l>
+<lb/><l n="391">For aught I woot / he was of Dertemouthe </l>
+<lb/><l n="392">He rood vp on a Rouncy / as he kouthe </l>
+<lb/><l n="393">In a gowne of faldyng to the knee </l>
+<lb/><l n="394">A dagger<am>͗</am><ex>e</ex> / hangynge on a laas hadde he </l>
+<lb/><l n="395">Aboute his nekke / vnder his Arm adoun </l>
+<lb/><l n="396">The hoote somer / hadde maad his hewe al broun </l>
+<lb/><l n="397">And certeinly / he was a good felawe </l>
+<lb/><l n="398">Ful many a draughte of wyn / had he drawe </l>
+<lb/><l n="399">Fro Burdeuxward / whil that the Chapman sleep̄ </l>
+<lb/><l n="400">Of nyce conscience / took he no keep̄ </l>
+<lb/><l n="401">If þ<am>ᵗ</am><ex>at</ex> he faught and hadde the hyer hond </l>
+<lb/><l n="402">By water / he sente hem hoom to euery lond </l>
+<lb/><l n="403">But of his craft to rekene wel his tydes </l>
+<lb/><l n="404">His stremes / and his daungers hym bisides </l>
+<lb/><l n="405">His herberwe / and his moone / his lodemenage </l>
+<lb/><l n="406">Ther nas noon swich / from Hulle to Cartage </l>
+<lb/><l n="407">Hardy he was and wys / to vndertake </l>
+<lb/><l n="408">With many a tempest / hadde his berd been shake </l>
+<lb/><l n="409">He knew alle the hauenes / as they were </l>
+<lb/><l n="410">Fro Gootlond / to the Cape of Fynystere </l>
+<lb/><l n="411">And euery cryke / in Britaigne and in Spayne </l>
+<lb/><l n="412">His Barge / ycleped was the Maudelayne </l>
+<lb/><l n="413"><hi rend="orncp3">W</hi>ith vs ther was / a Doctour of Phisik <note place="margin-right">¶ Doctour of Phisik .</note></l>
+<lb/><l n="414">In al this world / ne was ther noon hym lik </l>
+<lb/><l n="415">To speke of phisik / and of Surgerye </l>
+<lb/><l n="416">For he was grounded in Astronomye </l>
+<lb/><l n="417">He kepte his pacient a ful greet deel </l>
+<lb/><l n="418">In houres / by his magyk natureel </l>
+<lb/><l n="419">Wel koude he fortunen the Ascendent </l>
+<lb/><l n="420">Of hise ymages / for his pacient </l>
+<lb/><l n="421">He knew the cause / of euerich maladye </l>
+<lb/><l n="422">Were it of hoot or cold / or moyste / or drye </l>
+<lb/><l n="423">And where they engendred / and of what humo<am></am><ex>ur</ex> </l>
+<lb/><l n="424">He was a verray parfit praktisour </l>
+<lb/><l n="425">The cause yknowe / and of his harm the roote </l>
+<lb/><l n="426">Anon he yaf / the sike man his boote </l>
+<lb/><l n="427">Ful redy hadde he / hise Apothecaries </l>
+<lb/><l n="428">To sende him drogges and his letuaries </l>
+<lb/><l n="429">For ech of hem / made oother for to wynne </l>
+<lb/><l n="430">Hir frendshipe / nas nat newe to bigynne </l>
+<lb/><l n="431">Wel knew he / the olde Esculapius </l>
+<lb/><l n="432">And Deyscorides / and eek Risus </l>
+<lb/><l n="433">Olde ypocras / haly / and Galyen </l>
+<lb/><l n="434">Serapio<am>ıı̄</am><ex>un</ex> Razis / and Auycen</l>
+<pb n="5v" facs="El-005v.jpg"/>
+<lb/><l n="435">Auerrois / Damascien / and Constantyn </l>
+<lb/><l n="436">Bernard / and Gatesden / and Gilbertyn </l>
+<lb/><l n="437">Of his diete / mesurable was he </l>
+<lb/><l n="438">For it was / of no su<am>ꝑ</am><ex>per</ex>fluitee </l>
+<lb/><l n="439">But of greet norissyng and digestible </l>
+<lb/><l n="440">His studie / was but litel on the Bible </l>
+<lb/><l n="441">In sangwyn and in pers / he clad was al </l>
+<lb/><l n="442">Lyned with Taffata / and with Sendal </l>
+<lb/><l n="443">And yet he was / but esy of dispence </l>
+<lb/><l n="444">He kepte / that he wan in pestilence </l>
+<lb/><l n="445">For gold in Phisik is a cordial </l>
+<lb/><l n="446">Therfore he louede gold in special </l>
+<lb/><l n="447"><hi rend="orncp3">A</hi> good wif was ther of biside Bathe <note place="margin-right">¶ The goode Wif of .
+<lb/>¶ Bathe .</note></l>
+<lb/><l n="448">But she was somdel deef <am>⁊</am><ex>and</ex> þ<am>ᵗ</am><ex>at</ex> was scathe </l>
+<lb/><l n="449">Of clooth makyng she hadde swich an haunt </l>
+<lb/><l n="450">She passed hem of ypres and of Gaunt </l>
+<lb/><l n="451">In al the parisshe / wif ne was ther noon </l>
+<lb/><l n="452">That to the offrynge / bifore hir<am>͗</am><ex>e</ex> sholde goon </l>
+<lb/><l n="453">And if ther dide / certeyn so wrooth was she </l>
+<lb/><l n="454">That she was / out of alle charitee </l>
+<lb/><l n="455">Hir cou<am>̉</am><ex>er</ex>chiefs / ful fyne were of ground </l>
+<lb/><l n="456">I dorste swere / they weyeden ten pound </l>
+<lb/><l n="457">That on a sonday / weren vpon hir heed </l>
+<lb/><l n="458">Hir hosen weren / of fyn scarlet reed </l>
+<lb/><l n="459">Ful streite yteyd / and shoes ful moyste <am>⁊</am><ex>and</ex> newe </l>
+<lb/><l n="460">Boold was hir face / and fair and reed of hewe </l>
+<lb/><l n="461">She was a worthy wo<am>̄</am><ex>m</ex>man al hir lyue </l>
+<lb/><l n="462">Housbondes at chirche dore / she hadde fyue </l>
+<lb/><l n="463">Withouten oother compaignye in youthe </l>
+<lb/><l n="464">But ther of / nedeth nat to speke as nowthe </l>
+<lb/><l n="465">And thries / hadde she been at Ierusalem </l>
+<lb/><l n="466">She hadde passed / many a straunge strem </l>
+<lb/><l n="467">At Rome she hadde been and at Boloigne </l>
+<lb/><l n="468">In Galice at Seint Iame / and at Coloigne </l>
+<lb/><l n="469">She koude muchel / of wandrynge by the weye </l>
+<lb/><l n="470">Gat tothed was she / soothly for to seye </l>
+<lb/><l n="471">Vp on an Ambler<am>͗</am><ex>e</ex> / esily she sat </l>
+<lb/><l n="472">Ywympled wel / and on hir heed an hat </l>
+<lb/><l n="473">As brood / as is a bokeler / or a targe </l>
+<lb/><l n="474">A foot mantel / aboute hir hipes large </l>
+<lb/><l n="475">And on hire feet a paire of spores sharpe </l>
+<lb/><l n="476">In felaweship̄ wel koude she laughe <am>⁊</am><ex>and</ex> carpe </l>
+<lb/><l n="477">Of remedies of loue / she knew <am>ꝑ</am><ex>per</ex> chaunce </l>
+<lb/><l n="478">For she koude of that Art the olde daunce </l>
+<lb/><l n="479"><hi rend="orncp3">A</hi> good man was ther of Religioun </l>
+<lb/><l n="480">And was / a poure <am>ꝑ</am><ex>per</ex>son̄ of a toun <note place="margin">¶ Person of a toun.</note></l>
+<lb/><l n="481">But riche he was / of hooly thoght <am>⁊</am><ex>and</ex> werk </l>
+<lb/><l n="482">He was also / a lerned man a clerk</l>
+<pb n="6r" facs="El-006r.jpg"/>
+<lb/><l n="483">That cristes gospel / trewely wolde preche </l>
+<lb/><l n="484">Hise parisshens / deuoutly wolde he teche </l>
+<lb/><l n="485">Benygne he was / and wonder diligent </l>
+<lb/><l n="486">And in Adu<am>̉</am><ex>er</ex>sitee ful pacient </l>
+<lb/><l n="487">And swich / he was preued ofte sithes </l>
+<lb/><l n="488">Ful looth were hym / to cursen for hise tithes </l>
+<lb/><l n="489">But rather wolde he yeuen out of doute </l>
+<lb/><l n="490">Vn to his poure parisshens aboute </l>
+<lb/><l n="491">Of his offryng and eek of his substaunce </l>
+<lb/><l n="492">He koude / in litel thyng haue suffisaunce </l>
+<lb/><l n="493">Wyd was his parisshe / and houses fer a sonder </l>
+<lb/><l n="494">But he ne lefte nat for reyn ne thonder </l>
+<lb/><l n="495">In siknesse nor in meschief / to visite </l>
+<lb/><l n="496">The ferreste in his parisshe muche and lite </l>
+<lb/><l n="497">Vp on his feet and in his hand a staf </l>
+<lb/><l n="498">This noble ensample / to his sheep̄ he yaf </l>
+<lb/><l n="499">That firste he wroghte / and afterward that he taughte </l>
+<lb/><l n="500">Out of the gospel / he tho wordes caughte </l>
+<lb/><l n="501">And this figure / he added eek ther to </l>
+<lb/><l n="502">That if gold ruste / what shal Iren doo </l>
+<lb/><l n="503">For if a preest be foul / on whom we truste </l>
+<lb/><l n="504">No wonder is / a lewed man to ruste </l>
+<lb/><l n="505">And shame it is / if  a prest take keep̄ </l>
+<lb/><l n="506">A shiten shepherde / and a clene sheep̄ </l>
+<lb/><l n="507">Wel oghte a preest / ensample for to yeue </l>
+<lb/><l n="508">By his clennesse / how þ<am>ᵗ</am><ex>at</ex> his sheep̄ sholde lyue </l>
+<lb/><l n="509">He sette nat his benefice to hyre </l>
+<lb/><l n="510">And leet his sheep̄ / encombred in the Myre </l>
+<lb/><l n="511">And ran to Londo<am rend="n̄">ıı̄</am><ex>un</ex> / vn to seint Poules </l>
+<lb/><l n="512">To seken hym a chauntrie for soules </l>
+<lb/><l n="513">Or with a bretherhed / to been withholde </l>
+<lb/><l n="514">But dwelleth at hoom and kepeth wel his folde </l>
+<lb/><l n="515">So that the wolf / ne made it nat myscarie </l>
+<lb/><l n="516">He was a shepherde / and noght a Mercenarie </l>
+<lb/><l n="517">And though he hooly were / and v<am>̉</am><ex>er</ex>tuous </l>
+<lb/><l n="518">He was nat to synful men despitous </l>
+<lb/><l n="519">Ne of his speche / daungerous ne digne </l>
+<lb/><l n="520">But in his techyng discreet and benygne </l>
+<lb/><l n="521">To drawen folk to heuene by fairnesse </l>
+<lb/><l n="522">By good ensample / this was his bisynesse </l>
+<lb/><l n="523">But it were / any persone obstinat </l>
+<lb/><l n="524">What so he were / of heigh or lough estat </l>
+<lb/><l n="525">Hym wolde he snybben sharply for the nonys </l>
+<lb/><l n="526">A bettre preest I trowe / þ<am>ᵗ</am><ex>at</ex> nowher noon ys </l>
+<lb/><l n="527">He waiteth / after no pompe and reuerence </l>
+<lb/><l n="528">Ne maked him a spiced conscience </l>
+<lb/><l n="529">But cristes loore / and hise Apostles twelue </l>
+<lb/><l n="530">He taughte / but first he folwed it hym selue</l>
+<pb facs="El-006v.jpg" n="6v"/>
+<lb/><l n="531"><hi rend="orncp3">W</hi>ith hym ther was a Plowman was his brother <note place="margin-left">¶ Plowman ~</note></l>
+<lb/><l n="532">That hadde ylad of dong ful many a fother </l>
+<lb/><l n="533">A trewe swynker<am>͗</am><ex>e</ex> / and a good was he </l>
+<lb/><l n="534">Lyuynge in pees / and parfit charitee </l>
+<lb/><l n="535">God loued he best with al his hoole herte </l>
+<lb/><l n="536">At alle tymes / thogh he gamed or smerte </l>
+<lb/><l n="537">And thanne his neighebore / right as hym selue </l>
+<lb/><l n="538">He wolde thresshe / and ther to dyke and delue </l>
+<lb/><l n="539">For cristes sake / for euery poure wight </l>
+<lb/><l n="540">W<am>ᵗ</am><ex>ith</ex>outen hire / if it lay in his myght </l>
+<lb/><l n="541">Hise tithes / payde he ful faire and wel </l>
+<lb/><l n="542">Bothe of his <am>ꝓ</am><ex>pro</ex>pre swynk and his catel </l>
+<lb/><l n="543">In a Tabard he rood / vpon a Mere </l>
+<lb/><l n="544"><hi rend="orncp3">T</hi>her was also / a Reue and a Millere <note place="margin-left">¶ Millere ~</note></l>
+<lb/><l n="545">A Somnour / and a Pardoner also </l>
+<lb/><l n="546">A Maunciple / and my self ther were namo </l>
+<lb/><l n="547">¶ The Miller<am>͗</am><ex>e</ex> was a stout carl for the nones </l>
+<lb/><l n="548">Ful byg he was / of brawn / and eek of bones </l>
+<lb/><l n="549">That proued wel / for ou<am>̉</am><ex>er</ex> al ther he cam </l>
+<lb/><l n="550">At wrastlynge / he wolde haue alwey the Ram </l>
+<lb/><l n="551">He was short sholdred / brood / a thikke knarre </l>
+<lb/><l n="552">Ther nas no dore / þ<am>ᵗ</am><ex>at</ex> he ne wolde heue of harre </l>
+<lb/><l n="553">Or breke it at a rennyng with his heed </l>
+<lb/><l n="554">His berd / as any sowe / or fox was reed </l>
+<lb/><l n="555">And ther to brood / as though it were a spade </l>
+<lb/><l n="556">Vp on the cop̄ / right of his nose he hade </l>
+<lb/><l n="557">A werte / and ther on stood a toft of herys </l>
+<lb/><l n="558">Reed / as the brustles / of a sowes erys </l>
+<lb/><l n="559">Hise nosethirles / blake were and wyde </l>
+<lb/><l n="560">A swerd and a bokeler / bar he by his syde </l>
+<lb/><l n="561">His mouth as greet was / as a greet forneys </l>
+<lb/><l n="562">He was a Iangler<am>͗</am><ex>e</ex> / and a goliardeys </l>
+<lb/><l n="563">And that was moost of synne and harlotries </l>
+<lb/><l n="564">Wel koude he stelen corn / and tollen thries </l>
+<lb/><l n="565">And yet he hadde / a thombe of gold <am>ꝑ</am><ex>par</ex>dee </l>
+<lb/><l n="566">A whit cote / and a blew hood wered he </l>
+<lb/><l n="567">A baggepipe / wel koude he blowe and sowne </l>
+<lb/><l n="568">And ther with al / he broghte vs out of towne </l>
+<lb/><l n="569"><hi rend="orncp3">A</hi> gentil Maunciple / was ther of a temple <note place="margin-left">¶ Maunciple ~</note></l>
+<lb/><l n="570">Of which Achatours / myghte take exemple </l>
+<lb/><l n="571">For to be wise / in byynge of vitaille </l>
+<lb/><l n="572">For wheither that he payde / or took by taille </l>
+<lb/><l n="573">Algate / he wayted so / in his Achaat </l>
+<lb/><l n="574">That he was ay biforn / and in good staat </l>
+<lb/><l n="575">Now is nat that of god a ful fair grace </l>
+<lb/><l n="576">That swich a lewed mannes wit shal pace </l>
+<lb/><l n="577">The wisdom / of an heep̄ of lerned men </l>
+<lb/><l n="578">Of maistres hadde he / mo than thries ten</l>
+<pb facs="El-007r.jpg" n="7r"/>
+<lb/><l n="579">That weren of lawe / expert and curious </l>
+<lb/><l n="580">Of whiche / þer weren a duszeyne in that hous </l>
+<lb/><l n="581">Worthy to been stywardes / of rente and lond </l>
+<lb/><l n="582">Of any lord / that is in Engelond </l>
+<lb/><l n="583">To maken hym lyue / by his <am>ꝓ</am><ex>pro</ex>pre good </l>
+<lb/><l n="584">In hono<am></am><ex>ur</ex> dettelees / but if he were wood </l>
+<lb/><l n="585">Or lyue as scarsly / as hym list desire </l>
+<lb/><l n="586">And able / for to helpen al a shire </l>
+<lb/><l n="587">In any caas / þ<am>ᵗ</am><ex>at</ex> myghte falle or happe </l>
+<lb/><l n="588">And yet this manciple / sette hir aller cappe </l>
+<lb/><l n="589"><hi rend="orncp3">T</hi>he Reue was / a sclendre colerik man <note place="margin-right">¶ Reue ~</note></l>
+<lb/><l n="590">His berd was shaue / as ny as eu<am>̉</am><ex>er</ex> he kan </l>
+<lb/><l n="591">His heer was by his erys / ful round yshorn </l>
+<lb/><l n="592">His top̄ was dokked / lyk a preest biforn </l>
+<lb/><l n="593">Ful longe were his legges / and ful lene </l>
+<lb/><l n="594">Ylyk a staf / ther was no calf ysene </l>
+<lb/><l n="595">Wel koude he kepe a gerner / and a bynne </l>
+<lb/><l n="596">Ther was noon Auditour / koude of him wynne </l>
+<lb/><l n="597">Wel wiste he / by the droghte / and by the reyn </l>
+<lb/><l n="598">The yeldynge / of his seed / and of his greyn </l>
+<lb/><l n="599">His lordes sheep̄ / his neet his dayerye </l>
+<lb/><l n="600">His swyn / his hors / his stoor / and his pultrye </l>
+<lb/><l n="601">Was hoolly / in this Reues gouernyng </l>
+<lb/><l n="602">And by his couenant yaf the rekenyng </l>
+<lb/><l n="603">Syn that his lord / was twenty yeer of age </l>
+<lb/><l n="604">Ther koude no man / brynge hym in Arrerage </l>
+<lb/><l n="605">Ther nas baillif ne hierde / nor oother hyne </l>
+<lb/><l n="606">That he knew his sleighte and his couyne </l>
+<lb/><l n="607">They were adrad of hym / as of the deeth </l>
+<lb/><l n="608">His wonyng was ful faire vp on an heeth </l>
+<lb/><l n="609">With grene trees / shadwed was his place </l>
+<lb/><l n="610">He koude bettre than his lord purchace </l>
+<lb/><l n="611">Ful riche he was astored pryuely </l>
+<lb/><l n="612">His lord / wel koude he plesen subtilly </l>
+<lb/><l n="613">To yeue and lene hym / of his owene good </l>
+<lb/><l n="614">And haue a thank / and yet a gowne and hood </l>
+<lb/><l n="615">In youthe he hadde lerned a good myster </l>
+<lb/><l n="616">He was a wel good wrighte a Carpenter </l>
+<lb/><l n="617">This Reue sat vp on a ful good stot </l>
+<lb/><l n="618">That was al pomely grey / and highte Scot </l>
+<lb/><l n="619">A long surcote of pers / vp on he hade </l>
+<lb/><l n="620">And by his syde / he baar a rusty blade </l>
+<lb/><l n="621">Of Northfolk was this Reue / of which I telle </l>
+<lb/><l n="622">Biside a toun / men clepen Baldeswelle </l>
+<lb/><l n="623">Tukked he was / as is a frere aboute </l>
+<lb/><l n="624">And eu<am>̉</am><ex>er</ex>e he rood / the hyndreste of oure route </l>
+<lb/><l n="625"><hi rend="orncp2">A</hi> Somonour was ther w<am>ᵗ</am><ex>ith</ex> vs in that place <note place="margin-right">¶ Somonour ~</note></l>
+<lb/><l n="626">That hadde / a fyr reed Cherubynnes face</l>
+<pb facs="El-007v.jpg" n="7v"/>
+<lb/><l n="627">For sawcefleem he was with eyen narwe </l>
+<lb/><l n="628">As hoot he was / and lecherous as a sparwe </l>
+<lb/><l n="629">With scaled browes blake and piled berd </l>
+<lb/><l n="630">Of his visage / children were aferd </l>
+<lb/><l n="631">Ther nas quyk siluer / lytarge ne brymstoon </l>
+<lb/><l n="632">Boras / Ceruce / ne oille of Tartre noon </l>
+<lb/><l n="633">Ne oynement that wolde clense and byte </l>
+<lb/><l n="634">That hym myghte helpen / of the whelkes white </l>
+<lb/><l n="635">Nor of the knobbes / sittynge on his chekes </l>
+<lb/><l n="636">Wel loued he garleek oynons / and eek lekes </l>
+<lb/><l n="637">And for to drynken strong wyn / reed as blood </l>
+<lb/><l n="638">Thanne wolde he speke / and crie as he were wood </l>
+<lb/><l n="638-1">And whan þ<am>ᵗ</am><ex>at</ex> he / wel dronken hadde the wyn </l>
+<lb/><l n="638-2">Than wolde he speke no word but latyn </l>
+<lb/><l n="639">A fewe t<am>̉</am><ex>er</ex>mes hadde he / two or thre </l>
+<lb/><l n="640">That he had lerned / out of som decree </l>
+<lb/><l n="641">No wonder is / he herde it al the day </l>
+<lb/><l n="642">And eek ye knowen wel / how þ<am>ᵗ</am><ex>at</ex> a Iay </l>
+<lb/><l n="643">Kan clepen watte / as wel as kan the pope </l>
+<lb/><l n="644">But who so koude in oother thyng hym grope </l>
+<lb/><l n="645">Thanne hadde he spent al his Philosophie </l>
+<lb/><l n="646">Ay questio quid iuris / wolde he crie </l>
+<lb/><l n="647">He was / a gentil harlot and a kynde </l>
+<lb/><l n="648">A bettre felawe / sholde men noght fynde </l>
+<lb/><l n="649">He wolde suffre / for a quart of wyn </l>
+<lb/><l n="650">A good felawe / to haue his concubyn </l>
+<lb/><l n="651">A twelf monthe / and excuse hym atte fulle </l>
+<lb/><l n="652">Ful p<am>ⁱ</am><ex>ri</ex>uely / a fynch eek koude he pulle </l>
+<lb/><l n="653">And if he foond owher / a good felawe </l>
+<lb/><l n="654">He wolde techen him / to have noon Awe </l>
+<lb/><l n="655">In swich caas / of the Ercedekenes curs </l>
+<lb/><l n="656">But if a mannes soule / were in his purs </l>
+<lb/><l n="657">For in his purs / he sholde ypunysshed be </l>
+<lb/><l n="658">Purs / is the Ercedekenes helle seyde he </l>
+<lb/><l n="659">But wel I woot / he lyed right in dede </l>
+<lb/><l n="660">Of cursyng oghte ech gilty man drede </l>
+<lb/><l n="661">For curs wol slee / right as assoillyng sauith </l>
+<lb/><l n="662">And also / war him of a Significauit </l>
+<lb/><l n="663">In daunger hadde he / at his owene gise </l>
+<lb/><l n="664">The yonge girles / of the diocise </l>
+<lb/><l n="665">And knew hir conseil / and was al hir reed </l>
+<lb/><l n="666">A gerland / hadde he set vpon his heed </l>
+<lb/><l n="667">As greet as it were for an Ale stake </l>
+<lb/><l n="668">A bokeleer / hadde he maad him of a Cake </l>
+<lb/><l n="669"><hi rend="orncp3">W</hi>ith hym ther was / a gentil Pardoner <note place="margin-left">¶ Pardoner ~</note></l>
+<lb/><l n="670">Of Rounciuale / his freend and his compeer </l>
+<lb/><l n="671">That streight was comen / fro the co<am>ᵘ</am><ex>ur</ex>t of Rome </l>
+<lb/><l n="672">Ful loude he soong com hider loue to me</l>
+<pb n="8r" facs="El-008r.jpg"/>
+<lb/><l n="673">This Somono<am>ᵘ</am><ex>ur</ex> / bar to hym a stif burdoun </l>
+<lb/><l n="674">Was neuere trompe / of half so greet a soun </l>
+<lb/><l n="675">This Pardoner hadde heer / as yelow as wex </l>
+<lb/><l n="676">But smothe it heeng as dooth a strike of flex </l>
+<lb/><l n="677">By ounces / henge hise lokkes þ<am>ᵗ</am><ex>at</ex> he hadde </l>
+<lb/><l n="678">And ther with / he hise shuldres ou<am>̉</am><ex>er</ex>spradde </l>
+<lb/><l n="679">But thynne it lay / by colpons oon and oon </l>
+<lb/><l n="680">But hood for Iolitee / wered he noon </l>
+<lb/><l n="681">For it was trussed / vp in his walet </l>
+<lb/><l n="682">Hym thoughte / he rood / al of the newe Iet </l>
+<lb/><l n="683">Discheuelee saue his cappe / he rood al bare </l>
+<lb/><l n="684">Swiche glarynge eyen hadde he as an hare </l>
+<lb/><l n="685">A vernycle hadde he sowed / vpon his cappe </l>
+<lb/><l n="686">His walet biforn hym / in his lappe </l>
+<lb/><l n="687">Bret ful of pardon̄ / comen from Rome al hoot </l>
+<lb/><l n="688">A voys he hadde / as smal as hath a goot </l>
+<lb/><l n="689">No berd hadde he / ne neu<am>̉</am><ex>er</ex>e sholde haue </l>
+<lb/><l n="690">As smothe it was / as it were late shaue </l>
+<lb/><l n="691">I trowe / he were a geldyng or a mare </l>
+<lb/><l n="692">But of his craft fro Berwyk in to Ware </l>
+<lb/><l n="693">Ne was ther / swich another Pardoner </l>
+<lb/><l n="694">For in his male / he hadde a pilwe beer </l>
+<lb/><l n="695">Which þ<am>ᵗ</am><ex>at</ex> he seyde / was oure lady veyl </l>
+<lb/><l n="696">He seyde he hadde / a gobet of the seyl </l>
+<lb/><l n="697">That seint Peter hadde / whan þ<am>ᵗ</am><ex>at</ex> he wente </l>
+<lb/><l n="698">Vp on the see / til <am>Ihū</am><ex>Ihesu</ex> crist hym hente </l>
+<lb/><l n="699">He hadde a croys of laton̄ / ful of stones </l>
+<lb/><l n="700">And in a glas / he hadde pigges bones </l>
+<lb/><l n="701">But w<am>ᵗ</am><ex>ith</ex> thise relikes / whan þ<am>ᵗ</am><ex>at</ex> he fond </l>
+<lb/><l n="702">A poure <am>ꝑ</am><ex>per</ex>son̄ / dwellynge vp on lond </l>
+<lb/><l n="703">Vp on a day / he gat hym moore moneye </l>
+<lb/><l n="704">Than þ<am>ᵗ</am><ex>at</ex> the <am>ꝑ</am><ex>per</ex>son gat / in Monthes tweye </l>
+<lb/><l n="705">And thus / with feyned flaterye and Iapes </l>
+<lb/><l n="706">He made the <am>ꝑ</am><ex>per</ex>son̄ and the peple his Apes </l>
+<lb/><l n="707">But trewely / to tellen atte laste </l>
+<lb/><l n="708">He was in chirche a noble ecclesiaste </l>
+<lb/><l n="709">Wel koude he rede / a lesson̄ or a storie </l>
+<lb/><l n="710">But alderbest / he song an Offertorie </l>
+<lb/><l n="711">For wel he wiste / whan þ<am>ᵗ</am><ex>at</ex> song was songe </l>
+<lb/><l n="712">He moste p<am>̉</am><ex>re</ex>che / and wel affile his tonge </l>
+<lb/><l n="713">To wynne siluer / as he ful wel koude </l>
+<lb/><l n="714">Therfore he song the murierly and loude </l>
+<lb/><l n="715"><hi rend="orncp4">N</hi>Ow haue I toold you shortly in a clause </l>
+<lb/><l n="716">The staat tharray / the nombre <am>⁊</am><ex>and</ex> eek the cause </l>
+<lb/><l n="717">Why þ<am>ᵗ</am><ex>at</ex> assembled was this compaignye </l>
+<lb/><l n="718">In Southwerk / at this gentil hostelrye </l>
+<lb/><l n="719">That highte the Tabard / faste by the Belle </l>
+<lb/><l n="720">But now is tyme / to yow for to telle</l>
+<pb n="8v" facs="El-008v.jpg"/>
+<lb/><l n="721">How that we baren vs that ilke nyght </l>
+<lb/><l n="722">Whan we were / in that hostelrie alyght </l>
+<lb/><l n="723">And after wol I telle / of our viage </l>
+<lb/><l n="724">And al the remenaunt of oure pilg<am>ⁱ</am><ex>ri</ex>mage </l>
+<lb/><l n="725">But first I pray yow / of youre curteisye </l>
+<lb/><l n="726">That ye narette it nat my vileynye </l>
+<lb/><l n="727">Thogh þ<am>ᵗ</am><ex>at</ex> I pleynly speke in this mateere </l>
+<lb/><l n="728">To telle yow / hir wordes and hir cheere </l>
+<lb/><l n="729">Ne thogh I speke hir wordes <am>ꝓ</am><ex>pro</ex>prely </l>
+<lb/><l n="730">For this ye knowen / al so wel as I </l>
+<lb/><l n="731">Who so shal telle a tale / after a man </l>
+<lb/><l n="732">He moot reherce / as ny as eu<am>̉</am><ex>er</ex>e he kan </l>
+<lb/><l n="733">Euerich a word / if it be in his charge </l>
+<lb/><l n="734">Al speke he / neuer so rudeliche or large </l>
+<lb/><l n="735">Or ellis / he moot telle his tale vntrewe </l>
+<lb/><l n="736">Or feyne thyng . or fynde wordes newe </l>
+<lb/><l n="737">He may nat spare / al thogh he were his brother </l>
+<lb/><l n="738">He moot as wel / seye o word as another </l>
+<lb/><l n="739">Crist spak hym self / ful brode in hooly writ </l>
+<lb/><l n="740">And wel ye woot no vileynye is it </l>
+<lb/><l n="741">Eek Plato seith / who so kan hym rede </l>
+<lb/><l n="742">The wordes / moote be cosyn to the dede </l>
+<lb/><l n="743">Also I prey yow / to foryeue it me </l>
+<lb/><l n="744">Al haue I nat set folk in hir degree </l>
+<lb/><l n="745">Heere in this tale / as þ<am>ᵗ</am><ex>at</ex> they sholde stonde </l>
+<lb/><l n="746">My wit is short ye may wel vnderstonde </l>
+<lb/><l n="747">¶ Greet chiere made oure hoost vs euerichon </l>
+<lb/><l n="748">And to the soper / sette he vs anon </l>
+<lb/><l n="749">And serued vs / with vitaille at the beste </l>
+<lb/><l n="750">Strong was the wyn / and wel to drynke vs leste </l>
+<lb/><l n="751">A semely man / oure hoost was with alle </l>
+<lb/><l n="752">For to been / a Marchal in an halle </l>
+<lb/><l n="753">A large man he was / with eyen stepe </l>
+<lb/><l n="754">A fairer Burgeys / was ther noon in Chepe </l>
+<lb/><l n="755">Boold of his speche / and wys and wel ytaught </l>
+<lb/><l n="756">And of manhod / hym lakked right naught </l>
+<lb/><l n="757">Eek therto / he was right a myrie man </l>
+<lb/><l n="758">And after soper / pleyen he bigan </l>
+<lb/><l n="759">And spak of myrthe / amonges othere thynges </l>
+<lb/><l n="760">Whan that we / hadde maad our rekenynges </l>
+<lb/><l n="761">And seyde thus / now lordynges trewely </l>
+<lb/><l n="762">Ye been to me / right welcome hertely </l>
+<lb/><l n="763">For by my trouthe / if that I shal nat lye </l>
+<lb/><l n="764">I saugh nat this yeer / so myrie a co<am>̄</am><ex>m</ex>paignye </l>
+<lb/><l n="765">Atones in this herberwe as is now </l>
+<lb/><l n="766">Fayn wolde I doon yow myrthe / wiste I how </l>
+<lb/><l n="767">And of a myrthe / I am right now bythoght </l>
+<lb/><l n="768">To doon yow ese / and it shal coste noght</l>
+<pb n="9r" facs="El-009r.jpg"/>
+<lb/><l n="769">¶ Ye goon to Caunterbury / god yow speede </l>
+<lb/><l n="770">The blisful martir / quite yow youre meede </l>
+<lb/><l n="771">And wel I woot as ye goon by the weye </l>
+<lb/><l n="772">Ye shapen yow / to talen and to pleye </l>
+<lb/><l n="773">For trewely / confort ne myrthe is noon </l>
+<lb/><l n="774">To ride by the weye doumb as the stoon </l>
+<lb/><l n="775">And therfore / wol I maken yow disport </l>
+<lb/><l n="776">As I seyde erst and doon yow som confort </l>
+<lb/><l n="777">And if yow liketh alle / by oon assent </l>
+<lb/><l n="778">For to stonden / at my Iuggement </l>
+<lb/><l n="779">And for to werken / as I shal yow seye </l>
+<lb/><l n="780">Tomorwe / whan ye riden by the weye </l>
+<lb/><l n="781">Now by my fader soule that is deed </l>
+<lb/><l n="782">But if ye be myrie / I wol yeue yow myn heed </l>
+<lb/><l n="783">¶ Hoold vp youre hond w<am>ᵗ</am><ex>ith</ex>outen moore speche </l>
+<lb/><l n="784">Oure conseil / was nat longe for to seche </l>
+<lb/><l n="785">Vs thoughte / it was noght worth / to make it wys </l>
+<lb/><l n="786">And graunted hym / wit outen moore auys </l>
+<lb/><l n="787">And bad him seye his voirdit as hym leste </l>
+<lb/><l n="788">¶ Lordynges quod he / now herkneth for the beste </l>
+<lb/><l n="789">But taak it nought / I prey yow in desdeyn </l>
+<lb/><l n="790">This is the poynt to speken short and pleyn </l>
+<lb/><l n="791">That ech of yow / to shorte with oure weye </l>
+<lb/><l n="792">In this viage / shal telle tales tweye </l>
+<lb/><l n="793">To Caunterburyward / I mene it so </l>
+<lb/><l n="794">And homward / he shal tellen othere two </l>
+<lb/><l n="795">Of auentures / that whilom han bifalle </l>
+<lb/><l n="796">And which of yow / that bereth hym best of alle </l>
+<lb/><l n="797">That is to seyn / that telleth in this caas </l>
+<lb/><l n="798">Tales of best sentence / and moost solaas </l>
+<lb/><l n="799">Shal haue a soper / at oure aller cost </l>
+<lb/><l n="800">Heere in this place / sittynge by this post </l>
+<lb/><l n="801">Whan that we come agayn fro Caunterbury </l>
+<lb/><l n="802">And for to make yow / the moore mury </l>
+<lb/><l n="803">I wol my self / goodly with yow ryde </l>
+<lb/><l n="804">Right at myn owene cost and be youre gyde </l>
+<lb/><l n="805">And who so wole / my Iuggement withseye </l>
+<lb/><l n="806">Shal paye / al that we spenden by the weye </l>
+<lb/><l n="807">And if ye vouche sauf / that it be so </l>
+<lb/><l n="808">Tel me anon / with outen wordes mo </l>
+<lb/><l n="809">And I wol erly / shape me therfore </l>
+<lb/><l n="810">¶ This thyng was graunted and oure othes swore </l>
+<lb/><l n="811">With ful glad herte / and preyden hym also </l>
+<lb/><l n="812">That he wolde vouche sauf / for to do so </l>
+<lb/><l n="813">And that he / wolde been oure gouernour </l>
+<lb/><l n="814">And of our tales / Iuge and Reportour </l>
+<lb/><l n="815">And sette a soper / at a certeyn pris </l>
+<lb/><l n="816">And we / wol reuled been at his deuys</l>
+<pb n="9v" facs="El-009v.jpg"/>
+<lb/><l n="817">¶ In heigh and lough / and thus by oon assent </l>
+<lb/><l n="818">We been acorded / to his Iuggement </l>
+<lb/><l n="819">And ther vpon / the wyn was fet anon </l>
+<lb/><l n="820">We dronken / and to reste wente echon </l>
+<lb/><l n="821">With outen / any lenger taryynge </l>
+<lb/><l n="822">Amorwe / whan þ<am>ᵗ</am><ex>at</ex> day / gan for to sprynge </l>
+<lb/><l n="823">Vp roos oure hoost and was oure aller cok </l>
+<lb/><l n="824">And gadrede vs togidre / alle in a flok </l>
+<lb/><l n="825">And forth we riden / a litel moore than paas </l>
+<lb/><l n="826">Vn to the wateryng of Seint Thomas </l>
+<lb/><l n="827">And there oure hoost bigan his hors areste </l>
+<lb/><l n="828">And seyde lordynges / herkneth if yow leste </l>
+<lb/><l n="829">¶ Ye woot youre foreward / and it yow recorde </l>
+<lb/><l n="830">If euensong / and morwe song accorde </l>
+<lb/><l n="831">Lat se now / who shal telle the firste tale </l>
+<lb/><l n="832">As euere mote I drynke / wyn or ale </l>
+<lb/><l n="833">Who so be / rebel to my Iuggement </l>
+<lb/><l n="834">Shal paye / for al þ<am>ᵗ</am><ex>at</ex> by the wey is spent </l>
+<lb/><l n="835">Now draweth cut er þ<am>ᵗ</am><ex>at</ex> we ferrer twynne </l>
+<lb/><l n="836">He / which þ<am>ᵗ</am><ex>at</ex> hath the shorteste shal bigynne </l>
+<lb/><l n="837">Sire knyght quod he / my mayster and my lord </l>
+<lb/><l n="838">Now draweth cut / for that is myn accord </l>
+<lb/><l n="839">Cometh neer quod he / my lady Prioresse </l>
+<lb/><l n="840">And ye sir<am>͗</am><ex>e</ex> clerk / lat be your shamefastnesse </l>
+<lb/><l n="841">Ne studieth noght / ley hond to euery man </l>
+<lb/><l n="842">Anon to drawen / euery wight bigan </l>
+<lb/><l n="843">And shortly / for to tellen as it was </l>
+<lb/><l n="844">Were it by auenture / or sort or cas </l>
+<lb/><l n="845">The sothe is this / the cut fil to the knyght </l>
+<lb/><l n="846">Of which / ful blithe and glad was every wyght </l>
+<lb/><l n="847">A telle he moste his tale / as was reso<am>ıı̄</am><ex>un</ex> </l>
+<lb/><l n="848">By foreward / and by composicio<am>ıı̄</am><ex>un</ex> </l>
+<lb/><l n="849">As ye han herd / what nedeth wordes mo </l>
+<lb/><l n="850">An whan this goode man / saugh þ<am>ᵗ</am><ex>at</ex> it was so </l>
+<lb/><l n="851">As he / that wys was and obedient </l>
+<lb/><l n="852">To kepe his foreward / by his free assent </l>
+<lb/><l n="853">He seyde / syn I shal bigynne the game </l>
+<lb/><l n="854">What welcome be the cut / a goddes name </l>
+<lb/><l n="855">Now lat us ryde / and herkneth what I seye </l>
+<lb/><l n="856">And w<am>ᵗ</am><ex>ith</ex> that word / we ryden forth oure weye </l>
+<lb/><l n="857">And he bigan / with right a myrie cheere </l>
+<lb/><l n="858">His tale anon / and seyde in this manere</l>
+</div></body></text>
+</TEI>
