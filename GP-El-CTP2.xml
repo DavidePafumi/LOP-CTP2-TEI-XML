@@ -2813,6 +2813,7 @@
 	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240814133132535",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-14T19:31:32.535Z",
+	"dcterms:modified": "2024-08-15T04:48:21.065Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DavidePafumi",
 		"@type": [
@@ -2843,7 +2844,10 @@
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
 		"@id": "https://d-nb.info/gnd/129940569",
 		"dc:format": "text/plain"
 	},
@@ -2853,7 +2857,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.5.0"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       
@@ -2970,7 +2975,7 @@
 	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240814133115175",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-14T19:31:15.175Z",
-	"dcterms:modified": "2024-08-15T04:47:56.200Z",
+	"dcterms:modified": "2024-08-15T04:48:49.726Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DavidePafumi",
 		"@type": [
@@ -5296,7 +5301,7 @@
 <lb/><l n="115">A <rs key="Devotional medal" ref="http://www.wikidata.org/entity/Q5267924" sameAs="https://www.wikidata.org/wiki/Q193507" type="http://sparql.cwrc.ca/ontology/cwrc#Religion">Cristophere</rs> on his brest of siluer sheene </l>
 <lb/><l n="116">An horn he bar / the bawdryk was of grene </l>
 <lb/><l n="117">A Forster was he / soothly as I gesse </l>
-<lb/><l n="118"><hi rend="orncp3">T</hi>her was also / a Nonne a <persName key="Eglantine, Literarische Gestalt" ref="https://d-nb.info/gnd/129940569">Prioresse</persName> <note place="margin">¶ Prioresse</note></l> 
+<lb/><l n="118"><hi rend="orncp3">T</hi>her was also / a Nonne a <persName key="Eglantine, Literarische Gestalt" ref="https://d-nb.info/gnd/129940569" cert="high" role="oth" type="fictional">Prioresse</persName> <note place="margin">¶ Prioresse</note></l> 
 <lb/><l n="119">That of hir smylyng / was ful symple <am>⁊</am><ex>and</ex> coy </l>
 <lb/><l n="120">Hir<am>͗</am><ex>e</ex> gretteste ooth / was but by <persName key="Eligius" ref="http://www.wikidata.org/entity/Q360798" cert="high" type="real">seint loy</persName> </l>
 <lb/><l n="121">And she was cleped / <persName key="Eglantine Literarische Gestalt" ref="http://viaf.org/viaf/6025552/" sameAs="Prioresse">madame Eglentyne</persName> </l>
