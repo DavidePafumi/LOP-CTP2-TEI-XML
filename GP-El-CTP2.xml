@@ -2097,6 +2097,7 @@
 	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240814125219966",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-14T18:52:19.966Z",
+	"dcterms:modified": "2024-08-15T04:50:42.650Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DavidePafumi",
 		"@type": [
@@ -2655,6 +2656,7 @@
 	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240814132225854",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-14T19:22:25.854Z",
+	"dcterms:modified": "2024-08-15T04:50:14.488Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DavidePafumi",
 		"@type": [
@@ -5263,7 +5265,7 @@
 <lb/><l n="76">Al bismotered with his habergeo<am>ıı̄</am><ex>un</ex> </l>
 <lb/><l n="77">For he was late / ycome from his viage </l>
 <lb/><l n="78">And wente / for to doon his pilgrymage </l>
-<lb/><l n="79"><hi rend="orncp3">W</hi>ith hym ther was his sone a yong <persName key="Squire" ref="http://dbpedia.org/resource/Squire" cert="medium">Squier</persName> <note place="margin-left">¶ Squier</note></l> 
+<lb/><l n="79"><hi rend="orncp3">W</hi>ith hym ther was his sone a yong <persName key="Squire" ref="http://dbpedia.org/resource/Squire" cert="medium" role="character" otherRole="character">Squier</persName> <note place="margin-left">¶ Squier</note></l> 
 <lb/><l n="80">A louyer<am>͗</am><ex>e</ex> / and a lusty Bacheler </l>
 <lb/><l n="81">W<am>ᵗ</am><ex>ith</ex> lokkes crulle / as they were leyd in presse </l>
 <lb/><l n="82">Of twenty yeer of Age / he was I gesse </l>
@@ -5287,7 +5289,7 @@
 <lb/><l n="99">Curteis he was / lowely / and seruysable </l>
 <lb/><l n="100">And carf / biforn his fader at the table </l>
 <lb/><l n="101"><hi rend="orncp3">A</hi> <persName key="Yeoman" ref="http://www.wikidata.org/entity/Q111954045" type="fictional" role="oth">Yeman</persName> hadde <persName key="The Knight" ref="http://www.wikidata.org/entity/Q63536424" cert="medium" sameAs="Yeman">he</persName> / and seruantz namo <note place="margin">¶ Yeman</note></l> 
-<lb/><l n="102">At that tyme / for <persName key="Yeoman" ref="http://www.wikidata.org/entity/Q111954045" cert="high" type="fictional">hym</persName> liste ride so </l>
+<lb/><l n="102">At that tyme / for <persName key="Yeoman" ref="http://www.wikidata.org/entity/Q111954045" cert="high" type="fictional" sameAs="Yeman">hym</persName> liste ride so </l>
 <lb/><l n="103">And he was clad / in cote <am>⁊</am><ex>and</ex>  hood of grene </l>
 <lb/><l n="104">A sheef of pecok arwes / bright and kene </l>
 <lb/><l n="105">Vnder his belt he bar ful thriftily </l>
