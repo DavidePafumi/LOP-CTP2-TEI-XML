@@ -11510,7 +11510,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240816004308980#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/l[542]/persName"
+			"rdf:value": "TEI/text/body/div/l[542]/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -12096,7 +12096,7 @@
 <lb/><l n="542">Bothe of his <am>ꝓ</am><ex>pro</ex>pre swynk and his catel </l>
 <lb/><l n="543">In a Tabard he rood / vpon a Mere </l>
 <lb/><l n="544"><hi rend="orncp3">T</hi>her was also / a <persName key="reeve" ref="http://www.wikidata.org/entity/Q113628861" cert="high" role="oth" type="fictional">Reue</persName> and a <persName key="miller" ref="http://www.wikidata.org/entity/Q694116" role="oth">Millere</persName> <note place="margin-left">¶ Millere ~</note></l>
-<lb/><l n="545">A Somnour / and a <persName key="Pardoner" ref="https://d-nb.info/gnd/122541006" cert="high" role="oth" type="fictional">Pardoner</persName> also </l>
+<lb/><l n="545">A <persName role="oth">Somnour</persName> / and a <persName key="Pardoner" ref="https://d-nb.info/gnd/122541006" cert="high" role="oth" type="fictional">Pardoner</persName> also </l>
 <lb/><l n="546">A <persName key="Manciple" ref="http://www.wikidata.org/entity/Q6747650" role="oth">Maunciple</persName> / and my self ther were namo </l>
 <lb/><l n="547">¶ The Miller<am>͗</am><ex>e</ex> was a stout carl for the nones </l>
 <lb/><l n="548">Ful byg he was / of brawn / and eek of bones </l>
