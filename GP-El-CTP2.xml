@@ -9571,6 +9571,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240816000154714",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-16T06:01:54.714Z",
+	"dcterms:modified": "2024-08-16T06:01:54.714Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240816000154714#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240816000154714#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[433]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q593223",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>   <refsDecl>   <p>Encoded in 'P5' Text Encoding Initiative XML, optimized for input into the Textual Communities Project.</p>  </refsDecl> </encodingDesc> </teiHeader>
 <text>
 <body>
@@ -10024,7 +10103,7 @@
 <lb/><l n="434"><persName key="Plotinus" ref="http://vocab.getty.edu/ulan/500225443" cert="medium">Serapio</persName><am>ıı̄</am><ex>un</ex> <persName key="Rāzi, Abū Bakr Muhammad ibn Zakariyyā al-" ref="http://viaf.org/viaf/593159234083703370572/" type="real">Razis</persName> / and <persName key="Avicenna" ref="http://www.wikidata.org/entity/Q8011" type="real">Auycen</persName></l>
 <pb n="5v" facs="El-005v.jpg"/>
 <lb/><l n="435"><persName key="Averroës, 1126-1198" ref="http://viaf.org/viaf/19688718/" type="real">Auerrois</persName> / <persName key="of Damascus, John" ref="http://viaf.org/viaf/7851164357858013250007/" cert="medium" type="real">Damascien</persName> / and <persName key="Constantine" ref="http://www.wikidata.org/entity/Q3960993">Constantyn</persName> </l>
-<lb/><l n="436">Bernard / and <persName key="Gaddesden, John of (British physician and author, ca. 1280-1361)" ref="http://viaf.org/viaf/199146462690427771966/" cert="high" type="real">Gatesden</persName> / and Gilbertyn </l>
+<lb/><l n="436">Bernard / and <persName key="Gaddesden, John of (British physician and author, ca. 1280-1361)" ref="http://viaf.org/viaf/199146462690427771966/" cert="high" type="real">Gatesden</persName> / and <persName key="Gilbertus Anglicus" ref="http://www.wikidata.org/entity/Q593223">Gilbertyn</persName> </l>
 <lb/><l n="437">Of his diete / mesurable was he </l>
 <lb/><l n="438">For it was / of no su<am>ꝑ</am><ex>per</ex>fluitee </l>
 <lb/><l n="439">But of greet norissyng and digestible </l>
