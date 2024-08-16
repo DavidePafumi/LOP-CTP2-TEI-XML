@@ -8376,6 +8376,86 @@
 	"cwrc:hasPrecision": "cwrc:highCertainty"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?place_annotation_20240815232707145",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-16T05:27:07.145Z",
+	"dcterms:modified": "2024-08-16T05:27:07.145Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?place_annotation_20240815232707145#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?place_annotation_20240815232707145#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[408]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q29",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>   <refsDecl>   <p>Encoded in 'P5' Text Encoding Initiative XML, optimized for input into the Textual Communities Project.</p>  </refsDecl> </encodingDesc> </teiHeader>
 <text>
 <body>
@@ -8803,7 +8883,7 @@
 <lb/><l n="408">With many a tempest / hadde his berd been shake </l>
 <lb/><l n="409">He knew alle the hauenes / as they were </l>
 <lb/><l n="410">Fro <placeName key="Gotland" ref="http://dbpedia.org/resource/Gotland" cert="high">Gootlond<precision match="@ref" precision="medium"/></placeName> / to the <placeName key="Finisterre" ref="http://viaf.org/viaf/315530348/">Cape of Fynystere</placeName> </l>
-<lb/><l n="411">And euery cryke / in <placeName key="Duchy of Brittany" ref="http://www.wikidata.org/entity/Q71747" cert="high">Britaigne<precision match="@ref" precision="high"/></placeName> and in Spayne </l>
+<lb/><l n="411">And euery cryke / in <placeName key="Duchy of Brittany" ref="http://www.wikidata.org/entity/Q71747" cert="high">Britaigne<precision match="@ref" precision="high"/></placeName> and in <placeName key="Spain" ref="http://www.wikidata.org/entity/Q29">Spayne<precision match="@ref" precision="high"/></placeName> </l>
 <lb/><l n="412">His Barge / ycleped was the Maudelayne </l>
 <lb/><l n="413"><hi rend="orncp3">W</hi>ith vs ther was / a Doctour of Phisik <note place="margin-right">¶ Doctour of Phisik .</note></l>
 <lb/><l n="414">In al this world / ne was ther noon hym lik </l>
