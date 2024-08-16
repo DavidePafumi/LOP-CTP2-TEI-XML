@@ -12747,7 +12747,7 @@
 <lb/><l n="615">In youthe he hadde lerned a good myster </l>
 <lb/><l n="616">He was a wel good wrighte a <persName key="carpenter" ref="http://www.wikidata.org/entity/Q154549" cert="high" role="oth" type="fictional">Carpenter</persName> </l>
 <lb/><l n="617">This <persName key="reeve" ref="http://www.wikidata.org/entity/Q113628861" role="oth">Reue</persName> sat vp on a ful good stot </l>
-<lb/><l n="618">That was al pomely grey / and highte Scot </l>
+<lb/><l n="618">That was al pomely grey / and highte <persName key="reeve" ref="http://www.wikidata.org/entity/Q113628861" cert="high" role="oth" sameAs="Reeve" type="fictional">Scot</persName> </l>
 <lb/><l n="619">A long surcote of pers / vp on he hade </l>
 <lb/><l n="620">And by his syde / he baar a rusty blade </l>
 <lb/><l n="621">Of Northfolk was this Reue / of which I telle </l>
