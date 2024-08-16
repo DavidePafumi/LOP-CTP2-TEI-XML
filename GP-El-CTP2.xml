@@ -7653,6 +7653,170 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240815231722035",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-16T05:17:22.035Z",
+	"dcterms:modified": "2024-08-16T05:17:22.035Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240815231722035#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240815231722035#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[387]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
+		"@id": "http://www.wikidata.org/entity/Q45199",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?place_annotation_20240815231750656",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-16T05:17:50.656Z",
+	"dcterms:modified": "2024-08-16T05:17:50.656Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?place_annotation_20240815231750656#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?place_annotation_20240815231750656#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[388]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://dbpedia.org/resource/Dartmouth,_Devon",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>   <refsDecl>   <p>Encoded in 'P5' Text Encoding Initiative XML, optimized for input into the Textual Communities Project.</p>  </refsDecl> </encodingDesc> </teiHeader>
 <text>
 <body>
@@ -8059,8 +8223,8 @@
 <lb/><l n="387">But greet harm was it as it thoughte me </l>
 <lb/><l n="388">That on his shyne / a mormal hadde he </l>
 <lb/><l n="389">For blankmanger / that made he with the beste </l>
-<lb/><l n="390"><hi rend="orncp3">A</hi> Shipman was ther / wonynge fer by weste <note place="margin-right">¶ Shipman .</note></l>
-<lb/><l n="391">For aught I woot / he was of Dertemouthe </l>
+<lb/><l n="390"><hi rend="orncp3">A</hi> <persName key="sailor" ref="http://www.wikidata.org/entity/Q45199" cert="high" role="oth" type="fictional">Shipman</persName> was ther / wonynge fer by weste <note place="margin-right">¶ Shipman .</note></l>
+<lb/><l n="391">For aught I woot / he was of <placeName key="Dartmouth, Devon" ref="http://dbpedia.org/resource/Dartmouth,_Devon" cert="high">Dertemouthe<precision match="@ref" precision="high"/></placeName> </l>
 <lb/><l n="392">He rood vp on a Rouncy / as he kouthe </l>
 <lb/><l n="393">In a gowne of faldyng to the knee </l>
 <lb/><l n="394">A dagger<am>͗</am><ex>e</ex> / hangynge on a laas hadde he </l>
