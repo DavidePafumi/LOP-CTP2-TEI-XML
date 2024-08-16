@@ -14092,7 +14092,7 @@
 	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240816015206174",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-16T07:52:06.174Z",
-	"dcterms:modified": "2024-08-16T07:52:06.174Z",
+	"dcterms:modified": "2024-08-16T07:52:51.458Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DavidePafumi",
 		"@type": [
@@ -14123,7 +14123,10 @@
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
 		"@id": "http://viaf.org/viaf/64891552/",
 		"dc:format": "text/plain"
 	},
@@ -14855,7 +14858,7 @@
 <lb/><l n="690">As smothe it was / as it were late shaue </l>
 <lb/><l n="691">I trowe / he were a geldyng or a mare </l>
 <lb/><l n="692">But of his craft fro <placeName key="Berwick-upon-Tweed" ref="http://dbpedia.org/resource/Berwick-upon-Tweed">Berwyk<precision match="@ref" precision="medium"/></placeName> in to <placeName key="Ware" ref="http://www.wikidata.org/entity/Q19792" cert="high">Ware</placeName> </l>
-<lb/><l n="693">Ne was ther / swich another <persName key="Pardoner" ref="http://viaf.org/viaf/64891552/" cert="high">Pardoner</persName> </l>
+<lb/><l n="693">Ne was ther / swich another <persName key="Pardoner" ref="http://viaf.org/viaf/64891552/" cert="high" role="own" type="fictional">Pardoner</persName> </l>
 <lb/><l n="694">For in his male / he hadde a pilwe beer </l>
 <lb/><l n="695">Which þ<am>ᵗ</am><ex>at</ex> he seyde / was oure lady veyl </l>
 <lb/><l n="696">He seyde he hadde / a gobet of the seyl </l>
