@@ -1,0 +1,1374 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+undefined
+<teiHeader><fileDesc/><xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240820130736910",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-20T19:07:36.910Z",
+	"dcterms:modified": "2024-08-20T19:07:36.910Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240820130736910#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240820130736910#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
+		"@id": "http://www.wikidata.org/entity/Q63536424",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240820130800160",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-20T19:08:00.160Z",
+	"dcterms:modified": "2024-08-20T19:08:00.160Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240820130800160#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240820130800160#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[2]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q63536424",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240820130839255",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-20T19:08:39.255Z",
+	"dcterms:modified": "2024-08-20T19:08:39.255Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240820130839255#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240820130839255#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[5]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
+		"@id": "http://www.wikidata.org/entity/Q63536424",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240820131050998",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-20T19:10:50.998Z",
+	"dcterms:modified": "2024-08-20T19:10:50.998Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240820131050998#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240820131050998#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[7]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q579516",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240820131121525",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-20T19:11:21.525Z",
+	"dcterms:modified": "2024-08-20T19:11:21.525Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240820131121525#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240820131121525#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[14]/placeName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://dbpedia.org/resource/Picardy",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:mediumCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240820131215693",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-20T19:12:15.693Z",
+	"dcterms:modified": "2024-08-20T19:12:15.693Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240820131215693#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240820131215693#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[14]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q157070",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240820131253255",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-20T19:12:53.255Z",
+	"dcterms:modified": "2024-08-20T19:12:53.255Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240820131253255#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240820131253255#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[14]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://dbpedia.org/resource/Artois",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:mediumCertainty"
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader><text>
+<body>
+<pb facs="2r.jpg" n="2r"/>
+<lb/>
+<div n="GP" type="G"> 
+<lb/><l n="73">For to telle ȝow of <persName key="The Knight" ref="http://www.wikidata.org/entity/Q63536424" cert="high" role="oth" type="fictional">his</persName> array</l>
+<lb/><l n="74"><persName key="The Knight" ref="http://www.wikidata.org/entity/Q63536424" role="oth">His</persName> hors were goode but he was not gay</l>
+<lb/><l n="75">Of fustio<am rend="ū">ıı̄</am><ex>un</ex> he wered a gepo<am rend="n̄">ıı̄</am><ex>un</ex></l>
+<lb/><l n="76">Al bismotered with his haburgo<am rend="n̄">ıı̄</am><ex>un</ex></l>
+<lb/><l n="77">For <persName key="The Knight" ref="http://www.wikidata.org/entity/Q63536424" cert="high" role="oth" type="fictional">he</persName> was late y come from his viage</l>
+<lb/><l n="78">And wente for to don his pilgrimage</l>
+<lb/><l n="79"><hi rend="orncp1">W</hi>iþ him þer was his sone a ȝong <persName key="squire" ref="http://www.wikidata.org/entity/Q579516" role="oth">squier</persName></l>
+<lb/><l n="80">A louyere and a lusty bacheler</l>
+<lb/><l n="81">Wiþ lockes crulle as þei were leyd in presse</l>
+<lb/><l n="82">Of · xx · ȝeer of age he was I gesse</l>
+<lb/><l n="83">Of his statuture he was of euene lengþe</l>
+<lb/><l n="84">And wonderly deliuere and gret of strengþe</l>
+<lb/><l n="85">An<gap quantity="1" unit="chars" reason="illegible"/> he hadde be somtyme in Chiuachie</l>
+<lb/><l n="86">In <placeName key="County of Flanders" ref="http://www.wikidata.org/entity/Q157070">Flaundres</placeName> in <placeName key="Artois" ref="http://dbpedia.org/resource/Artois" cert="high">artoys<precision match="@ref" precision="medium"/></placeName> and <placeName key="Picardy" ref="http://dbpedia.org/resource/Picardy" cert="high">Pykardie<precision match="@ref" precision="medium"/></placeName></l>
+<lb/><l n="87">And born him wel as of so litel space</l>
+<lb/><l n="88">In hope to stonden in his lady grace</l>
+<lb/><l n="89">Embroyded was he as it were a mede</l>
+<lb/><l n="90">Aƚƚ ful of freissche floures white and reede</l>
+<lb/><l n="91">Synging he was or floytynge al þe day</l>
+<lb/><l n="92">He was als freissch as is þe monþ of may</l>
+<lb/><l n="93">Schort was his gowne wiþ sleeues longe and wyde</l>
+<lb/><l n="94">Wel couþe he sitte on an hors and faire ride</l>
+<lb/><l n="95">He couþe songes make and wel endite</l>
+<lb/><l n="96">Iuste and eek daunce <am>⁊</am><ex>and</ex> wel purteray <am>⁊</am><ex>and</ex> write</l>
+<lb/><l n="97">So hote he loued þat by nighter tale</l>
+<lb/><l n="98">He sleep nomore þan doþ a nightyngale</l>
+<lb/><l n="99">Courteys he was lowly and seruisable</l>
+<lb/><l n="100">And karf biforn his fader atte table</l>
+<lb/><l n="101"><hi rend="orncp1">A</hi> ȝeman hadde he and <am>ʆ</am><ex>ser</ex>uantes namo</l>
+<lb/><l n="102">At þat time for him liste ride so</l>
+<lb/><l n="103">And he was clad in coote and hood of greene</l>
+<lb/><l n="104">A scheef of pocok arwes bright <am>⁊</am><ex>and</ex> keene</l>
+<lb/><l n="105">Vnder his belt he bar ful þriftily</l>
+<lb/><l n="106">Wel coude he dresse his takel ȝimanly</l>
+<lb/><l n="107">His arwes drouped nought wiþ fetheres lowe</l>
+<lb/><l n="108">And in his hond he bar a mighty bow</l>
+<pb facs="2v.jpg" n="2v"/>
+<lb/><l n="109">A not hed hadde he wiþ a bro<am rend="n̄">ıı̄</am><ex>un</ex> visage</l>
+<lb/><l n="110">Of woode craft wel couþe he al þe vsage</l>
+<lb/><l n="111">Vpon his arm he bar a gay bracer</l>
+<lb/><l n="112">And by his syde a swerd and a bocler</l>
+<lb/><l n="113">And on þat oþer side a gay daggere</l>
+<lb/><l n="114">Harnaysed wel and scharp as point of spere</l>
+<lb/><l n="115">A <am>xp̄</am><ex>christ</ex>ophre on his brest of seluer schene</l>
+<lb/><l n="116">An horn he bar þe bawdrik was of grene</l>
+<lb/><l n="117">A foster was he soþly as I gesse</l>
+<lb/><l n="118"><hi rend="orncp1">T</hi>her was also a Nonne a Prioresse</l>
+<lb/><l n="119">That of hir smyling was ful symple a coy</l>
+<lb/><l n="120">Hir grettest oþ was but by seint loy</l>
+<lb/><l n="121">And sche was cleped ma dame Englentyne</l>
+<lb/><l n="122">Fol wel sche song þe seruise diuine</l>
+<lb/><l n="123">Entuned in hir nose ful semely</l>
+<lb/><l n="124">And frenssch sche spak ful faire and fetisly</l>
+<lb/><l n="125">After þe scole of stratford atte Bowe</l>
+<lb/><l n="126">For Frenssh of Parys was to hire vnknowe</l>
+<lb/><l n="127">At mete wel I taught was sche wiþ a<am>ƚƚ</am><ex>lle</ex></l>
+<lb/><l n="128">Sche leet no morse<am>ƚƚ</am><ex>lle</ex> from hire lippes falle</l>
+<lb/><l n="129">Ne wete hire fyngres in hir sauce deepe</l>
+<lb/><l n="130">Wel couþe sche carie a morsel and wel keepe /</l>
+<lb/><l n="131">That no drope ne fe<am>ƚƚ</am><ex>lle</ex> vpon hir breste</l>
+<lb/><l n="132">In Curtesye was sette ful moche hire leste</l>
+<lb/><l n="133">Hir ouer lippe wyped sche so cleene</l>
+<lb/><l n="134">That in hir cuppe þer was no ferthing seene</l>
+<lb/><l n="135">Of grete whan sche dronken hadde hir draughte</l>
+<lb/><l n="136">Ful semely after hir mete sche raughte</l>
+<lb/><l n="137">And sikerly sche was of gret disporte</l>
+<lb/><l n="138">And ful plesant and amyable of porte</l>
+<lb/><l n="139">And peyned hire to counterfete cheere</l>
+<lb/><l n="140">Of court and to ben estatlich of maneere</l>
+<lb/><l n="141">And to ben holden digne of reuerence</l>
+<lb/><l n="142">But for to speken of hir conscience</l>
+<lb/><l n="143">Sche was so · charitable <am>⁊</am><ex>and</ex> so pytous</l>
+<lb/><l n="144">Sche wolde weepe if þat sche sawe a mou</l>
+<pb n="3r" facs="3r.jpg"/>
+<lb/><l n="145">Kaught in a trappe if it were deed or bledde</l>
+<lb/><l n="146">Of smale houndes hadde sche þat sche fedde</l>
+<lb/><l n="147">With rosted fleissh or mylk or wastel brede</l>
+<lb/><l n="148">But sore wepte sche if oon of hem were dede</l>
+<lb/><l n="149">Or if men smot it with a ȝerde smerte /</l>
+<lb/><l n="150">And al was conscience and tendre herte /</l>
+<lb/><l n="151">Ful semelich hir wympil pynched was</l>
+<lb/><l n="152">Hir nose was streight hire yghen grey as glas</l>
+<lb/><l n="153">Hir mouth ful smal and þerto softe and rede</l>
+<lb/><l n="154">But sikerly sche hadde a fair forhede</l>
+<lb/><l n="155">It was almost a spanne brood I trowe</l>
+<lb/><l n="156">For hardely sche was nought vndergrowe</l>
+<lb/><l n="157">Ful fetys was hir cloke as I was war</l>
+<lb/><l n="158">Of smal coral aboute hir arm sche bar</l>
+<lb/><l n="159">A payre of bedes gauded al with greene</l>
+<lb/><l n="160">And þer on heng a broche of gold ful scheene</l>
+<lb/><l n="161">On which þer was first writen with a crowned A .</l>
+<lb/><l n="162">And after . Amor vincit omnia ·</l>
+<lb/><l n="163">Anoþer Nonne with hir hadde sche /</l>
+<lb/><l n="164">That was hir Chapelleyne and prestes þre</l>
+<lb/><l n="165"><hi rend="orncp1">A</hi> Monk þer was a fair for þe maistrie</l>
+<lb/><l n="166">And out Ridere þat loued venerie</l>
+<lb/><l n="167">A manly man to ben an abbot able /</l>
+<lb/><l n="168">Ful many a deinte hors hadde he in stable /</l>
+<lb/><l n="169">And whan he rood men might his brydel heere</l>
+<lb/><l n="170">Gynglyng in a whistlyng wynd as cleere</l>
+<lb/><l n="171">And eek as lowde as doþ þe chapel belle</l>
+<lb/><l n="172">Ther as þis lord was keper of þe selle</l>
+<lb/><l n="173">The Reule of sent Maure or of seint Bene<am>ⁱ</am><ex>i</ex>t</l>
+<lb/><l n="174">By cause þat it was old and somdel streit</l>
+<lb/><l n="175">This ilke monk leet olde þinges pace</l>
+<lb/><l n="176">And held after þe newe world þe space</l>
+<lb/><l n="177">He ȝaf nought of þe text a pulled hen</l>
+<lb/><l n="178">That seith þat hunters be nought holy men</l>
+<lb/><l n="179">Ne þat a monk whan he is recheles</l>
+<lb/><l n="180">Is likned til a fyssh þat is waterles</l>
+<pb n="3v" facs="3v.jpg"/>
+<lb/><l n="181">This is to seie a monk out of his cloystre</l>
+<lb/><l n="182">But þilke text / held he not worth an oystre /</l>
+<lb/><l n="183">And I seide his opinio<am rend="n̄">ıı̄</am><ex>un</ex> was good</l>
+<lb/><l n="184">What schulde he studie and make himseluen wood</l>
+<lb/><l n="185">Vpon a book alwey in cloyste to poure</l>
+<lb/><l n="186">Or swynke with his hondes and laboure</l>
+<lb/><l n="187">As austyn bit how schal þe world be serued</l>
+<lb/><l n="188">Lat austyn haue his swynk to him reserued</l>
+<lb/><l n="189">Ther fore he was a p<am>ⁱ</am><ex>ri</ex>kasour aright</l>
+<lb/><l n="190">Grehoundes he hadde swift as foule in flight</l>
+<lb/><l n="191">Of prikynge and of huntyng for þe hare</l>
+<lb/><l n="192">Was alle his luste for no cost wolde he spare</l>
+<lb/><l n="193">I seigh his sleues I purfiled at þe hond</l>
+<lb/><l n="194">Wiþ grys and þat þe fynest of a lond</l>
+<lb/><l n="195">And for to festne his hood vnder þe chynne</l>
+<lb/><l n="196">He hadde of gold wrought a ful curious pynne /</l>
+<lb/><l n="197">A loue knotte in þe gretter ende þer was /</l>
+<lb/><l n="198">His hed was balled þat schon as eny glas</l>
+<lb/><l n="199">And eek his face as he hadde ben anoynt</l>
+<lb/><l n="200">He was a lord ful fatt and in good poynt</l>
+<lb/><l n="201">His eyghen stepe and rollyng in his hede</l>
+<lb/><l n="202">That stemed as a forneys of a lede</l>
+<lb/><l n="203">His bootes souple his hors in gret estate</l>
+<lb/><l n="204">Now certeinly he was a fair prelate</l>
+<lb/><l n="205">He nas nat pale as a forpyned goost</l>
+<lb/><l n="206">A fat swan loued he best of any rost</l>
+<lb/><l n="207">His palfray was as bro<am rend="n̄">ıı̄</am><ex>un</ex> as is a berie</l>
+<lb/><l n="208"><hi rend="orncp1">A</hi> Frere þer was a wanton̄ and a merye</l>
+<lb/><l n="209">A lymitour a ful solempne man</l>
+<lb/><l n="210">In a<am>ƚƚ</am><ex>lle</ex> þe ordres foure is non þat can</l>
+<lb/><l n="211">So mochil of daliance <am>⁊</am><ex>and</ex> fair langage</l>
+<lb/><l n="212">He hadde made ful many a mariage</l>
+<lb/><l n="213">Of ȝonge wo<am>̄</am><ex>m</ex>men at his owne cost</l>
+<lb/><l n="214">Vnto his ordre he was a noble post</l>
+<lb/><l n="215">Ful wel biloued and famulier was he</l>
+<lb/><l n="216">Wiþ Frankeleyns ouer al in his contre</l>
+<pb n="4r" facs="4r.jpg"/>
+<lb/><l n="217">And wiþ worþi wo<am>̄</am><ex>m</ex>men of þe toun</l>
+<lb/><l n="218">For he hadde power of confessioun</l>
+<lb/><l n="219">As seyde himself more þan a curat</l>
+<lb/><l n="220">For of his ordre he was licenciat</l>
+<lb/><l n="221">Ful swetly herde he confessio<am rend="n̄">ıı̄</am><ex>un</ex></l>
+<lb/><l n="222">And plesant was his absolucio<am rend="n̄">ıı̄</am><ex>un</ex></l>
+<lb/><l n="223">He was an esy man to ȝiue pena<am rend="n̄">ıı̄</am><ex>un</ex>ce</l>
+<lb/><l n="224">Ther as he wiste to haue a good pitaunce</l>
+<lb/><l n="225">For vnto a pouer ordre for to ȝiue</l>
+<lb/><l n="226">Is signe þat a man is wel I schriue</l>
+<lb/><l n="227">For if he ȝaf he dorste make auant</l>
+<lb/><l n="228">He wiste þat / a man was repentant</l>
+<lb/><l n="229">For many a man so hard is of his herte</l>
+<lb/><l n="230">He may nought wepe al þough him sore smerte</l>
+<lb/><l n="231">Ther fore in stede of weepyng and preyeres</l>
+<lb/><l n="232">Men mote ȝeue siluer to þe pouere freeres</l>
+<lb/><l n="233">His typet was ay farsed ful of knyfes</l>
+<lb/><l n="234">And pynnes for to ȝiue faire wyues</l>
+<lb/><l n="235">And certeynly he hadde a mery note /</l>
+<lb/><l n="236">Wel couþe he synge <am>⁊</am><ex>and</ex> playen on a rote</l>
+<lb/><l n="237">Of ȝeddynges he bar witterly þe pris</l>
+<lb/><l n="238">His nekke whit / was as þe flour delys</l>
+<lb/><l n="239">Ther to he was strong as a Champio<am rend="n̄">ıı̄</am><ex>un</ex></l>
+<lb/><l n="240">He knew þe tauernes wel in euery toun</l>
+<lb/><l n="241">And euerich hostiller <am>⁊</am><ex>and</ex> tapster<am>͗</am><ex>e</ex></l>
+<lb/><l n="242">Bet þan a lazar or a Begger<am>͗</am><ex>e</ex></l>
+<lb/><l n="243">For vnto such a worþi man as he</l>
+<lb/><l n="244">Acorded nought as by his faculte</l>
+<lb/><l n="245">To haue with such sek lazer aqueintance</l>
+<lb/><l n="246">It is nought honest it may nought auaunce</l>
+<lb/><l n="247">For to delen with such poraile</l>
+<lb/><l n="248">But a<am>ƚƚ</am><ex>lle</ex> with Riche and seller<am>͗</am><ex>e</ex> of vitaile</l>
+<lb/><l n="249">And ouer al þer as profyt scholde arise</l>
+<lb/><l n="250">Curtays he was and lowly of seruise</l>
+<lb/><l n="251">Ther nas no man nowher so vertuous</l>
+<lb/><l n="252">He was þe beste begger in his hous</l>
+<pb facs="4v.jpg" n="4v"/>
+<lb/><l n="255">For þough a widewe hadde nought a scho</l>
+<lb/><l n="256">So plesant was his In principio</l>
+<lb/><l n="257">Ȝet wolde he haue a ferþing or he wente</l>
+<lb/><l n="258">His purchas was wel bettre þan his rente</l>
+<lb/><l n="259">And rage he couþe right as it were a whelpe /</l>
+<lb/><l n="260">In louedayes þer couþe he moche helpe /</l>
+<lb/><l n="261">For þer he was not lich a cloysterer</l>
+<lb/><l n="262">With a thred bare cope as a pore scoler</l>
+<lb/><l n="263">But he was lik a maister or a pope</l>
+<lb/><l n="264">Of double worstede was his semy cope /</l>
+<lb/><l n="265">That rounded as a belle on the presse</l>
+<lb/><l n="266">Somwhat he lipsed for his wantounesse</l>
+<lb/><l n="267">To make his englissh sweete vpon his tonge</l>
+<lb/><l n="268">And in his harpyng whan þat he hadde songe /</l>
+<lb/><l n="269">His yghen twyncled in his heed aright</l>
+<lb/><l n="270">As don þe sterres in þe frosty night</l>
+<lb/><l n="271">This worþi lymito<am>ᵘ</am><ex>ur</ex> was cleped huberd</l>
+<lb/><l n="272"><hi rend="orncp1">A</hi> marchant was þer with a forked berd</l>
+<lb/><l n="273">In mottle and heigh on horse he satte</l>
+<lb/><l n="274">Vp on his heued a Flaundrissh beuer hatte</l>
+<lb/><l n="275">His bootes clapsed faire and fetysly</l>
+<lb/><l n="276">His resons he spak ful solempnely</l>
+<lb/><l n="277">Schewyng alwey þe encres of his wynnynge</l>
+<lb/><l n="278">He wolde þe see were kept for eny þinge</l>
+<lb/><l n="279">By twixe Middelburgh and Orewe<am>ƚƚ</am><ex>lle</ex></l>
+<lb/><l n="280">Wel couþe he in eschaunge scheldes selle /</l>
+<lb/><l n="281">This worþy man ful wel his witte bisette</l>
+<lb/><l n="282">Ther wiste no wight that he was in dette</l>
+<lb/><l n="283">So statly was he of his gouernance</l>
+<lb/><l n="284">With his bargaynes and his cheuissance</l>
+<lb/><l n="285">For soþe he was a worþi man with a<am>ƚƚ</am><ex>lle</ex></l>
+<lb/><l n="286">But soþly to sein I not how men him ca<am>ƚƚ</am><ex>lle</ex></l>
+<lb/><l n="287"><hi rend="orncp1">A</hi> Clerk þer was of Oxenford also</l>
+<lb/><l n="288">That vnto logyk hadde long I go</l>
+<lb/><l n="289">As lene was his hors as is a rake</l>
+<lb/><l n="290">And he nas not right fat I vndertak</l>
+<pb facs="5r.jpg" n="5r"/>
+<lb/><l n="291">But loked holwe and þerto soburly</l>
+<lb/><l n="292">Ful þredbare was his ouereste courtepy</l>
+<lb/><l n="293">For he had geten him no benifice</l>
+<lb/><l n="294">Ne was so worldly for to haue office</l>
+<lb/><l n="295">For him was leuer to haue at his bed hede</l>
+<lb/><l n="296">Twenty bookes clad in blak and rede</l>
+<lb/><l n="297">Of Aristotle and his philosophie</l>
+<lb/><l n="298">Than robes riche or fithel or gay Sautrie /</l>
+<lb/><l n="299">But al by þat he was a philosophre</l>
+<lb/><l n="300">Ȝit had he but alitel gold in cofre</l>
+<lb/><l n="301">But al þat he might of his frendes hente /</l>
+<lb/><l n="302">On bokes and on lernyng he it / spente</l>
+<lb/><l n="303">And besily gan for þe soules preye</l>
+<lb/><l n="304">Of hem þat ȝaf him wher with to scoleye</l>
+<lb/><l n="305">Of studie took he most cure and most heede</l>
+<lb/><l n="306">Nought o word spak he more þan was neede</l>
+<lb/><l n="307">And þat was seyd in forme and reu<am>̉</am><ex>er</ex>ence</l>
+<lb/><l n="308">And schort and quyk and ful of heigh sentence</l>
+<lb/><l n="309">Sownyng in moral vertu was his speche</l>
+<lb/><l n="310">And gladly wolde he lerne and gladly teche</l>
+<lb/><l n="311"><hi rend="orncp1">A</hi> Sergeant of þe lawe war and wys</l>
+<lb/><l n="312">That often hadde ben at þe Parvys</l>
+<lb/><l n="313">That was also / ful riche of excellence</l>
+<lb/><l n="314">Discret he was and of gret reu<am>̉</am><ex>er</ex>ence</l>
+<lb/><l n="315">He semed swich his wordes were so wise</l>
+<lb/><l n="316">Iustice he was ful often in assise</l>
+<lb/><l n="317">By patent and by plein co<am>̄</am><ex>m</ex>missio<am rend="n̄">ıı̄</am><ex>un</ex></l>
+<lb/><l n="318">For his science and for his heigh reno<am rend="ū">ıı̄</am><ex>un</ex></l>
+<lb/><l n="319">Of fees and robes had he many oon</l>
+<lb/><l n="320">So gret a purchaceo<am>ᵘ</am><ex>ur</ex> was nowher non</l>
+<lb/><l n="321">Al was fee simple to him in effecte</l>
+<lb/><l n="322">His purchasynge might not ben infecte</l>
+<lb/><l n="323">No wher so besy a man as he þer nas</l>
+<lb/><l n="324">And ȝit he semed bisiere þan he was</l>
+<lb/><l n="325">In termes hadde he caas and doomes a<am>ƚƚ</am><ex>lle</ex></l>
+<lb/><l n="326">That from þe tyme of king Will<am>ᵃ</am><ex>ia</ex>m were fall</l>
+<pb facs="5v.jpg" n="5v"/>
+<lb/><l n="327">Ther to he couþe endite <am>⁊</am><ex>and</ex> make a þink</l>
+<lb/><l n="328">Ther couþe no wight pynche at his writynk</l>
+<lb/><l n="329">And euery statut couþe he plein by Rote</l>
+<lb/><l n="330">He rood but homly in a medly coote</l>
+<lb/><l n="331">Gert with a seint of silk · wiþ barres smale /</l>
+<lb/><l n="332">Of his array telle I no lenger tale</l>
+<lb/><l n="333"><hi rend="orncp1">A</hi> Frankeleyn was in his compaignie</l>
+<lb/><l n="334">Whit was his berd as is the dayessye</l>
+<lb/><l n="335">Of his complexio<am rend="n̄">ıı̄</am><ex>un</ex> he was sanguyne</l>
+<lb/><l n="336">Wel loued he by þe morwe a sop in wyne</l>
+<lb/><l n="337">To lyuen in delit euer was his wone /</l>
+<lb/><l n="338">For he was Opiournes owne sone</l>
+<lb/><l n="339">That held opinio<am rend="n̄">ıı̄</am><ex>un</ex> þat plein delite</l>
+<lb/><l n="340">Was verrey felicite parfite</l>
+<lb/><l n="341">An houshalder and þat a gret was he</l>
+<lb/><l n="342">Seint Iulian he was in his contre</l>
+<lb/><l n="343">His breed his ale was alweys after oon</l>
+<lb/><l n="344">A better envyned man was neuer noon</l>
+<lb/><l n="345">Wiþoute bake mete was neuer his hous</l>
+<lb/><l n="346">Of fissh and fleissh and þat so plenteuous</l>
+<lb/><l n="347">It snewed in his hous of mete and drink</l>
+<lb/><l n="348">Of alle deyntes þat men coude þink</l>
+<lb/><l n="349">After þe sondry sesons of þe ȝere</l>
+<lb/><l n="350">So changed he his mete and his sopeere</l>
+<lb/><l n="351">Ful many a fat <am>ꝑ</am><ex>par</ex>trich hadde he in Mewe</l>
+<lb/><l n="352">And many a brem and many a luce in stuwe</l>
+<lb/><l n="353">Wo was his cooke but his sauce were</l>
+<lb/><l n="354">Poynant and scharp and redy a<am>ƚƚ</am><ex>lle</ex> his gere</l>
+<lb/><l n="355">His table dormant in his halle alway</l>
+<lb/><l n="356">Stod redy couered a<am>ƚƚ</am><ex>lle</ex> the longe day</l>
+<lb/><l n="357">At Sessions þer was he lord and sire</l>
+<lb/><l n="358">Ful ofte tyme he was knight of þe schire</l>
+<lb/><l n="359">An anelas and a gisper al of silke</l>
+<lb/><l n="360">Heng at his girdel whit as morne mylke</l>
+<lb/><l n="361">A scherref had he ben and a comptour</l>
+<lb/><l n="362">Was nowher such a worþi vanasou</l>
+<pb facs="6r.jpg" n="6r"/>
+<lb/><l n="363"><hi rend="orncp1">A</hi>n haburdaissher and a Carpenter</l>
+<lb/><l n="364">A Webbe a Dyer and a Tapecer</l>
+<lb/><l n="365">And þei were cloþed alle in oo liuere</l>
+<lb/><l n="366">Of a solempne and a gret Frat<am>̉</am><ex>er</ex>nite</l>
+<lb/><l n="367">Ful freissch and newe here gere apiked was</l>
+<lb/><l n="368">Here knyfes nere chaped nought wiþ bras</l>
+<lb/><l n="369">But all wiþ siluer wrought ful clene and wel</l>
+<lb/><l n="370">Here gerdles and here pouches eueridel</l>
+<lb/><l n="371">Wel semed ech of hem a fair burgeys</l>
+<lb/><l n="372">To sitten in a yeldehalle on a deys</l>
+<lb/><l n="373">Euerich for þe wisdom þat he can</l>
+<lb/><l n="374">Was schaply for to ben an Alderman</l>
+<lb/><l n="375">For Catell hadde þei ynough and rente</l>
+<lb/><l n="376">And eek here wyues wolde it wel assente</l>
+<lb/><l n="377">And elles certein þei were to blame</l>
+<lb/><l n="378">It is ful fair to be cleped ma dame</l>
+<lb/><l n="379">And gon to vigilies al bifore</l>
+<lb/><l n="380">And haue a mantel rialliche / bore</l>
+<lb/><l n="381"><hi rend="orncp1">A</hi> Cook þei hadde wiþ hem for þe nones</l>
+<lb/><l n="382">To boyle þe chikenes with þe maryebones</l>
+<lb/><l n="383">And poudre marcha<am>̄</am><ex>n</ex>nt tart and gallyngale</l>
+<lb/><l n="384">Wel kowde he know a draught of london ale /</l>
+<lb/><l n="385">He couþe rost and seþe and broile and frie</l>
+<lb/><l n="386">Maken mortreux and wel bake a pye</l>
+<lb/><l n="387">But gret harm was it as it þoughte me</l>
+<lb/><l n="388">That on his schyne a mormal hadde he</l>
+<lb/><l n="389">For blank manger þat made he wiþ þe beste /</l>
+<lb/><l n="390"><hi rend="orncp1">A</hi> schipman was þer wonyng fer by weste</l>
+<lb/><l n="391">For ought I wot he was of Dertemouthe</l>
+<lb/><l n="392">He rood vpon a rouncy as he couþe</l>
+<lb/><l n="393">In a gowne of faldyng to þe knee /</l>
+<lb/><l n="394">A dagger hangyng in a lace hadde he /</l>
+<lb/><l n="395">Aboute his nekke vnder his arm a doun</l>
+<lb/><l n="396">The hoote somer had mad his hiew al bro<am rend="ū">ıı̄</am><ex>un</ex></l>
+<lb/><l n="397">And certeinly he was a good felawe</l>
+<lb/><l n="398">Ful many a draught of wyn he hadde draw</l>
+<pb n="6v" facs="6v.jpg"/>
+<lb/><l n="399">From Burdeaux warde whil þe chapmen sleepe</l>
+<lb/><l n="400">Of nyce conscience took he no keepe</l>
+<lb/><l n="401">If þat he faught and had þe heigher honde</l>
+<lb/><l n="402">By water he sent hem hom to euery londe</l>
+<lb/><l n="403">But of his craft to riken wel his tydes</l>
+<lb/><l n="404">His stremes and his daunger him besydes</l>
+<lb/><l n="405">His herberwe and his moone and his ledmannage</l>
+<lb/><l n="406">Ther nae non such from hulle to kartage</l>
+<lb/><l n="407">Hardy he was and wys to vndurtake</l>
+<lb/><l n="408">With many a tempest had his berd be schake</l>
+<lb/><l n="409">He knew alle þe hauenes as they were</l>
+<lb/><l n="410">Fro Gotlond to þe Cape de fynystere</l>
+<lb/><l n="411">And euery Cryke in Bretaigne and in Spaigne</l>
+<lb/><l n="412">His barge y cleped was þe Mawdeleyne</l>
+<lb/><l n="413"><hi rend="orncp1">W</hi>ith vs þer was a Doctour of Phisike</l>
+<lb/><l n="414">In al þis world ne was þer non him like</l>
+<lb/><l n="415">To speke of Phisik and of Surgerie</l>
+<lb/><l n="416">For he was grounded in astronomie</l>
+<lb/><l n="417">He kept his pacient a ful gret del</l>
+<lb/><l n="418">In houres by his magiq<am>ꝫ</am><ex>ue</ex> naturel</l>
+<lb/><l n="419">Wel couþe he fortune the ascendent</l>
+<lb/><l n="420">Of his ymages for his pacient</l>
+<lb/><l n="421">He knewe þe cause of euery maladie /</l>
+<lb/><l n="422">Were it of hoot of cold or moist or drie /</l>
+<lb/><l n="423">And wher engendred and of what humour</l>
+<lb/><l n="424">He was a verray <am>ꝑ</am><ex>par</ex>fit practisour</l>
+<lb/><l n="425">The cause I knowe and of his harm þe rote /</l>
+<lb/><l n="426">Anon he ȝaf þe sike man his bote</l>
+<lb/><l n="427">Ful redy had he his appotecaries</l>
+<lb/><l n="428">To sende hem drugges and his letuaries</l>
+<lb/><l n="429">For ech of hem made oþer for to wynne</l>
+<lb/><l n="430">Here frendschip nas nat / newe for to gynne /</l>
+<lb/><l n="431">Wel knew he þe olde Escalapius</l>
+<lb/><l n="432">And discorides and eke Rusus</l>
+<lb/><l n="433">Olde ypocras haly and Galien</l>
+<lb/><l n="434">Serapion Razie and auyzen</l>
+<pb n="7r" facs="7r.jpg"/>
+<lb/><l n="435">Auerois damascien and Constantine</l>
+<lb/><l n="436">Bernard and Gatisdene and Gilbertine</l>
+<lb/><l n="437">Of his diete mesurable was he</l>
+<lb/><l n="438">For it was of no su<am>ꝑ</am><ex>per</ex>fluite</l>
+<lb/><l n="439">But of gret norisshing and digestible</l>
+<lb/><l n="440">His studie was but litel on the Bible</l>
+<lb/><l n="441">In sangweyn and in pers he clad was al</l>
+<lb/><l n="442">Lyned wiþ Taffata and with Sendal</l>
+<lb/><l n="443">And yet he was but esy of dispense</l>
+<lb/><l n="444">He kepte þat he wan in Pestilence</l>
+<lb/><l n="445">For gold in phisique is accordial</l>
+<lb/><l n="446">Therfore he loued gold in special</l>
+<lb/><l n="447"><hi rend="orncp1">A</hi> good wif þer was of by-syde bathe</l>
+<lb/><l n="448">But sche was somdel def and þat was skaþe</l>
+<lb/><l n="449">Of cloþ makyng sche hadde such an haunte</l>
+<lb/><l n="450">Sche passed hem of ypres and of Gaunte</l>
+<lb/><l n="451">In al þe parissche wif ne was þer noon</l>
+<lb/><l n="452">Þat to þe offryng toforn hire schulde gon</l>
+<lb/><l n="453">And if þer dede certein wroþ was sche</l>
+<lb/><l n="454">That sche was oute of alle charite /</l>
+<lb/><l n="455">Hire couerchiefs ful fyne were of grounde</l>
+<lb/><l n="456">I dorste swere þei weyeden ten pounde</l>
+<lb/><l n="457">That on a soneday weren vpon hir hede</l>
+<lb/><l n="458">Hire hosen weren of fyn scarlet reede</l>
+<lb/><l n="459">Ful streyt yteyed and schoos ful moyste and newe</l>
+<lb/><l n="460">Bolde was hir face and fair and reed of hewe</l>
+<lb/><l n="461">Sche was a worþi wo<am>̄</am><ex>m</ex>man al hir lyue</l>
+<lb/><l n="462">Housbondes atte chirche dore sche hadde fyue</l>
+<lb/><l n="463">Wiþouten oþer companye in ȝouþe</l>
+<lb/><l n="464">But þer of needeþ nought to speke as nouþe</l>
+<lb/><l n="465">And þries hadde sche ben at <am>Ierlm̄</am><ex>Ierusalem</ex></l>
+<lb/><l n="466">Sche hadde passed many a strange strem</l>
+<lb/><l n="467">At Rome sche hadde ben and at Boloigne</l>
+<lb/><l n="468">In Galice at saint Iame and at Coloigne</l>
+<lb/><l n="469">Sche couþe moche on wandring by þe weye</l>
+<lb/><l n="470">Gat toþed was sche soþly for to seye</l>
+<pb n="7v" facs="7v.jpg"/>
+<lb/><l n="471">Vpon an ambler esely sche satte</l>
+<lb/><l n="472">I wympled wel and on hir heed an hatte</l>
+<lb/><l n="473">As brood as is a bokeler or a targe</l>
+<lb/><l n="474">A fote mantell abouten hir hipes large /</l>
+<lb/><l n="475">And on hire feet a paire of spores scharpe</l>
+<lb/><l n="476">In felaschipe wel couþe sche laughe and carpe</l>
+<lb/><l n="477">Of remedies of loue sche knew <am>ꝑ</am><ex>par</ex> chaunce /</l>
+<lb/><l n="478">For sche couþe of þat art þe colde daunce</l>
+<lb/><l n="479"><hi rend="orncp1">A</hi> good man was þer of religio<am rend="n̄">ıı̄</am><ex>un</ex></l>
+<lb/><l n="480">And was a poure <am>ꝑ</am><ex>per</ex>so<am rend="n̄">ıı̄</am><ex>un</ex> of a toun</l>
+<lb/><l n="481">But riche he was of holy þought and werk</l>
+<lb/><l n="482">He was also a lerned man and a clerk</l>
+<lb/><l n="483">That cristes gospell trewly wolde preche</l>
+<lb/><l n="484">His <am>ꝑ</am><ex>par</ex>isshiens deuoutly wolde he teche</l>
+<lb/><l n="485">Benigne he was and wonder diligent</l>
+<lb/><l n="486">And in aduersite ful pacient</l>
+<lb/><l n="487">and swich he was preued ofte siþes</l>
+<lb/><l n="488">Ful loþ were him to cursen for his tyþes /</l>
+<lb/><l n="489">But raþer wolde he yeuen out of doute</l>
+<lb/><l n="490">Vnto his poure parisshens aboute</l>
+<lb/><l n="491">Of his offryng and of his substance</l>
+<lb/><l n="492">He couþe in litel þing haue suffisance</l>
+<lb/><l n="493">Wyd was his parisshe and houses fer a sondre</l>
+<lb/><l n="494">But he ne lefte nought for rayn ne þondre</l>
+<lb/><l n="495">In seknesse nor in meschief to visite</l>
+<lb/><l n="496">The ferreste in his parisshe moche and lite</l>
+<lb/><l n="497">Vpon his feet and in his hond a staf</l>
+<lb/><l n="498">This noble ensample to his scheep he yaf</l>
+<lb/><l n="499">That ferst he wrought and aftirward he taughte</l>
+<lb/><l n="500">Out of þe gospel he þo wordes caughte</l>
+<lb/><l n="501">And þis fugure he addede eek / þer to</l>
+<lb/><l n="502">That if gold ruste what schal Iren do</l>
+<lb/><l n="503">For if a prest be foul on whom we truste</l>
+<lb/><l n="504">No wonder is a lewed man to Ruste</l>
+<lb/><l n="505">And schame it is if a prest take kepe</l>
+<lb/><l n="506">A schiten schep<am>ꝑ</am><ex>per</ex>de and a clene schepe</l>
+<pb n="8r" facs="8r.jpg"/>
+<lb/><l n="507">Wel ought a prest ensample for to ȝyue</l>
+<lb/><l n="508">By his clennes how þat his scheep schulde lyue</l>
+<lb/><l n="509">He sette nought his benefice to hire</l>
+<lb/><l n="510">And leet his scheep acombred in þe myre</l>
+<lb/><l n="511">And ran to londo<am rend="ū">ıı̄</am><ex>un</ex> vnto Seinte Poules</l>
+<lb/><l n="512">To seeke him a Chaunterie for soules</l>
+<lb/><l n="513">Or with a breþerede for to be with holde /</l>
+<lb/><l n="514">But duelte at hom and kepte wel his folde</l>
+<lb/><l n="515">So þat þe wolf ne made it not miscarie</l>
+<lb/><l n="516">He was a schep<am>ꝑ</am><ex>per</ex>de and not a mercenarie</l>
+<lb/><l n="517">And þough he holy were and vertuous</l>
+<lb/><l n="518">He was nought to synful men dispitous</l>
+<lb/><l n="519">Ne of his speche daungerous ne digne</l>
+<lb/><l n="520">But in his teching discret and benigne</l>
+<lb/><l n="521">To drawe folk to heuen by fairnesse</l>
+<lb/><l n="522">By good ensample þis was his bisynesse /</l>
+<lb/><l n="523">But it were ony <am>ꝑ</am><ex>per</ex>sone obstinat</l>
+<lb/><l n="524">What so he were of heigh or low estat</l>
+<lb/><l n="525">Him wolde he snebbe scharply for þe nones</l>
+<lb/><l n="526">A bettre prest I trowe þat nowher non es</l>
+<lb/><l n="527">He waited after no pompe <am>⁊</am><ex>and</ex> reuerence</l>
+<lb/><l n="528">Ne maked him a spiced conscience</l>
+<lb/><l n="529">But cristes lore and his apostles twelue</l>
+<lb/><l n="530">He taught but ferst he folwed in himselue /</l>
+<lb/><l n="531"><hi rend="orncp1">W</hi>ith him þer was a plowma<am>̄</am><ex>n</ex> was his broþer</l>
+<lb/><l n="532">That hadde I ladde of dong ful many a foþer</l>
+<lb/><l n="533">A trewe swynker and a good was he</l>
+<lb/><l n="534">Lyuyng in pees and <am>ꝑ</am><ex>par</ex>fit charite</l>
+<lb/><l n="535">God loued he best wiþ alle his herte</l>
+<lb/><l n="536">At alle tymes þough him gamed or smerte</l>
+<lb/><l n="537">And þan his Neighebore right as him selue</l>
+<lb/><l n="538">He wolde þressche and þerto dike <am>⁊</am><ex>and</ex> delue</l>
+<lb/><l n="539">For cristes sake for euery pouere wight</l>
+<lb/><l n="540">Wiþouten hire if it lay in his might</l>
+<lb/><l n="541">His tiþes payed he ful fair and well</l>
+<lb/><l n="542">Boþe of his <am>ꝓ</am><ex>pro</ex>pre swynk and his catell</l>
+<pb n="8v" facs="8v.jpg"/>
+<lb/><l n="543">In a Tabbard he rood vpon a mere</l>
+<lb/><l n="544">Ther was also a Reeue and a Mellere /</l>
+<lb/><l n="545">A Sompno<am>ᵘ</am><ex>ur</ex> and a Pardoner also</l>
+<lb/><l n="546">A Maunciple <am>⁊</am><ex>and</ex> my self þer nare no mo /</l>
+<lb/><l n="547"><hi rend="orncp1">T</hi>he meller was a stout carl for þe nones</l>
+<lb/><l n="548">Ful big he was of brawn and eek of bones</l>
+<lb/><l n="549">That proued wel for ouer al þar he cam</l>
+<lb/><l n="550">Atte wrastlyng he wold haue a wey þe ram</l>
+<lb/><l n="551">He was schort schuldred a þikke knarre</l>
+<lb/><l n="552">The was no dore þat he nolde heue of harre</l>
+<lb/><l n="553">Or breke it at a rennyng with his heede</l>
+<lb/><l n="554">His berd as eny sowe or eny fox was reede</l>
+<lb/><l n="555">And þerto brod as þough it were a spade /</l>
+<lb/><l n="556">Vpon þe cop right of his nose he hade</l>
+<lb/><l n="557">A wert and þer on stood a tuft of heeres</l>
+<lb/><l n="558">Reed as the berstles of a sowes Eres /</l>
+<lb/><l n="559">Hise nose þrilles blake weren and wide</l>
+<lb/><l n="560">A swerd and bokeler bar he by his syde</l>
+<lb/><l n="561">His mouþ as gret was as a gret fourneys</l>
+<lb/><l n="562">He was a Iangler and a goliardeys</l>
+<lb/><l n="563">And þat was most of synne and harlotries</l>
+<lb/><l n="564">Wel couþe he stele corn and tolle þries</l>
+<lb/><l n="565">And ȝit he hadde a þombe of gold parde</l>
+<lb/><l n="566">A whit cote and a blew hood wered he</l>
+<lb/><l n="567">A Baggepipe wel couþe he blowe and soun</l>
+<lb/><l n="568">And þer with al he brought vs out of toun</l>
+<lb/><l n="569"><hi rend="orncp1">A</hi> gentil maunciple was þer of a temple /</l>
+<lb/><l n="570">Of which achatours mighte take exsemple /</l>
+<lb/><l n="571">For to ben wyse in byeng of vitaile</l>
+<lb/><l n="572">For wheþer þat he paied or took by taile</l>
+<lb/><l n="573">Algate he wayted so in his achate</l>
+<lb/><l n="574">That he was ay biforn and in good estate /</l>
+<lb/><l n="575">Now is not þat of god a ful fair grace</l>
+<lb/><l n="576">That such a lewed mannes witt schal pace</l>
+<lb/><l n="577">The wisdom of an heep of lernede men</l>
+<lb/><l n="578">Of maistres hadde mo þan þries ten</l>
+<pb n="9r" facs="9r.jpg"/>
+<lb/><l n="579">That were of lawe expert and curious</l>
+<lb/><l n="580">Of which þer was a dosein in that hous</l>
+<lb/><l n="581">Worþi to ben Stywardes of Rente and londe</l>
+<lb/><l n="582">Of any lord þat is in Ingelonde</l>
+<lb/><l n="583">To make him lyue by his <am>ꝓ</am><ex>pro</ex>pre good</l>
+<lb/><l n="584">In honour detteles but if þat he were wood</l>
+<lb/><l n="585">Or lyue as skarsly as him list desire</l>
+<lb/><l n="586">And able for to helpen al a schire</l>
+<lb/><l n="587">In any cas þat mighte falle or happe</l>
+<lb/><l n="588">And ȝit þis manciple sette here alþer cappe</l>
+<lb/><l n="589"><hi rend="orncp1">T</hi>he Reeue was a sclender colerik man</l>
+<lb/><l n="590">His berd was schaue as nygh as euer he can</l>
+<lb/><l n="591">His her was by his eeres ful round y schorn</l>
+<lb/><l n="592">His toppe was dokked lik a prest biforn</l>
+<lb/><l n="593">Ful longe were his legges and ful lene</l>
+<lb/><l n="594">I lik a staf þer was no calf y sene</l>
+<lb/><l n="595">Wel couþe he kepe a garner or a bynne</l>
+<lb/><l n="596">Ther was non auditour couþe on him wynne</l>
+<lb/><l n="597">Wel wist he by þe drought and by þe reyne</l>
+<lb/><l n="598">The yeldyng of his seed and of his greyne</l>
+<lb/><l n="599">His lordes scheep his neet his dayerie</l>
+<lb/><l n="600">His swyn his hors his stoor and his pulletrie</l>
+<lb/><l n="601">Was holly in þis Reeues gouernynge /</l>
+<lb/><l n="602">And by his couenant ȝaf þe rikenynge</l>
+<lb/><l n="603">Syn þat his lord was twenty ȝeer of age</l>
+<lb/><l n="604">Ther couþe no man brynge him in arrerage</l>
+<lb/><l n="605">Ther nas baillif ne herde nor oþer hyne</l>
+<lb/><l n="606">That he ne knew his sleight and his covyne</l>
+<lb/><l n="607">They were adrad of him as of þe deþ</l>
+<lb/><l n="608">His wonyng was ful fair vpon an heþ</l>
+<lb/><l n="609">Wiþ greene trees schadewed was his place</l>
+<lb/><l n="610">He couþe bettre þan his lord purchace</l>
+<lb/><l n="611">Ful Riche he was astored priuely</l>
+<lb/><l n="612">His lord he couþe plese wel subtily</l>
+<lb/><l n="613">To yiue and lene him of his oughne good</l>
+<lb/><l n="614">And haue a þank and yet a cote and hood</l>
+<pb n="9v" facs="9v.jpg"/>
+<lb/><l n="615">In ȝouþe he hadde lerned a good mester</l>
+<lb/><l n="616">He was a wel good wrighte a Carpenter</l>
+<lb/><l n="617">This reeue satte vpon a ful good stot</l>
+<lb/><l n="618">That was al pomely grey and highte scot</l>
+<lb/><l n="619">A long Surcote of pers vpon he hadde</l>
+<lb/><l n="620">And by his syde he bar a rusty bladde</l>
+<lb/><l n="621">Of Northfolk was þis Reue of which I telle</l>
+<lb/><l n="622">Bysyden a toun men clepen it Baldeswelle</l>
+<lb/><l n="623">Tukked he was as is a frere aboute</l>
+<lb/><l n="624">And euer he rood þe hyndrest of oure route</l>
+<lb/><l n="625">A Somynour was þer with vs in þat place</l>
+<lb/><l n="626">That hadde a fyri cherubynnes face</l>
+<lb/><l n="627">For Sauseflem he was with eyghen narwe /</l>
+<lb/><l n="628">Als hoot he was and leccherous as a sparwe</l>
+<lb/><l n="629">Wiþ scalled browes blak and piled berde /</l>
+<lb/><l n="630">Of his visage children weren afferde</l>
+<lb/><l n="631">Ther nas quyk siluer litarge or bremston</l>
+<lb/><l n="632">Boras orsure ne oyle of Tarte noon</l>
+<lb/><l n="633">Ne oynement þat wolde clense and byte</l>
+<lb/><l n="634">To him might helpe of his whelkes white</l>
+<lb/><l n="635">Nor of þe knobbes sittyng in his cheekes</l>
+<lb/><l n="636">Wel loued he garlik oynons and eek leekes</l>
+<lb/><l n="637">And for to drinke strong wyn reed as blood</l>
+<lb/><l n="638">Than wolde he speke and crye as he were wood</l>
+<lb/><l n="638-1">And whan þat he wel dronken hadde þe wyn</l>
+<lb/><l n="638-2">Than wold he speke no word but latyne</l>
+<lb/><l n="639">A fewe termes hadde he tuo or þre</l>
+<lb/><l n="640">That he had lerned out of som decre</l>
+<lb/><l n="641">No wonder is he herd it al þe day</l>
+<lb/><l n="642">And eek ȝe knowen it wel how þat a Iay</l>
+<lb/><l n="643">Can clepe watte as wel as can þe pope</l>
+<lb/><l n="644">But who so couþe in oþer þing him grope</l>
+<lb/><l n="645">Than hadde he spent al his philosophie</l>
+<lb/><l n="646">Ay questio quid Iuris wolde he crye</l>
+<lb/><l n="647">He was a gentil harlot and a kynde</l>
+<lb/><l n="648">A bettre felaw schulde men not fynde</l>
+<pb n="10r" facs="10r.jpg"/>
+<lb/><l n="649">He wolde suffre for a quart of wyn</l>
+<lb/><l n="650">A good felawe to haue his concubyn</l>
+<lb/><l n="651">A twelf moneth and excuse him atte fulle /</l>
+<lb/><l n="652">Ful priuely eek a fynch couþe he pulle /</l>
+<lb/><l n="653">And if he fond owher a good felawe</l>
+<lb/><l n="654">He wolde techen him to han non awe</l>
+<lb/><l n="655">In such caas of þe Erchedeknes curs</l>
+<lb/><l n="656">But if mannes soule were in his purs</l>
+<lb/><l n="657">For in his purs he scholde punyssched be</l>
+<lb/><l n="658">Purs is þe Erchedeknes helle seide he</l>
+<lb/><l n="659">But wel I wot he lyhede right in dede</l>
+<lb/><l n="660">Of cursyng ought eche gilty man him drede</l>
+<lb/><l n="661">For curs wil sle right as assoyling sauith</l>
+<lb/><l n="662">And also war him of a Significauith</l>
+<lb/><l n="663">In daunger hadde he at his owne gyse</l>
+<lb/><l n="664">The yonge gerles of þe diocise</l>
+<lb/><l n="665">And knew here counseil and what was al here rede</l>
+<lb/><l n="666">A garland hadde he sette vpon his heede</l>
+<lb/><l n="667">As gret as it were for an ale stake</l>
+<lb/><l n="668">A bokeler hadde he made him of a cake /</l>
+<lb/><l n="669">With him þer rood a gentill pardoner</l>
+<lb/><l n="670">Of Rouncyuall his frend and his comper</l>
+<lb/><l n="671">That streight was comen fro þe court of Rome</l>
+<lb/><l n="672">Ful lowe he song come hider loue tome</l>
+<lb/><l n="673">This Somno<am>ᵘ</am><ex>ur</ex> bar to him a stif burdo<am rend="n̄">ıı̄</am><ex>un</ex></l>
+<lb/><l n="674">Was neuer trompe of half so gret a soun</l>
+<lb/><l n="675"><hi rend="orncp1">T</hi>his <am>ꝑ</am><ex>par</ex>doner hadde her as yelow as wax</l>
+<lb/><l n="676">But smothe it heng as doth a strik of flax.</l>
+<lb/><l n="677">By ounces heng his lokkes þat he hadde /</l>
+<lb/><l n="678">And þer with he his schuldres ouer spradde</l>
+<lb/><l n="679">But þinne it lay by culpo<am rend="n̄">ıı̄</am><ex>un</ex>s on and oon</l>
+<lb/><l n="680">But hood for Iolite werede he noon</l>
+<lb/><l n="681">For it was trussed vp in his walet</l>
+<lb/><l n="682">Him þoughte he rood al of the newe get</l>
+<lb/><l n="683">Discheuele saf his cappe he rood al bare</l>
+<lb/><l n="684">Swich glaryng yghen hadde he as an har</l>
+<pb n="10v" facs="10v.jpg"/>
+<lb/><l n="685">A vernicle hadde he sewid on his cappe</l>
+<lb/><l n="686">His walet biforn him in his lappe /</l>
+<lb/><l n="687">Bret ful of <am>ꝑ</am><ex>par</ex>do<am rend="n̄">ıı̄</am><ex>un</ex> comen fro Rome al hoot</l>
+<lb/><l n="688">A voys he hadde as smal as a goot</l>
+<lb/><l n="689">No berd ne hadde he ne neuer schulde haue</l>
+<lb/><l n="690">As smothe it was as it ware late schaue</l>
+<lb/><l n="691">I trowe he were a geldyng or a mare</l>
+<lb/><l n="692">But of his craft fro Berwik in to ware</l>
+<lb/><l n="693">Ne was þer such anoþer <am>ꝑ</am><ex>par</ex>doner</l>
+<lb/><l n="694">For in his male he hadde a pilewber</l>
+<lb/><l n="695">Which þat he sayde was oure lady veyle</l>
+<lb/><l n="696">He seide he hadde a gobet of þe seyle</l>
+<lb/><l n="697">That seint petir hadde whan þat he wente</l>
+<lb/><l n="698">Vpon þe see til <am>iħu</am><ex>ihesu</ex> crist him hente</l>
+<lb/><l n="699">He hadde a Croys of lato<am rend="n̄">ıı̄</am><ex>un</ex> ful of stones</l>
+<lb/><l n="700">And in a glas he hadde pigges boones</l>
+<lb/><l n="701">But with þese reliqes whan þat he fonde</l>
+<lb/><l n="702">A poure <am>ꝑ</am><ex>per</ex>son̄ dwellyng vpon londe /</l>
+<lb/><l n="703">Vpon a day he gat him more moneye</l>
+<lb/><l n="704">Than þat þe <am>ꝑ</am><ex>per</ex>son̄ gat in monþes tweye</l>
+<lb/><l n="705">And þus with feyned flatering and Iapes</l>
+<lb/><l n="706">He made þe <am>ꝑ</am><ex>per</ex>son̄ and þe poeple his apes</l>
+<lb/><l n="707">But trewely to tellen atte þe laste</l>
+<lb/><l n="708">He was in chirche a noble ecclesiaste</l>
+<lb/><l n="709">Wel couþe he rede a lessonn or a story</l>
+<lb/><l n="710">But alþer best he song an offertory</l>
+<lb/><l n="711">For wel he wiste whan þat song was songe</l>
+<lb/><l n="712">He moste preche and welaffile his tonge</l>
+<lb/><l n="713">To wynne seluer as he wel cowde</l>
+<lb/><l n="714">Ther fore he song so meriely and lowde /</l>
+<lb/><l n="715">Now haue I told ȝow soþly in a clause</l>
+<lb/><l n="716">The estat . the array þe nombre and eeke þe cause</l>
+<lb/><l n="717">Whi þat assembled was þis companie</l>
+<lb/><l n="718">In Suthwerk at þis gentil hostelrie /</l>
+<lb/><l n="719"><hi rend="orncp1">T</hi>hat highte þe Tabbard faste by þe belle</l>
+<lb/><l n="720">But now is tyme to yow for to telle </l>
+<pb n="11r" facs="11r.jpg"/>
+<lb/><l n="721">How þat we beeren vs þat ilke night</l>
+<lb/><l n="722">Whan we were in þat Osterie alight</l>
+<lb/><l n="723">And after wol I telle of oure viage</l>
+<lb/><l n="724">And all þe remenant of our pilgrimage</l>
+<lb/><l n="725">But ferst I pray ȝow of your curtesie</l>
+<lb/><l n="726">The ȝe ne rette it nought my vilenye</l>
+<lb/><l n="727">Though þat I pleinly speke in þis matere</l>
+<lb/><l n="728">To telle ȝow here wordes and here cheere</l>
+<lb/><l n="729">Ne þough I speke here wordes <am>ꝓ</am><ex>pro</ex>purly</l>
+<lb/><l n="730">For þis ȝe knowen as wel as I</l>
+<lb/><l n="731">Who so schal telle a tale after a man</l>
+<lb/><l n="732">He mot reherse as neyh as euer he can</l>
+<lb/><l n="733">Eu<am>̉</am><ex>er</ex>ich a word if it be in his charge</l>
+<lb/><l n="734">Al speke he neuer so rudely and large</l>
+<lb/><l n="735">Or elles he moot telle his tale vntrewe</l>
+<lb/><l n="736">Or feyne þinges or fynde wordes newe</l>
+<lb/><l n="737">He may nought spare al þough he were his broþer</l>
+<lb/><l n="738">He moot als wel seie o word as anoþer</l>
+<lb/><l n="739">Crist spak himself ful brode in holy writte</l>
+<lb/><l n="740">And wel ȝe wot no vilenye is itte</l>
+<lb/><l n="741">Ek Plato seith who so can him rede</l>
+<lb/><l n="742">The wordes mot be cosyn to þe dede</l>
+<lb/><l n="743">Also I preyȝe ȝow forȝiue it me</l>
+<lb/><l n="744">Al haue I not set folk in here degre</l>
+<lb/><l n="745">Heer in þis tale as þat þei scholden stonde</l>
+<lb/><l n="746">My witt is schort ȝe may wel vnderstonde</l>
+<lb/><l n="747"><hi rend="orncp1">G</hi>ret cheere maad our ost vs eu<am>̉</am><ex>er</ex>ychon </l>
+<lb/><l n="748">And to þe sou<am>ꝑ</am><ex>per</ex> sette he vs anon</l>
+<lb/><l n="749">He serued vs with vitailles atte beste</l>
+<lb/><l n="750">Strong was þe wyn and wel drynken vs leste</l>
+<lb/><l n="751">A semly man our hoste he was with alle</l>
+<lb/><l n="752">For to ben a marchall in an hall</l>
+<lb/><l n="753">A large man he was with eyȝen stepe</l>
+<lb/><l n="754">A fairer burgeys is þer non in Chepe</l>
+<lb/><l n="755">Bold of his speche and wys and wel y taught</l>
+<lb/><l n="756">And of manhode him lakkede right naugh</l>
+<pb n="11v" facs="11v.jpg"/>
+<lb/><l n="757">Ek þer to he was right a merie man</l>
+<lb/><l n="758">And after soper pleyen he bigan</l>
+<lb/><l n="759">And spak of merþe amonges oþer þinges</l>
+<lb/><l n="760">Whan þat he hadde maad our rikenynges</l>
+<lb/><l n="761">And seide þus Now lordynges trewely</l>
+<lb/><l n="762">Ȝe ben to me welcome right hertely</l>
+<lb/><l n="763">For by my trouthe if þat I schal not lye</l>
+<lb/><l n="764">I seyh not þis yer so mery a companye</l>
+<lb/><l n="765">At oones in þis herberw as is now</l>
+<lb/><l n="766">Fayn wold I don ȝou merthe wist I how</l>
+<lb/><l n="767">And of a merþe I am right now biþought</l>
+<lb/><l n="768">To don you eese and it schal coste nought</l>
+<lb/><l n="769">Ye gon to Canturbury god yow speede</l>
+<lb/><l n="770">The blisful martir quyte ȝou ȝour meede</l>
+<lb/><l n="771">And wel I woot as ȝe gon by þe weye</l>
+<lb/><l n="772">Ye schapen ȝou to talen and to pleye</l>
+<lb/><l n="773">For trewely confort ne merþe is non</l>
+<lb/><l n="774">To riden by þe wey domb as a ston</l>
+<lb/><l n="775">And þer for wol I make you disport</l>
+<lb/><l n="776">As I seide erst and do you som confort</l>
+<lb/><l n="777">And if ȝou likeþ all by on assent</l>
+<lb/><l n="778">For to stonden at my Iuggement</l>
+<lb/><l n="779">And for to werken as I schal ȝou seie</l>
+<lb/><l n="780">To morwe whan ȝe riden by þe weie </l>
+<lb/><l n="781">Now by my fader soule þat is deed</l>
+<lb/><l n="782">But ȝe be merye I wil ȝeue yow my<am>̄</am><ex>n</ex> heed</l>
+<lb/><l n="783">Hold vp ȝour hond wiþoute more speche </l>
+<lb/><l n="784">Our counseil was not longe for to seche </l>
+<lb/><l n="785">Vs þought it was not worþ to make it wys</l>
+<lb/><l n="786">And g<am>ᵃ</am><ex>ra</ex>unted him wiþoute more abys</l>
+<lb/><l n="787">And bad him seye his verdit as him leste</l>
+<lb/><l n="788"><hi rend="orncp1">L</hi>ordyng<am>ꝭ</am><ex>es</ex> quod he / now herkneþ for þe beste</l>
+<lb/><l n="789">But take it nought I prey ȝow in disdeigne</l>
+<lb/><l n="790">This is þe poynt to speke schort and pleigne</l>
+<lb/><l n="791">That ech of ȝou to schorte with ȝour weye</l>
+<lb/><l n="792">In þis viage schal telle tales twei</l>
+<pb n="12r" facs="12r.jpg"/>
+<lb/><l n="793">To Canturbury ward I mene it so</l>
+<lb/><l n="794">And homward he schal tellen oþer tuo</l>
+<lb/><l n="795">Of auentures þat whilom haue bifall</l>
+<lb/><l n="796">And which of yow þat beriþ him best of all</l>
+<lb/><l n="797">That is to sein that telleþ in þis cas</l>
+<lb/><l n="798">Tales of best sentence and most solas </l>
+<lb/><l n="799">Schal haue a sou<am>ꝑ</am><ex>per</ex> at our alþer cost</l>
+<lb/><l n="800">Her in þis place sittynge by þis post</l>
+<lb/><l n="801">Whan þat we comen aȝein fro Canturbury</l>
+<lb/><l n="802">And for to make ȝou þe more mury</l>
+<lb/><l n="803">I wil my seluen goodly with ȝou ryde</l>
+<lb/><l n="804">Right at myn owne cost and be ȝour gyde</l>
+<lb/><l n="805">And who so wol my Iuggement wiþ seye</l>
+<lb/><l n="806">Schal paye al þat we spende by þe weye</l>
+<lb/><l n="807">And if ȝe vouche saf þat it be so</l>
+<lb/><l n="808">Tel me anon wiþouten wordes moo</l>
+<lb/><l n="809">And I wol erly schape me þer fore</l>
+<lb/><l n="810">This þing was graunted and our oþes swore</l>
+<lb/><l n="811">With ful glad herte and preyȝen him also</l>
+<lb/><l n="812">That he wolde vouche saf for to do so</l>
+<lb/><l n="813">And þat he wolde ben our gouernour</l>
+<lb/><l n="814">And of oure tales Iugge and reportour</l>
+<lb/><l n="815">And sette a sou<am>ꝑ</am><ex>per</ex> at a certein pris</l>
+<lb/><l n="816">And we wiln rewled ben at his deuys </l>
+<lb/><l n="817">In heighe and lowe and þus by oon assent</l>
+<lb/><l n="818">We ben accorded to þe Iuggement</l>
+<lb/><l n="819">And þer vpon þe wyn was fet anon</l>
+<lb/><l n="820">We dronken and to reste went echon</l>
+<lb/><l n="821">Wiþouten eny lenger taryyng</l>
+<lb/><l n="822">A morwe whan þe day bigan to spryng</l>
+<lb/><l n="823">Vp ros oure oost and was our alþer cok</l>
+<lb/><l n="824">And gadered vs to gider in a flok</l>
+<lb/><l n="825">And forþ we riden a litel more þan paas</l>
+<lb/><l n="826">Vnto þe wateryng of seint Thomᵃs</l>
+<lb/><l n="827">And þer our oost gan his hors areste</l>
+<lb/><l n="828">And seide lordes herkneþ if you lest</l>
+<pb facs="12v.jpg" n="12v"/>
+<lb/><l n="829">Ȝe wot ȝour forward and I it ȝou recorde</l>
+<lb/><l n="830">If euynsong and morwesong acorde</l>
+<lb/><l n="831">Lat see now who schal telle þe firste tale</l>
+<lb/><l n="832">As euer mote I drynke wyn of ale</l>
+<lb/><l n="833">Who so be rebel to my Iuggement</l>
+<lb/><l n="834">Schal paie for all þat by þe weie is spent</l>
+<lb/><l n="835">Now draweþ Cut or þat we ferþer twynne</l>
+<lb/><l n="836">He which þat haþ þe schortest schal bigynne</l>
+<lb/><l n="837">¶ Sir knight <am>qd</am><ex>quod</ex> he my maister and my lord</l>
+<lb/><l n="838">Now draweþ Cut for þat is myn acord</l>
+<lb/><l n="839">Comeþ nerre quod he my lady prioresse</l>
+<lb/><l n="840">And ȝe sir clerk let be ȝour schamfastnesse</l>
+<lb/><l n="841">Ne studieþ nought lay hond to eu<am>̉</am><ex>er</ex>y man</l>
+<lb/><l n="842">Anon to drawe euery wight bygan</l>
+<lb/><l n="843">And schortly for to tellen as it was</l>
+<lb/><l n="844">Were it by auenture or sort ort cas</l>
+<lb/><l n="845">The soþ is þis þe Cut fel to þe knight</l>
+<lb/><l n="846">Of which ful bliþe and glad was euery wight</l>
+<lb/><l n="847">And telle he moste his tale as it was resoun</l>
+<lb/><l n="848">By forward and by composicio<am rend="n̄">ıı̄</am><ex>un</ex></l>
+<lb/><l n="849">As ȝe han herd what nedeþ wordes mo</l>
+<lb/><l n="850">And whan þis good man saugh þat it was so</l>
+<lb/><l n="851">As he þat wys was and obedient</l>
+<lb/><l n="852">To keepe his forward by his free assent</l>
+<lb/><l n="853">He seide siþþe I schal begynne þe game</l>
+<lb/><l n="854">What welcome be þe Cutte a goddes name</l>
+<lb/><l n="855">Now lat vs ride and herkneþ what I seye</l>
+<lb/><l n="856">And with þat word we riden forþ oure weye</l>
+<lb/><l n="857">And he bigan with right a merye cheere</l>
+<lb/><l n="858">His tale anon and seyde as ȝe may heere</l>
+</div></body></text>
+</TEI>
