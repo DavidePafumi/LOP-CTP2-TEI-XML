@@ -3615,6 +3615,1516 @@ undefined
 	"cwrc:hasPrecision": "cwrc:mediumCertainty"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?organization_annotation_20240821105432848",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-21T16:54:32.848Z",
+	"dcterms:modified": "2024-08-21T16:54:32.848Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?organization_annotation_20240821105432848#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?organization_annotation_20240821105432848#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[242]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://de.dbpedia.org/resource/Assize_Court",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240821105724957",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-21T16:57:24.957Z",
+	"dcterms:modified": "2024-08-21T16:57:24.957Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240821105724957#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240821105724957#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[252]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q37594",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240821105839063",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-21T16:58:39.063Z",
+	"dcterms:modified": "2024-08-21T16:58:39.063Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240821105839063#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240821105839063#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[259]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
+		"@id": "http://www.wikidata.org/entity/Q1483709",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240821110151770",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-21T17:01:51.770Z",
+	"dcterms:modified": "2024-08-21T17:01:51.770Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240821110151770#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240821110151770#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[264]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q43216",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:low"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240821110520118",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-21T17:05:20.118Z",
+	"dcterms:modified": "2024-08-21T17:05:20.118Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240821110520118#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240821110520118#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[268]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q983142",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?rs_annotation_20240821110546640",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-21T17:05:46.640Z",
+	"dcterms:modified": "2024-08-21T17:05:46.640Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?rs_annotation_20240821110546640#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?rs_annotation_20240821110546640#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[269]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "food",
+		"@id": "http://www.wikidata.org/entity/Q7802",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?rs_annotation_20240821110624143",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-21T17:06:24.143Z",
+	"dcterms:modified": "2024-08-21T17:06:24.143Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?rs_annotation_20240821110624143#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?rs_annotation_20240821110624143#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[269]/rs[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "food",
+		"@id": "http://www.wikidata.org/entity/Q208385",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?rs_annotation_20240821110655052",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-21T17:06:55.052Z",
+	"dcterms:modified": "2024-08-21T17:06:55.052Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?rs_annotation_20240821110655052#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?rs_annotation_20240821110655052#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[271]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "food",
+		"@id": "http://dbpedia.org/resource/Game_pie",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?rs_annotation_20240821111105017",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-21T17:11:05.017Z",
+	"dcterms:modified": "2024-08-21T17:11:05.017Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?rs_annotation_20240821111105017#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?rs_annotation_20240821111105017#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[272]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "food",
+		"@id": "http://www.wikidata.org/entity/Q152",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:medium"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?rs_annotation_20240821111145585",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-21T17:11:45.585Z",
+	"dcterms:modified": "2024-08-21T17:11:45.585Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?rs_annotation_20240821111145585#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?rs_annotation_20240821111145585#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[272]/rs[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "food",
+		"@id": "http://www.wikidata.org/entity/Q10990",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?rs_annotation_20240821111234660",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-21T17:12:34.660Z",
+	"dcterms:modified": "2024-08-21T17:12:34.660Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?rs_annotation_20240821111234660#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?rs_annotation_20240821111234660#Selector",
+			"@type": "oa:RangeSelector",
+			"oa:hasStartSelector": {
+				"@type": "oa:XPathSelector",
+				"rdf:value": "TEI/text/body/div/l[277]/ex"
+			},
+			"oa:hasEndSelector": {
+				"@type": "oa:XPathSelector",
+				"rdf:value": "TEI/text/body/div/l[277]"
+			},
+			"oa:refinedBy": {
+				"@type": "oa:TextPositionSelector",
+				"oa:start": 0,
+				"oa:end": 24
+			}
+		}
+	},
+	"oa:hasBody": {
+		"@type": "food",
+		"@id": "http://www.wikidata.org/entity/Q732775",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?rs_annotation_20240821111308317",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-21T17:13:08.317Z",
+	"dcterms:modified": "2024-08-21T17:13:08.317Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?rs_annotation_20240821111308317#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?rs_annotation_20240821111308317#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[278]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "food",
+		"@id": "http://www.wikidata.org/entity/Q17767599",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?rs_annotation_20240821111538145",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-21T17:15:38.145Z",
+	"dcterms:modified": "2024-08-21T17:15:38.145Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?rs_annotation_20240821111538145#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?rs_annotation_20240821111538145#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[278]/rs[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "food",
+		"@id": "http://www.wikidata.org/entity/Q165278",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240821111637216",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-21T17:16:37.216Z",
+	"dcterms:modified": "2024-08-21T17:16:37.216Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240821111637216#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240821111637216#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[284]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q6422529",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240821111720060",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-21T17:17:20.060Z",
+	"dcterms:modified": "2024-08-21T17:17:20.060Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240821111720060#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240821111720060#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[287]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Sheriff",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240821111804008",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-21T17:18:04.008Z",
+	"dcterms:modified": "2024-08-21T17:18:04.008Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240821111804008#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240821111804008#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[287]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/State_auditor",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240821111918283",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-21T17:19:18.283Z",
+	"dcterms:modified": "2024-08-21T17:19:18.283Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240821111918283#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240821111918283#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[288]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Vavasour",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240821112336350",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-21T17:23:36.350Z",
+	"dcterms:modified": "2024-08-21T17:23:36.350Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240821112336350#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240821112336350#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[289]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
+		"@id": "http://dbpedia.org/resource/Haberdasher",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20240821112418130",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-21T17:24:18.130Z",
+	"dcterms:modified": "2024-08-21T17:24:18.130Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20240821112418130#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20240821112418130#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[289]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q154549",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader><text>
 <body>
 <pb facs="2r.jpg" n="2r"/>
@@ -3867,7 +5377,7 @@ undefined
 <lb/><l n="313">That was also / ful riche of excellence</l>
 <lb/><l n="314">Discret he was and of gret reu<am>̉</am><ex>er</ex>ence</l>
 <lb/><l n="315">He semed swich his wordes were so wise</l>
-<lb/><l n="316">Iustice he was ful often in assise</l>
+<lb/><l n="316">Iustice he was ful often in <orgName key="assise" ref="http://de.dbpedia.org/resource/Assize_Court" cert="high">assise</orgName></l>
 <lb/><l n="317">By patent and by plein co<am>̄</am><ex>m</ex>missio<am rend="n̄">ıı̄</am><ex>un</ex></l>
 <lb/><l n="318">For his science and for his heigh reno<am rend="ū">ıı̄</am><ex>un</ex></l>
 <lb/><l n="319">Of fees and robes had he many oon</l>
@@ -3877,7 +5387,7 @@ undefined
 <lb/><l n="323">No wher so besy a man as he þer nas</l>
 <lb/><l n="324">And ȝit he semed bisiere þan he was</l>
 <lb/><l n="325">In termes hadde he caas and doomes a<am>ƚƚ</am><ex>lle</ex></l>
-<lb/><l n="326">That from þe tyme of king Will<am>ᵃ</am><ex>ia</ex>m were fall</l>
+<lb/><l n="326">That from þe tyme of <persName key="William the Conqueror" ref="http://www.wikidata.org/entity/Q37594" cert="high" type="real">king Will<am>ᵃ</am><ex>ia</ex>m</persName> were fall</l>
 <pb facs="5v.jpg" n="5v"/>
 <lb/><l n="327">Ther to he couþe endite <am>⁊</am><ex>and</ex> make a þink</l>
 <lb/><l n="328">Ther couþe no wight pynche at his writynk</l>
@@ -3885,38 +5395,38 @@ undefined
 <lb/><l n="330">He rood but homly in a medly coote</l>
 <lb/><l n="331">Gert with a seint of silk · wiþ barres smale /</l>
 <lb/><l n="332">Of his array telle I no lenger tale</l>
-<lb/><l n="333"><hi rend="orncp1">A</hi> Frankeleyn was in his compaignie</l>
+<lb/><l n="333"><hi rend="orncp1">A</hi> <persName key="Frankeleyn" ref="http://www.wikidata.org/entity/Q1483709" role="oth" type="fictional">Frankeleyn</persName> was in his compaignie</l>
 <lb/><l n="334">Whit was his berd as is the dayessye</l>
 <lb/><l n="335">Of his complexio<am rend="n̄">ıı̄</am><ex>un</ex> he was sanguyne</l>
 <lb/><l n="336">Wel loued he by þe morwe a sop in wyne</l>
 <lb/><l n="337">To lyuen in delit euer was his wone /</l>
-<lb/><l n="338">For he was Opiournes owne sone</l>
+<lb/><l n="338">For he was <persName key="Opiournes" ref="http://www.wikidata.org/entity/Q43216" cert="low" role="oth" type="real">Opiournes</persName> owne sone</l>
 <lb/><l n="339">That held opinio<am rend="n̄">ıı̄</am><ex>un</ex> þat plein delite</l>
 <lb/><l n="340">Was verrey felicite parfite</l>
 <lb/><l n="341">An houshalder and þat a gret was he</l>
-<lb/><l n="342">Seint Iulian he was in his contre</l>
-<lb/><l n="343">His breed his ale was alweys after oon</l>
+<lb/><l n="342"><persName key="Seint Iulian" ref="http://www.wikidata.org/entity/Q983142" cert="high" role="oth">Seint Iulian</persName> he was in his contre</l>
+<lb/><l n="343">His <rs key="breed" ref="http://www.wikidata.org/entity/Q7802" type="food">breed</rs> his <rs key="ale" ref="http://www.wikidata.org/entity/Q208385" cert="high" type="food">ale</rs> was alweys after oon</l>
 <lb/><l n="344">A better envyned man was neuer noon</l>
-<lb/><l n="345">Wiþoute bake mete was neuer his hous</l>
-<lb/><l n="346">Of fissh and fleissh and þat so plenteuous</l>
+<lb/><l n="345">Wiþoute <rs key="bake mete" ref="http://dbpedia.org/resource/Game_pie" type="food">bake mete</rs> was neuer his hous</l>
+<lb/><l n="346">Of <rs key="fissh" ref="http://www.wikidata.org/entity/Q152" cert="medium" type="food">fissh</rs> and <rs key="fleissh" ref="http://www.wikidata.org/entity/Q10990" sameAs="mete" type="food">fleissh</rs> and þat so plenteuous</l>
 <lb/><l n="347">It snewed in his hous of mete and drink</l>
 <lb/><l n="348">Of alle deyntes þat men coude þink</l>
 <lb/><l n="349">After þe sondry sesons of þe ȝere</l>
 <lb/><l n="350">So changed he his mete and his sopeere</l>
 <lb/><l n="351">Ful many a fat <am>ꝑ</am><ex>par</ex>trich hadde he in Mewe</l>
-<lb/><l n="352">And many a brem and many a luce in stuwe</l>
+<lb/><l n="352">And many a <rs key="brem" ref="http://www.wikidata.org/entity/Q17767599" type="food">brem</rs> and many a <rs key="luce" ref="http://www.wikidata.org/entity/Q165278" type="food">luce</rs> in stuwe</l>
 <lb/><l n="353">Wo was his cooke but his sauce were</l>
 <lb/><l n="354">Poynant and scharp and redy a<am>ƚƚ</am><ex>lle</ex> his gere</l>
 <lb/><l n="355">His table dormant in his halle alway</l>
 <lb/><l n="356">Stod redy couered a<am>ƚƚ</am><ex>lle</ex> the longe day</l>
 <lb/><l n="357">At Sessions þer was he lord and sire</l>
-<lb/><l n="358">Ful ofte tyme he was knight of þe schire</l>
+<lb/><l n="358">Ful ofte tyme he was <persName key="knight of þe schire" ref="http://www.wikidata.org/entity/Q6422529" type="real">knight of þe schire</persName></l>
 <lb/><l n="359">An anelas and a gisper al of silke</l>
 <lb/><l n="360">Heng at his girdel whit as morne mylke</l>
-<lb/><l n="361">A scherref had he ben and a comptour</l>
-<lb/><l n="362">Was nowher such a worþi vanasou</l>
+<lb/><l n="361">A <persName key="scherref" ref="http://dbpedia.org/resource/Sheriff" cert="high">scherref</persName> had he ben and a <persName key="comptour" ref="http://dbpedia.org/resource/State_auditor" type="real">comptour</persName></l>
+<lb/><l n="362">Was nowher such a worþi <persName key="vanasou" ref="http://dbpedia.org/resource/Vavasour" cert="high" sameAs="Franklyn">vanasou</persName></l>
 <pb facs="6r.jpg" n="6r"/>
-<lb/><l n="363"><hi rend="orncp1">A</hi>n haburdaissher and a Carpenter</l>
+<lb/><l n="363"><hi rend="orncp1">A</hi>n <persName key="haburdaissher" ref="http://dbpedia.org/resource/Haberdasher" role="oth" type="fictional">haburdaissher</persName> and a <persName key="Carpenter" ref="http://www.wikidata.org/entity/Q154549" cert="high">Carpenter</persName></l>
 <lb/><l n="364">A Webbe a Dyer and a Tapecer</l>
 <lb/><l n="365">And þei were cloþed alle in oo liuere</l>
 <lb/><l n="366">Of a solempne and a gret Frat<am>̉</am><ex>er</ex>nite</l>
