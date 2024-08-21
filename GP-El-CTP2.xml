@@ -6886,7 +6886,7 @@
 	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240815151207032",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-15T21:12:07.032Z",
-	"dcterms:modified": "2024-08-15T21:12:07.032Z",
+	"dcterms:modified": "2024-08-21T17:23:10.353Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DavidePafumi",
 		"@type": [
@@ -6917,8 +6917,11 @@
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q113628861",
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
+		"@id": "http://dbpedia.org/resource/Haberdasher",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -14911,7 +14914,7 @@
 <lb/><l n="360">Heeng at his girdel / whit as morne Milk </l>
 <lb/><l n="361">A <persName key="Sheriff" ref="http://dbpedia.org/resource/Sheriff">shirreue</persName> hadde he been and <persName key="State auditor" ref="http://dbpedia.org/resource/State_auditor" cert="high" type="real">Countour</persName> </l>
 <lb/><l n="362">Was nowher / swch a worthy <persName key="Vavasour" ref="http://dbpedia.org/resource/Vavasour" role="oth" sameAs="frankelyn">Vauasour</persName> </l>
-<lb/><l n="363"><hi rend="orncp3">A</hi>N <persName key="reeve" ref="http://www.wikidata.org/entity/Q113628861" role="oth">haberdasshe</persName>r<am>͗</am><ex>e</ex> and a <persName key="carpenter" ref="http://www.wikidata.org/entity/Q154549" cert="high" role="oth" type="fictional">Carpenter</persName> <note place="margin-left">¶ Haberdassher<am>͗</am><ex>e</ex> .
+<lb/><l n="363"><hi rend="orncp3">A</hi>N <persName key="Haberdasher" ref="http://dbpedia.org/resource/Haberdasher" role="oth" type="fictional">haberdasshe</persName>r<am>͗</am><ex>e</ex> and a <persName key="carpenter" ref="http://www.wikidata.org/entity/Q154549" cert="high" role="oth" type="fictional">Carpenter</persName> <note place="margin-left">¶ Haberdassher<am>͗</am><ex>e</ex> .
 <lb/>¶ Carpenter .</note></l>
 <lb/><l n="364">A <persName key="weaver" ref="http://www.wikidata.org/entity/Q437512" cert="high" role="oth" type="fictional">Webbe</persName> / a <persName key="dyer" ref="http://www.wikidata.org/entity/Q6147194" role="oth">Dyere</persName> / and a <persName key="tapestry maker" ref="http://www.wikidata.org/entity/Q64351975" cert="high" role="oth" type="fictional">Tapycer</persName> <note place="margin-left">¶ Webbe .
 <lb/>¶ Dyere .
