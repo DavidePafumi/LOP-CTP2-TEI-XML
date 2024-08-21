@@ -6937,6 +6937,86 @@ undefined
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-Cp-CTP2.xml?person_annotation_20240821124738635",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-21T18:47:38.635Z",
+	"dcterms:modified": "2024-08-21T18:47:38.635Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-Cp-CTP2.xml?person_annotation_20240821124738635#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-Cp-CTP2.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-Cp-CTP2.xml?person_annotation_20240821124738635#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[359]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/93163510015810930579/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader><text>
 <body>
 <pb facs="2r.jpg" n="2r"/>
@@ -7309,7 +7389,7 @@ undefined
 <lb/><l n="430">Here frendschip nas nat / newe for to gynne /</l>
 <lb/><l n="431">Wel knew he þe olde <persName key="Escalapius" ref="http://www.wikidata.org/entity/Q83223" type="real">Escalapius</persName></l>
 <lb/><l n="432">And <persName key="discorides" ref="http://www.wikidata.org/entity/Q297776" cert="high" role="oth">discorides</persName> and eke <persName key="Rusus" ref="http://viaf.org/viaf/264123945/" role="oth" type="real">Rusus</persName></l>
-<lb/><l n="433">Olde ypocras haly and Galien</l>
+<lb/><l n="433">Olde <persName key="ypocras" ref="http://viaf.org/viaf/93163510015810930579/" cert="high" role="oth">ypocras</persName> haly and Galien</l>
 <lb/><l n="434">Serapion Razie and auyzen</l>
 <pb n="7r" facs="7r.jpg"/>
 <lb/><l n="435">Auerois damascien and Constantine</l>
