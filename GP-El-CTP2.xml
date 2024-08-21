@@ -10585,7 +10585,6 @@
 	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240816001737155",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-16T06:17:37.155Z",
-	"dcterms:modified": "2024-08-16T06:17:37.155Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DavidePafumi",
 		"@type": [
@@ -10623,7 +10622,7 @@
 			"oa:refinedBy": {
 				"@type": "oa:TextPositionSelector",
 				"oa:start": 0,
-				"oa:end": 36
+				"oa:end": 53
 			}
 		}
 	},
@@ -15281,7 +15280,7 @@
 <lb/><l n="477">Of remedies of loue / she knew <am>ꝑ</am><ex>per</ex> chaunce </l>
 <lb/><l n="478">For she koude of that Art the olde daunce </l>
 <lb/><l n="479"><hi rend="orncp3">A</hi> good man was ther of Religioun </l>
-<lb/><l n="480">And was / a poure <ex>per</ex>son̄ of a toun <note place="margin">¶ Person of a toun.</note></l>
+<lb/><l n="480">And was / a poure person of a toun<note place="margin">¶ Person of a toun.</note></l>
 <lb/><l n="481">But riche he was / of hooly thoght <am>⁊</am><ex>and</ex> werk </l>
 <lb/><l n="482">He was also / a lerned man a clerk</l>
 <pb n="6r" facs="El-006r.jpg"/>
