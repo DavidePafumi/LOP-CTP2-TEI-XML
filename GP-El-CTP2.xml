@@ -8090,7 +8090,7 @@
 	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?place_annotation_20240815232124738",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-16T05:21:24.738Z",
-	"dcterms:modified": "2024-08-16T05:21:24.738Z",
+	"dcterms:modified": "2024-08-21T18:37:27.275Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DavidePafumi",
 		"@type": [
@@ -8131,7 +8131,9 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.5.0"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:low",
+	"cwrc:hasPrecision": "cwrc:lowCertainty"
 }]]>
         </rdf:Description>
       
@@ -15121,7 +15123,7 @@
 <lb/><l n="403">But of his craft to rekene wel his tydes </l>
 <lb/><l n="404">His stremes / and his daungers hym bisides </l>
 <lb/><l n="405">His herberwe / and his moone / his lodemenage </l>
-<lb/><l n="406">Ther nas noon swich / from <placeName key="Kingston upon Hull" ref="http://www.wikidata.org/entity/Q128147" cert="high">Hulle<precision match="@ref" precision="medium"/></placeName> to <placeName key="Cartagena" ref="http://www.wikidata.org/entity/Q162615">Cartage</placeName> </l>
+<lb/><l n="406">Ther nas noon swich / from <placeName key="Kingston upon Hull" ref="http://www.wikidata.org/entity/Q128147" cert="high">Hulle<precision match="@ref" precision="medium"/></placeName> to <placeName key="Cartagena" ref="http://www.wikidata.org/entity/Q162615" cert="low">Cartage<precision match="@ref" precision="low"/></placeName> </l>
 <lb/><l n="407">Hardy he was and wys / to vndertake </l>
 <lb/><l n="408">With many a tempest / hadde his berd been shake </l>
 <lb/><l n="409">He knew alle the hauenes / as they were </l>
