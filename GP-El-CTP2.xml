@@ -13694,7 +13694,7 @@
 	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?rs_annotation_20240816014842631",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-16T07:48:42.631Z",
-	"dcterms:modified": "2024-08-16T07:48:42.631Z",
+	"dcterms:modified": "2024-08-22T18:26:39.437Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DavidePafumi",
 		"@type": [
