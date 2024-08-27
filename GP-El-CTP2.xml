@@ -1542,6 +1542,7 @@
 	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?place_annotation_20240814121000106",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-14T18:10:00.106Z",
+	"dcterms:modified": "2024-08-14T18:10:00.106Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DavidePafumi",
 		"@type": [
@@ -1568,7 +1569,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?place_annotation_20240814121000106#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/l[57]/placeName"
+			"rdf:value": "TEI/text/body/div/l[57]/placeName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -5285,10 +5286,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240815122728083",
+	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240821105007673",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-08-15T18:27:28.083Z",
-	"dcterms:modified": "2024-08-21T16:50:07.673Z",
+	"dcterms:created": "2024-08-21T16:50:07.673Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DavidePafumi",
 		"@type": [
@@ -5299,7 +5299,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240815122728083#Target",
+		"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240821105007673#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml",
@@ -5313,7 +5313,7 @@
 			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240815122728083#Selector",
+			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240821105007673#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/l[295]/persName"
 		}
@@ -6883,10 +6883,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240815151207032",
+	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240821112310353",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-08-15T21:12:07.032Z",
-	"dcterms:modified": "2024-08-21T17:23:10.353Z",
+	"dcterms:created": "2024-08-21T17:23:10.353Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DavidePafumi",
 		"@type": [
@@ -6897,7 +6896,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240815151207032#Target",
+		"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240821112310353#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml",
@@ -6911,7 +6910,7 @@
 			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240815151207032#Selector",
+			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240821112310353#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/l[360]/persName"
 		}
@@ -8087,10 +8086,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?place_annotation_20240815232124738",
+	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?place_annotation_20240821123727275",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-08-16T05:21:24.738Z",
-	"dcterms:modified": "2024-08-21T18:37:27.275Z",
+	"dcterms:created": "2024-08-21T18:37:27.275Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DavidePafumi",
 		"@type": [
@@ -8101,7 +8099,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?place_annotation_20240815232124738#Target",
+		"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?place_annotation_20240821123727275#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml",
@@ -8115,7 +8113,7 @@
 			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?place_annotation_20240815232124738#Selector",
+			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?place_annotation_20240821123727275#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/l[403]/placeName[2]"
 		}
@@ -13691,10 +13689,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?rs_annotation_20240816014842631",
+	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?rs_annotation_20240822122639437",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-08-16T07:48:42.631Z",
-	"dcterms:modified": "2024-08-22T18:26:39.437Z",
+	"dcterms:created": "2024-08-22T18:26:39.437Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DavidePafumi",
 		"@type": [
@@ -13705,7 +13702,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?rs_annotation_20240816014842631#Target",
+		"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?rs_annotation_20240822122639437#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml",
@@ -13719,7 +13716,7 @@
 			"schema:softwareVersion": "3.5.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?rs_annotation_20240816014842631#Selector",
+			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?rs_annotation_20240822122639437#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/l[684]/rs"
 		}
@@ -15180,6 +15177,87 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?place_annotation_20240827160747647",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-08-27T22:07:47.647Z",
+	"dcterms:modified": "2024-08-27T22:07:47.647Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/DavidePafumi",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Davide Pafumi"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?place_annotation_20240827160747647#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.5.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?place_annotation_20240827160747647#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/l[57]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://dbpedia.org/resource/Algeciras",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.5.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:mediumCertainty"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>   <refsDecl>   <p>Encoded in 'P5' Text Encoding Initiative XML, optimized for input into the Textual Communities Project.</p>  </refsDecl> </encodingDesc> </teiHeader>
 <text>
 <body>
@@ -15242,7 +15320,7 @@
 <lb/><l n="54">In <placeName key="Duchy of Lithuania" ref="http://www.wikidata.org/entity/Q3270263" cert="high">Lettow<precision match="@ref" precision="medium"/></placeName> / hadde he reysed and in <placeName key="Russia (historical)" ref="http://vocab.getty.edu/tgn/8060331">Ruce</placeName> </l>
 <lb/><l n="55">No cristen man so ofte of his degree </l>
 <lb/><l n="56">In <placeName key="Emirate of Granada" ref="http://www.wikidata.org/entity/Q238445" cert="high">Gernade<precision match="@ref" precision="high"/></placeName> / at the seege eek hadde he be </l>
-<lb/><l n="57">Of Algezir /· and riden in <placeName key="Morocco" ref="http://www.wikidata.org/entity/Q1028" cert="medium">Belmarye</placeName> </l>
+<lb/><l n="57">Of <placeName key="Algeciras" ref="http://dbpedia.org/resource/Algeciras" cert="high">Algezir<precision match="@ref" precision="medium"/></placeName> /· and riden in <placeName key="Morocco" ref="http://www.wikidata.org/entity/Q1028" cert="medium">Belmarye</placeName> </l>
 <lb/><l n="58">At <placeName key="Ayas (Adana)" ref="http://viaf.org/viaf/246285531/" cert="high">Lyeys<precision match="@ref" precision="high"/></placeName> was he / and at <placeName key="Antalya" ref="http://dbpedia.org/resource/Antalya">Satalye<precision match="@ref" precision="medium"/></placeName> </l>
 <lb/><l n="59">Whan they were wonne <am>⁊</am><ex>and</ex> in the <placeName key="Mediterranean Sea" ref="http://www.wikidata.org/entity/Q4918" cert="high">grete See<precision match="@ref" precision="high"/></placeName> </l>
 <lb/><l n="60">At many a noble Armee / hadde he be </l>
