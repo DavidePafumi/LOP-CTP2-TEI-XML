@@ -6485,7 +6485,7 @@
 	"id": "https://raw.githubusercontent.com/DavidePafumi/LOP-CTP2-TEI-XML/main/GP-El-CTP2.xml?person_annotation_20240815150044367",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-08-15T21:00:44.367Z",
-	"dcterms:modified": "2024-08-15T21:00:44.367Z",
+	"dcterms:modified": "2024-08-28T23:28:58.922Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/DavidePafumi",
 		"@type": [
@@ -6516,7 +6516,11 @@
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
 		"@id": "http://www.wikidata.org/entity/Q6422529",
 		"dc:format": "text/plain"
 	},
@@ -15625,7 +15629,7 @@
 <lb/><l n="355">His table dormant in his halle alway </l>
 <lb/><l n="356">Stood redy couered / al the longe day </l>
 <lb/><l n="357">At sessio<am>ıı̄</am><ex>un</ex>s / ther was he lord and sire </l>
-<lb/><l n="358">Ful ofte tyme / he was <persName key="Knights of the Shire" ref="http://www.wikidata.org/entity/Q6422529" cert="high" type="real">knyght of the shire</persName> </l>
+<lb/><l n="358">Ful ofte tyme / he was <persName key="Knights of the Shire" ref="http://www.wikidata.org/entity/Q6422529" cert="high" type="both">knyght of the shire</persName> </l>
 <lb/><l n="359">An Anlaas / and a gipser al of silk </l>
 <lb/><l n="360">Heeng at his girdel / whit as morne Milk </l>
 <lb/><l n="361">A <persName key="Sheriff" ref="http://dbpedia.org/resource/Sheriff">shirreue</persName> hadde he been and <persName key="State auditor" ref="http://dbpedia.org/resource/State_auditor" cert="high" type="real">Countour</persName> </l>
